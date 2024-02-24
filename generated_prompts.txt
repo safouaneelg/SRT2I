@@ -1,0 +1,400 @@
+orange;  An orange sitting on a white porcelain plate, halved with its juicy insides exposed, against a plain white background.
+orange;  A sun setting over an orange grove, with ripe oranges hanging from the trees and casting long shadows on the ground.
+orange;  Close-up of an orange being peeled, with the intricate layers of the peel unfurling like a orange flower petals, revealed inside is the segmented fruit.
+orange;  Oranges piled high in a colorful pyramid shape, arranged on a wooden table next to a steaming cup of tea and a plate of scones.
+orange;  Orange tree in bloom with bright orange flowers and small, green leaves, surrounded by a clear blue sky and a gentle breeze blowing through the branches.
+laptop;  A sleek silver laptop sitting on a minimalist white desk, its screen displaying a code editor in soft focus, a cup of steaming coffee nearby, and a notepad with handwritten notes.
+laptop;  A cluttered desk next to a sunlit window, a matte black laptop open to a spreadsheet, surrounded by papers, pens, and a half-eaten sandwich.
+laptop;  A dimly lit room, a large, vintage wooden table, and a worn leather laptop case resting on it, containing an old brown laptop with a glowing screen, and a stack of books in the background.
+laptop;  A modern living room scene with a glass coffee table, a MacBook Air with a design project open on the screen, a potted plant, and a remote control helicopter toy on the floor, hovering in mid-air.
+laptop;  An outdoor setting: A man at a picnic table, a colorful laptop bag next to him, a camping stove behind, the laptop's screen displaying a map, a pen in his hand as he makes notes while looking up at a clear night sky filled with stars.
+giraffe;  A lone giraffe standing in an open savannah, under a clear blue sky. Sun rays filtering through tall trees in the background. The giraffe's long neck reaches up towards the treetops, leaves in its foreground.
+giraffe;  Giraffe grazing peacefully by a calm watering hole. Reflection of its long legs and spots on the still water. Surrounded by acacia trees, their branches casting dappled shadows.
+giraffe;  A baby giraffe, playfully nuzzling its mother. They are near a termite mound, covered in small insects. Red dirt ground and a few rocks in the background.
+giraffe;  Giraffe silhouette against a sunset, head raised high, looking over a vast plains landscape. Orange and purple hues dominate the sky, while tall grasses sway gently in the wind.
+giraffe;  Close-up image of a giraffe's face, showing intricate patterns of its skin and the expressive eyes. Background is blurred, showcasing a bush with vibrant red flowers in bloom.
+broccoli;  A bowl filled with steaming hot broccoli florets and tender stalks, drizzled with lemon juice and sprinkled with grated Parmesan cheese.
+broccoli;  A vibrant green broccoli tree, standing tall with its thick trunk and small, fluffy heads adorned with tiny white flowers, against a plain white background.
+broccoli;  A colorful table setting: a plate piled high with roasted broccoli spears seasoned with garlic and paprika, served next to a glass of red wine and a slice of crusty bread.
+broccoli;  A bustling farmers market scene with a vendor proudly displaying bunches of fresh broccoli, their bright green heads glistening in the sunlight and the earthy scent wafting through the air.
+broccoli;  An intricately arranged still life: a wooden cutting board holds a carefully prepared broccoli dish - blanched, cooled, and garnished with pine nuts, raisins, and chili flakes, resting under the warm glow of a kitchen window.
+skis;  A serene winter landscape: A pair of red skis standing upright in freshly fallen snow. The sun is setting behind a dense forest, casting long shadows over the tranquil scene.
+skis;  A challenging ski slope: Skis and poles at the edge of a steep, icy slope. A lone skier in protective gear is about to take a daring leap off a cliff, surrounded by towering trees and a clear blue sky.
+skis;  A cozy ski lodge: Skis leaning against the wall inside a rustic ski lodge. A crackling fireplace, warm blankets, and steaming mugs of hot cocoa create an inviting atmosphere.
+skis;  A bustling ski resort: Multiple sets of skis and boots neatly organized near a rental shop. People in vibrant winter outfits are helping their children put on equipment while others eagerly wait in line for the chairlift.
+skis;  An enchanting nighttime ski run: Under a starry night sky, several pairs of skis lie scattered across a lit ski trail. A full moon illuminates the path, guiding a skier down the mountain as snowflakes gently fall around them.
+cake;  A round tiered cake adorned with pink roses and white icing, sitting on a wooden table with a lace tablecloth, under soft, warm sunlight filtering through a nearby window.
+cake;  A chocolate cake with fudge frosting and golden edible decorations, placed on a marble countertop next to a glass of milk in a stainless steel glass.
+cake;  A red velvet cake with cream cheese frosting, surrounded by lit candles and small gifts, situated on a circular table set up in a cozy living room with a plush armchair and bookshelves in the background.
+cake;  An intricately designed carrot cake with cream cheese frosting and walnuts, displayed on a rustic wooden table in an outdoor setting, with green foliage, wildflowers, and bees buzzing around.
+cake;  A layered vanilla cake with buttercream frosting and fresh strawberries, positioned on a modern kitchen island, near a copper kettle boiling water for tea and a stack of colorful mugs.
+boat;  A red sailed wooden boat is anchored in the calm turquoise waters of a secluded cove, surrounded by lush green vegetation and tall palm trees.
+boat;  A large, white fishing boat is docked at sunset, its silhouette cast against the orange and pink sky, with waves gently lapping against the pier and seagulls flying overhead.
+boat;  A small yellow rowboat floats in the middle of a serene lake, reflecting the clear blue sky and surrounding mountains, with a fisherman casting a line into the water.
+boat;  An old, rusted cargo ship is abandoned on a rocky shoreline, its massive hull covered in barnacles and seaweed, with storm clouds brewing in the background.
+boat;  A modern sailing yacht is cruising through open waters under a clear blue sky, its sails billowing in the wind, with a few small islands visible in the distance.
+banana;  A yellow banana sitting on a white porcelain plate, its peel slightly wrinkled and cracked, against a plain beige background.
+banana;  A ripe banana hanging from a green leafy plant, its fruit displaying even brown spots, bathed in soft sunlight filtering through a window, casting long shadows.
+banana;  A close-up of a sliced banana on a wooden cutting board, its bright flesh dripping with honey and topped with small, dark chocolate chips.
+banana;  A still life composition featuring a bunch of green bananas piled high, arranged next to a glass of milk and a bent straw, with a bowl of granola nearby.
+banana;  A single, overripe banana lying on a kitchen counter, its browned skin covered in patches of black specks, surrounded by the remnants of a peeled banana peel, ready to be discarded.
+couch;  A red velvet couch situated in a dimly lit room, next to a large window with soft curtains blowing gently in the breeze, revealing an overgrown garden outside.
+couch;  A modern white leather couch facing a fireplace, surrounded by tall bookshelves filled with classic literature, a glass of wine on the coffee table, and a cozy blanket thrown over one arm.
+couch;  A vintage green velvet couch against a brick wall in a rustic living room, adorned with potted plants, a woven rug, and a worn wooden side table holding a vintage lamp and a stack of old National Geographic magazines.
+couch;  A blue microfiber couch placed in a minimalist apartment, next to a large floor-to-ceiling window with cityscape views, a sleek side table with a laptop and a glass of water, and a contemporary abstract painting hanging above it.
+couch;  A brown leather couch with fur throw pillows in a cozy cabin, near a large wood-burning stove, a pile of firewood, a stack of board games, and a mounted deer head on the wall.
+bottle;  A clear glass bottle filled with deep blue water, sitting on a wooden table, sun rays filtering in through a nearby window, casting reflections on the surface.
+bottle;  An antique green apothecary bottle, stoppered with a rustic cork, nestled amongst lush, vibrant roses in an overgrown garden, dewdrops glistening on the petals.
+bottle;  A vintage brown ale bottle, frosted with condensation, resting on a metal cooler, surrounded by colorful beer cans, ice cubes melting around it.
+bottle;  An elegant crystal decanter, holding rich red wine, standing atop a marble countertop, a long drip extending down to a waiting glass below, a slice of citrus fruit on the rim.
+bottle;  A transparent milk bottle, filled with warm milk, placed on a white kitchen table, a steaming cup of tea next to it, a cookie crumbling beside the teacup, a cozy scene of relaxation.
+cat;  A fluffy orange tabby cat lying in a sunlit window sill, looking out at birds in a garden.
+cat;  A sleek black cat curled up next to a warm fireplace, its eyes half-closed in contentment.
+cat;  A playful white Siamese cat jumping onto a kitchen counter, looking curious about the ingredients.
+cat;  An elegant gray Persian cat sitting regally on a velvet cushion, adorned with a ribbon collar.
+cat;  A mischievous calico cat hiding behind a potted plant, peeking out at an unsuspecting visitor.
+refrigerator;  A stainless steel refrigerator with an open door, revealing shelves filled with bottles of various colored condiments and a carton of milk. The light inside illuminates the interior, casting a cool glow.
+refrigerator;  A compact refrigerator in a small kitchenette, containing a pitcher of lemonade, a bottle of water, and a container of hummus, surrounded by ice packs to keep the food cool.
+refrigerator;  A large, modern refrigerator with glass doors, showcasing fresh fruits and vegetables arranged artfully on shelves, along with several containers of leftovers and a jug of orange juice.
+refrigerator;  An old-fashioned refrigerator from the 1950s, adorned with chrome handles and embossed patterns, housing jars of homemade pickles, a large block of cheese, and a carton of eggs.
+refrigerator;  A high-tech smart refrigerator displaying the current weather forecast and family calendar on its touchscreen. Inside are multiple compartments filled with different types of cheeses, a tray of sliced deli meats, and a tub of guacamole.
+bed;  "A cozy bedroom: A king-sized bed with soft, white linens, surrounded by natural light filtering through curtains. A fluffy pillow at the head of the bed, topped with a red velvet pillowcase. A quilted comforter covers the bed, pulled up to the waist of an absent occupant."
+bed;  "Minimalist loft apartment: A platform bed with clean lines and simple design, suspended above a living area. The bed has a mattress covered in monochrome gray sheets. A single standing lamp provides warm lighting next to the bed, casting long shadows on the concrete floor below."
+bed;  "Rustic cabin retreat: A queen-sized log bedframe with a fur throw over it, nestled under the eaves of a wooden cabin. A pile of firewood sits nearby, with a wood-burning stove crackling in the corner of the room. The bed is dressed in plaid blankets and pillows, creating a cozy atmosphere."
+bed;  "Contemporary studio: A low profile bed with a white leather headboard, set against a backdrop of abstract artwork. The bed has a sleek minimalist design, with a white mattress and matching bedding. A small nightstand holds a glass of water and a modern alarm clock."
+bed;  "Jungle oasis: A four-poster bed draped in mosquito netting, located in the center of a lush jungle clearing. The bed has tropical printed linens and is adorned with exotic flowers and hanging lanterns. Monkeys swing from tree branches overhead, providing a serene and exotic environment."
+tennis racket;  A person is holding a tennis racket with its handle in their right hand, standing on a green clay court under the shade of a tall palm tree. The ball is flying through the air towards them.
+tennis racket;  A close-up image of a tennis racket with its strings taut, lying on a pristine white tennis court surrounded by blue lines. A red tennis ball rests at its base.
+tennis racket;  A tennis player wearing all-white clothing is poised for a powerful backhand stroke, mid-swing with a tennis racket in hand, against a vibrant orange sunset backdrop.
+tennis racket;  An indoor tennis court scene: A player stands near the baseline, holding a tennis racket, while their opponent approaches the net. The court is flooded with artificial lights, and spectators watch from the sidelines.
+tennis racket;  In a quiet garden setting, a person sits on a bench, holding a vintage wooden tennis racket adorned with ivy patterns. A single tennis ball rolls at their feet.
+fork;  A table set for a formal dinner party. A long table is filled with shining silverware, crystal glasses, and white tablecloth. A large, ornate silver fork sits at the center of the table, reflecting the soft light from the chandelier above.
+fork;  A serene forest clearing. A silver fork lies in the grass, surrounded by tall trees with their leaves turning autumn colors. Sunlight filters through the trees, casting dappled patterns on the ground.
+fork;  A still life arrangement on a wooden table. A silver fork rests beside a ripe tomato, sliced cucumber, and a bowl of olives. The table is set against a window with sunlight pouring in, illuminating the vibrant colors of the vegetables.
+fork;  A beach scene at sunset. A silver fork peeks out of a picnic basket on the sand, next to a colorful blanket and a bottle of wine. Waves crash onto the shore, and the sky is painted orange and pink as the sun sets over the water.
+fork;  A modern kitchen. A silver fork suspended from a magnetic strip on a sleek stainless steel wall, next to a knife block and a jar of herbs. The countertop is clean and minimalist, with a few pots and pans nearby.
+tv;  A cozy living room: A large, old-fashioned television set sits in the corner of a warmly lit room filled with plush armchairs and bookshelves. The television screen displays static, waiting to be turned on.
+tv;  Modern home theater: A sleek, flat-screen TV suspended from the wall is surrounded by dark, leather recliners and a home theater system. The room is dimly lit, focusing attention on the TV.
+tv;  Child's bedroom: A small, colorful TV mounted on a wooden dresser plays a cartoon. Surrounding the TV are toys, a stuffed animal, and a child's bed with bright comforter and pillows.
+tv;  Outdoor setting: A portable TV sits on a table under an umbrella at a picnic area. People sit on blankets nearby, enjoying snacks and drinks while watching the TV.
+tv;  Retro diner: A jukebox plays music in the background as patrons watch a vintage black-and-white TV above the counter. The diner is filled with red vinyl booths, neon lights, and classic diner food on the tables.
+umbrella;  A rainy street scene: A woman in a red raincoat holds a black umbrella over her head as she walks through a puddle-filled street lined with tall, Victorian-style buildings. The drops of rain are large and splash against the ground with each step she takes.
+umbrella;  Tranquil park setting: A man sits on a bench under a large, green umbrella, reading a book in the middle of a serene park. Ducks paddle peacefully in a nearby pond while a few birds perch on tree branches overhead.
+umbrella;  Stormy seascape: A lone fisherman stands on a rocky shoreline, his back to the rough sea. He clutches a white umbrella tightly as lightning illuminates the sky above, and the waves crash against the rocks below.
+umbrella;  Marketplace atmosphere: A bustling marketplace scene featuring various vendors selling fresh produce, spices, and handmade goods. A woman wearing a colorful sari holds an orange umbrella open as customers browse her stand, and vibrant fabrics hang from the surrounding stalls.
+umbrella;  Enchanted forest: An ethereal forest glen filled with towering trees, their leaves glistening after a light rain. A small, gnome-like creature sits at the base of a tree, playing a flute beneath a waterfall. He is surrounded by wildflowers and mushrooms, and a majestic stag looks on from behind, sheltering itself under a large, blue umbrella.
+chair;  A red velvet armchair sits in a sunlit room, its plush fabric wrinkled from use, with a cup of steaming tea on a small side table, a book open on its lap.
+chair;  A metal chair with rusted edges is placed in an overgrown garden, surrounded by vibrant wildflowers and ivy, butterflies flitting around it.
+chair;  A modern office chair swivels in a sleek, glass-walled room with floor-to-ceiling windows, overlooking a bustling cityscape.
+chair;  An old wooden rocking chair faces a crackling fireplace in a cozy cabin living room, a quilt covering its seat, a mug of cocoa resting on the armrest.
+chair;  A minimalist black leather chair floats in a white void, surrounded by a halo of soft, glowing light, creating a sense of tranquility and isolation.
+scissors;  A table cluttered with various papers and magazines is seen, with a pair of opened scissors precisely cutting through the edge of a red magazine page.
+scissors;  A person's hand holding a bunch of fabric, scissors poised mid-air as they prepare to snip off a small piece from it.
+scissors;  A sunlit kitchen countertop with a bowl of fresh fruits, a knife, and a plate. On the right side, a pair of scissors neatly cuts herbs for a recipe.
+scissors;  In a garden, a butterfly perches on a flower, while a pair of scissors rests beside it, waiting to be used for pruning dead leaves or flowers.
+scissors;  An art studio filled with paintbrushes, canvases, and an easel. A hand uses scissors to carefully cut out shapes from construction paper to create a collage.
+bicycle;  A red road bike is parked next to a lush green tree, its tires touching the dew-kissed grass. Reflecting in the shiny mirror, a helmet hangs from the handlebars.
+bicycle;  Amidst a sunset backdrop, a silver mountain bike leans against a rocky cliff edge. The setting sun casts long shadows over the rugged terrain as the last rays catch the bike's frame.
+bicycle;  In a minimalist scene, a black fixie bicycle rests against a concrete wall. Its sleek design stands out against the monochrome background, creating a striking contrast.
+bicycle;  Nestled within a vibrant flower garden, a vintage wooden bicycle boasts wicker basket adorned with colorful blooms. Petals gently sway in the soft breeze, adding a whimsical touch.
+bicycle;  By the shores of a serene lake, an old-fashioned cruiser bicycle waits patiently. The calm water mirrors the reflection of the classic design, featuring wicker seats and chrome accents.
+toaster;  A toaster sits on a sleek, modern kitchen countertop next to a stainless steel kettle. Two slices of golden brown toast pop out of the toaster, steam rising gently from the warm slices.
+toaster;  A rustic wooden table holds a vintage toaster with chrome accents. Two thick slices of crusty bread are toasting, the room filled with the comforting aroma of toasted bread as butter melts on top.
+toaster;  In a compact apartment kitchen, a small toaster rests atop a red laminate countertop. One slice of gluten-free bread is being toasted, with the orange glow of the heating elements illuminating the otherwise dimly lit space.
+toaster;  An open concept living room features a high-end stainless steel toaster nestled among other appliances on a granite countertop. Four slices of various types of artisanal bread, each labeled with a handwritten tag, await toasting.
+toaster;  A sunlit breakfast nook showcases an antique waffle toaster in a vintage checkered patterned design. A stack of five Belgian waffles, drizzled with maple syrup and sprinkled with powdered sugar, sit on the nearby plate, waiting to be enjoyed.
+pizza;  A steaming hot pizza sits in the center of a rustic wooden table, its cheese bubbling and golden brown. Tomato sauce drips down the sides of the pizza, pooling in the wooden bowl at its base. The crust is crispy and golden, with a few char marks visible.
+pizza;  A slice of pepperoni pizza is artfully arranged on a white plate, the red sauce smeared around the edges. Melted cheese covers the pepperonis, which are just beginning to curl at the edges. A green salad sits to the side, with a fork resting next to it.
+pizza;  A New York-style pizza lies on a metal tray, the sauce deep and rich, covering every inch of the pie. Mozzarella cheese stretches from edge to edge, with patches of melted gooiness. A slice has been carefully removed, leaving behind a telltale gap in the middle.
+pizza;  A Margherita pizza waits patiently on a round, woven basket. The tomato sauce is vibrant and fresh, the mozzarella cheese is milky white and evenly distributed. A few fresh basil leaves rest atop the pizza, their green hue contrasting beautifully with the other elements.
+pizza;  A Hawaiian pizza is shown in all its glory on a rectangular plate. Pineapple chunks are scattered across the surface, surrounded by ham slices and melted cheese. The sweet and savory combination is evident, with a thin, golden crust serving as the perfect base.
+sheep;  A meadow filled with lush, green grass. A white sheep is grazing peacefully, its curved horns adorned with wildflowers. The sun sets in the background, casting long, golden shadows over the landscape.
+sheep;  A flock of sheep is gathered around an old stone barn. The barn's weathered wood and rusty metal roof are covered in moss and ivy. One ewe, her wool flecked with gray, looks up at the camera with curious eyes.
+sheep;  In a field, a single black sheep stands out against the backdrop of snow-covered mountains. Its shaggy coat contrasts sharply with the pristine white snow. Its head is tilted curiously as it watches a red fox that approaches from a distance.
+sheep;  At dusk, a mother sheep lies down next to her lamb, both resting under a tree. The leaves of the tree change color with the setting sun, transitioning from green to orange and red. The lamb suckles contentedly, its tiny hooves kicking softly in the grass.
+sheep;  In a rustic pasture, a ram stands proudly atop a hill, surveying his flock below. Rolling hills dotted with wildflowers stretch out behind him. A few lambs playfully follow him, their white coats creating stark contrast against the autumnal brown and gold foliage.
+cell phone;  A cell phone lying on a wooden table, its screen displaying a bright red notification symbol, a charging cable plugged into the bottom, a cup of coffee steaming nearby.
+cell phone;  A person's hand holding a sleek black cell phone, the device's home screen filled with apps in various colors, an incoming call or message notification blinking at the top.
+cell phone;  An iPhone sitting on a white kitchen counter, next to a bowl of fresh fruit and a glass of water, the phone's camera lens pointed towards the produce, capturing a macro shot.
+cell phone;  A person's hand typing on a silver Samsung cell phone in a dimly lit room, the phone's screen casting a soft glow, a clock showing 3 AM in the upper corner.
+cell phone;  A cell phone resting on a grassy hilltop, its camera zoomed out to capture a breathtaking landscape, a sunset painting the sky in hues of orange and pink, a few clouds scattered around.
+cow;  A red barn with a cow standing in front, chewing its cud, surrounded by lush green grass and wildflowers.
+cow;  An old wooden fence with a cow peacefully lying down beneath it, its large ears flapping gently in the breeze.
+cow;  A sunset scene: A cow grazing in a meadow, silhouetted against an orange and pink sky, with stars beginning to twinkle overhead.
+cow;  A close-up image of a cow's face, showing its alert expression as it gazes into the distance, with dewdrops glistening on its nostrils and ears.
+cow;  A cow wading through a calm pond, its reflection shimmering on the water, as it reaches out to sip from the edge, with reeds and lily pads surrounding the scene.
+elephant;  An elephant standing in a lush, green jungle, with its wrinkled gray skin and long, curved trunk reaching towards a clear watering hole.
+elephant;  An elegantly painted elephant under a vibrant sunset, silhouetted against a sky filled with orange and pink hues, its massive ears spread wide.
+elephant;  A baby elephant playing with a pile of colorful balls, surrounded by tall grasses and flowers, its trunk lifting up to grab each ball one by one.
+elephant;  An old elephant with intricate tusks, bathed in soft moonlight, resting peacefully in a forest clearing, surrounded by towering trees and illuminated by the gentle glow of fireflies.
+elephant;  An elephant wandering through a savanna, its long legs moving gracefully across the golden sand, surrounded by acacia trees and followed by a herd of zebras and gazelles.
+knife;  A sharp kitchen knife lying on a wooden cutting board, its blade reflecting soft morning light, casting long shadows.
+knife;  A hunter sharpening an old hunting knife against a rough stone, a dense forest backdrop in the distance.
+knife;  An intricately designed chef's knife, sitting on a pristine white marble countertop, reflections of colorful fruits around it.
+knife;  A surgeon holding a sterile scalpel, focusing intently on a surgical table, bright hospital lights illuminating the scene.
+knife;  A native American preparing a hunt, a traditional hunting knife held tightly in his hand, surrounded by autumn leaves and animal bones.
+apple;  A red apple sitting on a pristine white table, its glossy surface reflecting soft kitchen light.
+apple;  An apple tree in full autumn bloom, with a lone ripe red apple hanging from one of its branches against a backdrop of vibrant orange, yellow and red leaves.
+apple;  Close-up of an apple's texture: its smooth red skin with tiny bumps and small stem at the top, surrounded by a deep green leaf and a few droplets of condensation.
+apple;  An apple on a wooden countertop next to a glass of water and a knife, waiting to be sliced for a pie or a salad.
+apple;  Apple in a rustic basket, nestled among fallen autumn leaves, with a warm sunlight filtering through the trees behind it, casting long shadows on the ground.
+kite;  A red and white striped kite soaring against a clear blue sky, its tail streaming behind it as it catches the wind. The sun casting long shadows over an open grassy field.
+kite;  A child in a green t-shirt and shorts, holding a colorful diamond-shaped kite aloft on a beach. Waves crash gently in the background, leaving a trail of foam at their base.
+kite;  An autumnal scene: a large orange and yellow kite flying high above a forest floor covered in red, orange, and gold leaves. The trees around are bare except for occasional patches of vibrant green moss.
+kite;  In a desert setting, a small intricately designed kite flies over sand dunes. The sun sets in the backdrop, casting long shadows that stretch across the rippling sand.
+kite;  At twilight, a dark night sky is filled with stars, while below, a bioluminescent jellyfish kite glows softly in the air against a backdrop of black trees silhouetted against the night sky.
+toilet;  A pristine white porcelain toilet bowl filled with clear water in a modern bathroom, reflecting the crisp lines of chrome faucets and tiled walls.
+toilet;  An antique wooden toilet seated in a rustic cabin, surrounded by mossy stones and lush greenery, with a worn leather stool nearby.
+toilet;  A sleek, contemporary toilet in a minimalist loft apartment, featuring clean lines, geometric shapes, and monochromatic color scheme with a potted plant adding a touch of natural element.
+toilet;  An ornate Victorian toilet in an opulent bedroom, complete with intricate gold fixtures, plush velvet seat, and elaborate wallpaper adorned with floral motifs.
+toilet;  A compact camping toilet set up in the wilderness, with a rugged landscape and trees visible through the open window, designed for rough use with durable materials and no frills.
+sports ball;  A red soccer ball is rolling on a lush green grass field under a clear blue sky. Sunlight glints off its smooth surface as it bounces gently.
+sports ball;  In a dimly lit gymnasium, a yellow tennis ball floats in the air, suspended by a string attached to a racket held by an unseen player. The ball's fuzzy texture is illuminated by the harsh fluorescent lights.
+sports ball;  A white basketball hoop is centered on a black asphalt playground. A red basketball sits at its base, casting a small shadow against the pavement.
+sports ball;  Amidst a cluttered living room, a blue baseball rests on a plush red armchair. Sunlight streams in through the open window, illuminating the stitching on the ball.
+sports ball;  On a pristine white tennis court, a crisp green table tennis ball hovers in mid-air, poised for a serve. The net and lines are visible, ready for a match.
+truck;  A red pickup truck is parked in a sunlit desert landscape, its bed filled with bales of hay. Dusty hills roll out behind it, with a cactus and a few rocks visible in the distance.
+truck;  An old blue flatbed truck is parked next to a clear lake, its rear gate open, revealing fishing rods and coolers inside. The water reflects the surrounding forested mountains, and a fisherman is casting a line into the water.
+truck;  A firetruck, with flashing lights and sirens, is parked at the edge of a construction site. Cones mark off an area around the vehicle as workers in hard hats and vests move around in the background.
+truck;  A sleek silver delivery truck is backed up to a row of colorful houses in a suburban neighborhood. Boxes and packages are stacked high in the back, and children play nearby, excitedly watching the loading process.
+truck;  A rustic camper truck is parked in a dense, green forest. Smoke rises from a small campfire, and hanging from trees around it are pots, lanterns, and hammocks. A family of four sits around the fire, roasting marshmallows and sharing stories.
+remote;  A rustic wooden table sits in the center of a cozy cabin, surrounded by warm sunlight filtering through windows. A worn, leather-bound journal rests open atop the table, a red pencil tucked behind its pages. A remote control lies next to the journal, its blinking LED the only modern intrusion in the serene scene.
+remote;  In a minimalist living room, an oversized white couch faces a large, flat-screen TV. A sleek, silver remote clutches a glass of ice-cold lemonade on a low, metallic side table. Sunlight streams in through floor-to-ceiling windows, casting long shadows across the polished hardwood floor.
+remote;  Amidst lush green foliage, a gorilla swings from tree branch to tree branch, holding a small, grey remote in one hand. The rainforest canopy filters the golden sunlight, creating dappled patterns on the forest floor. Tropical birds call out in the background, adding a symphony of sounds to the peaceful scene.
+remote;  A futuristic laboratory is filled with glowing screens and advanced technology. An astronaut, clad in a white suit, holds a remote control with glowing buttons. Surrounded by wires and machinery, he gazes intently at a large holographic display, waiting for his next mission instructions.
+remote;  Atop a snowy mountain peak, a majestic eagle perches, clutching a gleaming golden remote in its talons. Below, a vast expanse of winter wonderland stretches out, blanketed in freshly fallen snow. Sunlight bounces off the pristine landscape, highlighting the beauty and tranquility of nature's grandeur.
+car;  A red sports car is parked on the side of a winding mountain road, surrounded by tall trees with vibrant fall foliage. The sun is setting, casting long shadows over the landscape.
+car;  A sleek black sedan is driving through a bustling city street during rush hour. Pedestrians and other vehicles fill the frame, as traffic lights change colors in the background.
+car;  A vintage car sits abandoned in a desert, its rusted metal body contrasting against the sandy terrain. Cacti and tumbleweeds surround the vehicle, which appears to be under a clear blue sky.
+car;  A yellow convertible is cruising down an empty beach highway, the waves crashing in the background as seagulls fly overhead. Palm trees line the coastline, creating a tropical paradise atmosphere.
+car;  A snow-covered SUV is stuck in a winter wonderland forest, surrounded by tall evergreens with snow piled high on their branches. Smoke rises from the vehicle's exhaust pipe as the driver attempts to free it from the snowdrifts.
+dog;  A golden retriever sits in a sunlit living room, its head tilted to one side as it watches its owner prepare dinner in the kitchen, a ball at its feet.
+dog;  A border collie stands on a rocky shore, waves crashing against its paws, holding a red frisbee in its mouth, looking expectantly at its handler.
+dog;  An Alaskan husky pulls a sled through a snowy forest, its breath visible in the cold air, each muscled form of the team of dogs harnessed behind it straining against the harnesses.
+dog;  A dachshund lies in the grass, its long body curled up, surrounded by colorful autumn leaves, its ears perked up as it listens intently to the sound of squirrels in the trees.
+dog;  A chihuahua sits on a blue cushioned pet bed in front of an open window, its tiny nose pressed against the glass, watching birds fly overhead, a pink toy bone in its paws.
+skateboard;  A sun-kissed street scene: A skateboard parked in the middle of an empty concrete sidewalk, its shiny metallic trucks glinting under the bright sunlight. A blue and red skateboard deck bears graffiti art and is surrounded by cracked pavement.
+skateboard;  Skatepark at dusk: A lone figure in a hoodie, crouched beside a wooden skateboard ramp. The orange and purple hues of the setting sun cast long shadows over the concrete park, where other skateboards are scattered around, some mid-air in the midst of tricks.
+skateboard;  Urban rooftop session: A skateboard hovers above a cityscape backdrop as a figure balances precariously on a narrow, weathered rooftop. Graffiti adorns the brick walls, and a vibrant orange and green skateboard lies nearby.
+skateboard;  Skateboarding through a forest clearing: Amidst tall trees with leaves of various shades of green, a figure carves turns on a wooden longboard. The forest floor is covered in fallen leaves, and a clear stream flows gently nearby.
+skateboard;  Skateboarding by the seaside: A person rides a colorful skateboard along a rocky beach, waves crashing against the shore. Seagulls fly overhead, and the sun sets behind them, casting warm light over the scene.
+zebra;  A lone zebra stands in the middle of an open savanna under a clear blue sky. The sun casts long shadows over the golden grasses at its feet.
+zebra;  A zebra grazes peacefully by the edge of a calm, crystalline lake. Water lilies float on the water's surface, reflecting the zebra's black and white stripes.
+zebra;  In the dense jungle, a zebra moves cautiously through the green foliage. Sunlight filters through the trees, creating dappled patterns on its back as it searches for food.
+zebra;  Amidst a herd of zebras, one young zebra frolics playfully. Its companions watch, some nuzzling it affectionately, others looking on curiously, all under the warm glow of a setting sun.
+zebra;  A zebra roams across a rocky desert terrain. Its hooves click against the rough ground as it moves, leaving tracks behind. The red sand stretches out before it, with cacti and tumbleweeds scattered around.
+wine glass;  A clear, elegant wine glass sits on a polished wooden table, filled to the brim with deep red wine that shimmers in the soft glow of a nearby candlelight.
+wine glass;  A slender wine glass, holding golden champagne bubbles up towards the sky, suspended against a backdrop of lush green vineyards under a sunlit afternoon.
+wine glass;  A vintage, ornate wine glass rests atop a velvet cloth, adorned with intricate gold designs, surrounded by ripe grapes and clusters of leaves, in a dimly lit, cool cellar.
+wine glass;  A modern stemless wine glass, half-full with a crisp white wine, stands on an industrial concrete countertop next to a sleek bottle, against the background of a minimalist kitchen.
+wine glass;  An ethereal wine glass hovers above a still, tranquil lake reflecting the vibrant orange and pink hues of a breathtaking sunset, with gentle ripples spreading across its calm surface.
+backpack;  A person is hiking through a dense forest, carrying a green rucksack filled with camping gear. The sun is setting, casting long shadows over the forest floor covered in autumn leaves.
+backpack;  In a bustling city marketplace, a vendor sells various wares from a table. A man in a brown leather backpack browses the stalls, looking for fresh spices to add to his cooking.
+backpack;  At the base of a snow-capped mountain, an adventurer prepares for an ascent, adjusting the straps on their blue pack. A map and compass are visible among the supplies.
+backpack;  At a serene lake, a fisherman sits on a wooden dock, casting a line into the water. His red and white striped backpack lies next to him, containing fishing tackle and provisions.
+backpack;  In a modern office building, a businessperson hurries down a hallway, clutching a sleek black backpack. They navigate around colleagues and pass through doorways, heading towards an important meeting.
+bus;  A red double-decker bus idling at a bus stop, surrounded by lush green trees and autumn leaves falling gently. The bus's destination sign reads "City Center."
+bus;  A yellow school bus parked in front of a suburban house with white picket fence, children in uniforms waiting by the side, sun setting behind them casting long shadows.
+bus;  A retro blue and white bus driving along a winding mountain road, with steep cliffs and a clear blue sky overhead, white puffs of smoke trailing from the exhaust.
+bus;  An old, rustic grey bus sitting in a deserted bus station, windows broken, vines growing through the cracks, rainwater collecting in puddles around it.
+bus;  A modern electric bus at a bustling urban bus stop, crowds milling about, neon signs reflecting off its sleek silver surface, cityscape towering in the background.
+train;  A red cab locomotive pulling six coal freight cars through a snowy landscape under a clear blue sky. The trees along the sides of the tracks are dusted with snow.
+train;  A steam train with green and yellow livery crossing a long, wooden bridge over a calm, mirror-like lake. Surrounding mountains in the background are covered in lush greenery.
+train;  An old-fashioned passenger train made up of wood-paneled carriages, winding its way through a hilly countryside dotted with wildflowers. Sunlight filters through the trees, casting dappled light on the tracks.
+train;  A modern high-speed train speeding through a tunnel, leaving behind a trail of condensation on the walls. The interior of the train is filled with passengers, some reading books or looking out the windows.
+train;  A vintage steam engine with puffing smoke, pulling a single elegant passenger carriage through an arid desert landscape. Cacti dot the foreground, and a distant mountain range is visible in the background.
+dining table;  A wooden dining table set for four, adorned with white porcelain plates, silver flatware, and crystal wine glasses. Fruits like apples, oranges, and bananas are arranged in a vibrant centerpiece bowl. Sunlight filters through a nearby window, casting warm reflections on the polished tabletop.
+dining table;  A modern minimalist dining table scene: A sleek glass table with chrome legs is set for two, featuring only black plates, matte silver utensils, and frosted glass water glasses. A single red rose sits in the center as the only decoration.
+dining table;  An elegant Victorian dining room setup: A large mahogany table covered with damask tablecloth features fine china plates, gold-plated cutlery, and etched crystal glasses. The table is set for six and is adorned with a grand silver serving dish filled with steaming roast turkey and various side dishes.
+dining table;  A rustic outdoor dining setting: A rough-hewn wood table with benches seats six under a tree canopy. The table is decorated with red checkered placemats, mismatched cutlery, and earthenware plates. Wine bottles and glasses are scattered across the table, surrounded by fresh fruit, cheese, and crusty bread.
+dining table;  A futuristic dining environment: A circular table made of carbon fiber stands in the middle of an open kitchen, surrounded by high-tech chairs with built-in reclining mechanisms. The tabletop is clean and unadorned, save for a holographic menu displaying various options. Meals appear instantly as they're ordered from the air, leaving no trace of waste.
+book;  A rustic wooden table in a sunlit room. A worn leather-bound book lies open, its pages filled with handwritten notes, surrounded by golden sunlight filtering through the dusty window.
+book;  An old library, dimly lit by flickering candles. A single figure sits at a long wooden table, intently studying an antique, leather-bound book, its pages illuminated by candlelight.
+book;  An elegant study. A tall bookshelf filled with ancient tomes lines one wall, while a person sits in a plush armchair, engrossed in a thick, leather-bound book, a quill pen and inkwell nearby.
+book;  A cozy nook in a large, stone fireplace-warmed room. A person wrapped in a woolen shawl sits in a corner, tucked away from the fire's heat, lost in the pages of a large, tattered, leather-bound book.
+book;  A quiet garden scene. Amidst lush greenery and blooming flowers, a woman sits on a velvet cushion under a tree, reading a leather-bound book with a contented expression, the sun casting dappled light over her shoulders.
+traffic light;  A red traffic light stands at the corner of a busy intersection, its beam casting a bright, clear glow against the evening sky. The traffic signs around it are illuminated in the same hue, reflecting off the wet asphalt. Cars approach from all directions, their headlights creating pools of light amidst the darkness.
+traffic light;  A solitary green traffic light towers above an empty street. Its light bathes the sidewalk in a soft, warm glow, casting long, crisp shadows. The pavement beneath is crackled with age, and the surrounding buildings appear quiet and still.
+traffic light;  At dusk, a yellow traffic light flickers erratically above an urban crossroads. The city lights begin to twinkle on, gradually pushing back the encroaching darkness. Buses and taxis idle at the curb, their engines humming softly.
+traffic light;  In the middle of a peaceful rural town, a blue traffic light hangs idly over a deserted intersection. The sun sets behind a nearby hill, bathing the scene in a gentle golden light. Trees line the road on either side, their leaves rustling gently in the breeze.
+traffic light;  Amidst the pouring rain, a red traffic light's beam cuts through the mist, refracting into raindrops that glisten like diamonds. The streets are empty save for a few cars, their windshield wipers swishing rhythmically back and forth. Puddles form along the curbs, rippling with each passing vehicle.
+hot dog;  A red hot dog on a blue plate, steamed buns slightly sagging, ketchup and mustard dripping artfully over the sides.
+hot dog;  A close-up of a hot dog in a yellow paper wrapper, steam rising from it, mustard and relish creating intricate patterns.
+hot dog;  A hot dog on a picnic blanket under a tree, sun setting behind it, bun toasted golden brown, condiments scattered nearby.
+hot dog;  A hot dog at a diner counter, neon lights reflecting off its shiny skin, chili and cheese overflowing, fries piled high in a basket beside it.
+hot dog;  A hot dog roasting on a campfire, marshmallows toasting on skewers above it, smoky aroma filling the cool night air, stars twinkling overhead.
+bear;  A large brown grizzly bear standing on a rocky mountainside, overlooking a clear alpine lake, with sun rays filtering through the trees.
+bear;  A playful polar bear cub exploring a snow-covered arctic tundra, nibbling on berries from a patch of melting ice.
+bear;  A majestic American black bear sitting in a forest clearing, surrounded by vibrant autumn foliage, eating from a pile of acorns.
+bear;  An endangered sloth bear rummaging through a lush tropical rainforest floor, searching for termites and ants to eat.
+bear;  A curious brown bear peeking through a thicket of willows at a salmon-filled riverbank in a salmon run, preparing to catch its meal.
+keyboard;  A close-up image of an old, worn-out keyboard with keys pressed in various positions, dust particles floating in the air, and sunlight casting long shadows through the room's window.
+keyboard;  A minimalist setup: a modern black keyboard against a white background, with each keycap illuminated in different shades of blue light.
+keyboard;  An artistic representation of a cluttered desk scene, featuring a messy keyboard covered in stickers and crumbs, surrounded by papers, empty coffee cups, and a mouse with its cord tangled.
+keyboard;  A sleek, futuristic keyboard layout with transparent keycaps that reveal circuitry beneath, set against a backdrop of neon lines and geometric shapes, evoking a cyberpunk atmosphere.
+keyboard;  A childhood memory: a vintage keyboard with bright colors and cartoon character designs on the keycaps, placed on a wooden table surrounded by piles of comic books, coloring pencils, and a stack of paper.
+potted plant;  A vibrant green pothos plant in a clay pot, its long vines cascading down the sides, curling around the rim. The leaves are glossy and lush, some displaying distinct yellow markings. The background is blank.
+potted plant;  A terrarium scene: A fern unfurling fronds in a glass container filled with pebbles and moss. Sunlight filters in through the terrarium's lid, illuminating the delicate fern foliage.
+potted plant;  An orchid in bloom sits atop a mahogany wooden table, its exotic, fragrant flower displaying multiple petals in hues of pink, purple, and white. Behind it, a plain, textured wall provides contrast.
+potted plant;  A succulent garden: A collection of various succulents thrive in a sunlit windowsill, their unique shapes and colors showcased against a brick backdrop. Each succulent displays intricate patterns and textures.
+potted plant;  A bonsai tree: A miniature pine tree with carefully pruned branches sits in an antique, lacquered box, its needles a deep, vibrant green. The box rests on a tatami mat flooring, surrounded by a serene Japanese garden scene outside the window.
+fire hydrant;  A red fire hydrant stands proudly in the center of a sunlit city street, its round shape adorned with intricate, blue reliefs of water droplets. The hydrant's base is covered in a thick layer of fresh, wet snow, making it shine brightly against the asphalt.
+fire hydrant;  A classic New York City fire hydrant painted in bold yellow, located at the corner of a busy intersection. Its top is surrounded by a lush green spray of leaves and vines from a tree, reaching out to touch the hydrant's metal surface.
+fire hydrant;  In an idyllic park setting, a quaint, wooden fire hydrant painted in natural tones sits peacefully near a serene pond. The hydrant's body is covered in delicate ivy, while its top flows gracefully into a gentle stream that feeds into the nearby pond.
+fire hydrant;  Amidst the vibrant colors of a tropical neighborhood, a fire hydrant painted in cheerful rainbow hues stands out. Its surroundings include tall palm trees, colorful houses, and children playing around, with a playful parrot perched on its head.
+fire hydrant;  In the heart of a modern urban landscape, a sleek, silver fire hydrant boasts an advanced design, with digital readouts showing real-time water pressure levels. Surrounded by towering glass buildings and neon signs, the hydrant exudes a futuristic feel while maintaining its essential functionality.
+sandwich;  A classic peanut butter and jelly sandwich on a wooden kitchen table. The slice of bread on the left is spread generously with smooth peanut butter, while the slice on the right is covered in a thick layer of grape jelly. A glass of milk sits next to the sandwich, a knife is nearby, ready to be used.
+sandwich;  A club sandwich being held in hand. Layers of chicken, bacon, lettuce, tomato, and mayonnaise are visible between each slice of bread. The crisscrossed lines of the bacon and the crispness of the lettuce leaves can be seen.
+sandwich;  A vegetarian panini being prepared on an outdoor patio. Slices of avocado, roasted red pepper, mozzarella, and basil lie between two slices of crusty Italian bread. A steaming espresso waits on a small table nearby.
+sandwich;  An open-faced smoked salmon and cream cheese bagel. The bagel is topped with thinly sliced smoked salmon, a generous schmear of tangy cream cheese, and capers scattered across the top. A cup of fresh orange juice sits beside it.
+sandwich;  A BLT sandwich being made at a rustic diner counter. Thick slices of bacon sizzle in a pan, while lettuce and tomatoes rest on the counter. Mayonnaise is spread on a slice of toast as the cook prepares to assemble the sandwich. A mug of hot coffee sits within reach.
+person;  A solitary figure, dressed in a red coat and holding a violin under a weeping willow tree in an overgrown garden at sunset.
+person;  A person in a yellow raincoat standing on a bridge, looking down at a calm lake surrounded by autumn foliage, holding an umbrella.
+person;  A man wearing a top hat and monocle, sitting in a vintage wooden chair, smoking a pipe next to a roaring fireplace in a Victorian library.
+person;  A woman in a red dress, walking barefoot on a sandy beach during low tide, holding a large seashell up to her ear.
+person;  A person in a blue tracksuit, leaning against a brick wall, chalking equations on a blackboard in a dimly lit classroom.
+carrot;  A red carrot lying in the center of a rustic wooden table, against a backdrop of sunlit hay bales in an open farm setting.
+carrot;  A single, bright orange carrot suspended in mid-air, surrounded by swirling droplets of water, as if just pulled from the earth in a garden.
+carrot;  A close-up image of a freshly picked purple-hued carrot with green tops, sitting on a white porcelain plate, adorned with a red gingham tablecloth.
+carrot;  A long, yellow carrot growing in rich soil, its leaves stretching up towards the sunlight, with raindrops glistening on the foliage.
+carrot;  An elongated, curved carrot shape made of silver metal, placed on a sleek, modern kitchen counter next to a glass of orange juice and a chopping board.
+clock;  A large grandfather clock with intricate carvings sits in a dimly lit, cozy study. The clock face shows the time as 3:00 AM, with long pendulum swinging back and forth.
+clock;  A modern kitchen with stainless steel appliances, an island countertop, and a glass table. On the clock on the wall, the digital display reads 6:45 PM, showing the elapsed cooking time.
+clock;  A grand living room with tall windows overlooking a lush garden. The sun is setting outside, casting warm light onto the room. A classic clock with Roman numerals displays 9:30 PM.
+clock;  In a home office, there's a wooden desk, a leather chair, and shelves filled with books. A vintage clock with a birds-eye view dial shows 12:00 noon.
+clock;  Inside a bakery, flour dusted tables, baking racks filled with pastries, and a large wood oven. The baker checks the time on the wall clock, which reads 7:15 AM, signaling it’s almost time to open shop.
+surfboard;  A sun-kissed beach: A red surfboard lies horizontally in the warm golden sand, waves gently crashing onto the shore behind it. The board's shiny surface reflects the clear blue sky dotted with fluffy white clouds. Seagulls fly overhead, and palm trees sway in the gentle breeze.
+surfboard;  Ocean sunset: A long, dark blue surfboard floats on the tranquil, purple and orange hued ocean water as the sun sets beyond the horizon. Waves roll gently towards the shore, leaving frothy white caps. A silhouette of a surfer paddling in the distance adds to the serene scene.
+surfboard;  Tropical reef: A vibrant green and blue surfboard rests on a rocky outcrop surrounded by a colorful coral reef teeming with marine life. Schools of fish swim around the board, while anemones and starfish cling to the reef. Sunlight filters through the crystal-clear water, illuminating the underwater world.
+surfboard;  Winter storm: A snow-covered mountain peak serves as the backdrop for a frozen, white surfboard. Waves crash against the dark gray shoreline, sending plumes of spray high into the air. Thick fog blankets the landscape, and the snowflakes fall gently from the leaden sky.
+surfboard;  Dusk at the pier: A rustic wooden pier stretches into the calm turquoise bay, ending with a worn-out blue surfboard resting on its tip. Seagulls perch on the railing, and pelicans dive into the water for their dinner. A soft orange glow emanates from the setting sun, casting long shadows over the peaceful scene.
+vase;  A clear glass vase filled with vibrant red roses, sunlight streaming in from a window casting long shadows on the table beneath.
+vase;  A modern white porcelain vase adorned with geometric patterns, holding a bouquet of lilies, against a minimalist backdrop of clean lines and muted colors.
+vase;  An ornate, blue and gold antique vase bursting with a riot of wildflowers on a rustic wooden table, surrounded by warm, golden autumn leaves.
+vase;  A sleek, metallic silver vase containing calla lilies against a monochrome background of concrete and steel, creating an elegant contrast in textures.
+vase;  A ceramic vase shaped like a tree trunk, with ivy climbing up its sides and blooming lilies cascading out of its openings, nestled among lush greenery in a serene forest clearing.
+toothbrush;  A toothbrush next to a sink, with water dripping from the faucet, creating reflections on the shiny surface. The toothpaste tube is half empty, and a toothbrush holder is nearby.
+toothbrush;  Close-up image of a toothbrush against a white background. The bristles are damp and slightly fanned out. A toothpaste cap lies nearby, and a small puddle of toothpaste is visible at the base of the bristles.
+toothbrush;  Toothbrush in a bathroom cabinet: A toothbrush with an electric toothbrush head sits inside an open cabinet door. The bathroom countertop is cluttered with other toiletries – a toothpaste tube, dental floss dispenser, and a cup of mouthwash.
+toothbrush;  Toothbrush on a nightstand: A toothbrush is resting on a wooden nightstand next to an alarm clock. A glass of water and a bottle of water are also present.
+toothbrush;  Toothbrush in a travel kit: A toothbrush is enclosed within a compact travel case. A small tube of toothpaste, a dental floss container, and a miniature toothbrush are also included in the kit.
+handbag;  A red leather handbag, shaped like a square with rounded edges, sits atop a polished marble table. Inside, a pristine white silk lining is visible. A gold clasp adorns the front, fastened securely.
+handbag;  An elegant brown leather handbag lies open on a grassy lawn, surrounded by autumn leaves. Its interior is lined with soft suede, and a patterned scarf peeks out from within. Two golden handles curve gracefully outwards.
+handbag;  A black leather handbag, studded with silver crystals, rests against a sleek, modern black chair. Its glossy surface reflects the nearby cityscape through large glass windows. A slim gold chain hangs from one handle.
+handbag;  A blue canvas handbag, dotted with small white flowers, leans against a tree trunk in a park. The bag's lining is a vibrant floral print, and a worn leather strap slips over a shoulder. A small bell dangles from an exterior loop.
+handbag;  A green patent leather handbag, embellished with gold hardware, sits atop a vintage wooden desk. A monogrammed initial is etched into its side. The interior holds a leather-bound journal, pens, and business cards.
+baseball bat;  A man in a gray t-shirt and jeans stands at home plate, holding a brown leather baseball bat with a cracked barrel, sun setting behind him, casting long shadows on the green grass field.
+baseball bat;  A player in a red uniform swings a shiny aluminum baseball bat, shattering a blue porcelain baseball in mid-air against a clear blue sky backdrop, dust rising from the impact.
+baseball bat;  In a dimly lit basement, an old wooden baseball bat leans against the damp wall, spiderwebs covering its surface; a yellow baseball lies nearby, as if abandoned.
+baseball bat;  At sunrise, a woman wearing a pink tracksuit holds a black carbon fiber baseball bat loosely in her hands, standing in front of a pristine white fence, dew on the grass reflecting the sunlight.
+baseball bat;  Inside a pitch-black cave, a flashlight illuminates a large cave painting of a dinosaur wielding a bone club, which resembles a baseball bat, in one hand, and a ball made of vines in the other, prehistoric creatures watching from the background.
+spoon;  A silver spoon suspended in a clear, still water bath, reflections of soft sunlight dancing on its polished surface.
+spoon;  A wooden table set with a single white porcelain spoon against a contrasting dark background.
+spoon;  Steam rising from a steaming hot bowl of oatmeal, a stainless steel spoon stirring gently within it.
+spoon;  An antique spoon made of ornate gold, nestled among fresh fruits on a vibrant, seasonal fruit platter.
+spoon;  A child's small hand holding a plastic spoon, reaching toward a colorful ice cream cone filled with vanilla ice cream.
+cup;  A rounded ceramic cup sitting on a wooden table, steam rising from its contents, indicating a hot beverage.
+cup;  A stainless steel mug with a handle, filled to the brim with steaming tea, against a white background.
+cup;  A clear glass cup holding a single red rose, petals slightly wilted, on a weathered windowsill with sunlight filtering through the glass.
+cup;  An antique porcelain cup adorned with intricate gold patterns, empty, resting atop a lace doily on a vintage table.
+cup;  A chalice-shaped cup made of frosted glass, half-filled with an iridescent elixir, nestled in a bed of ice within a winter wonderland landscape.
+bowl;  A white porcelain bowl filled with red ripe apples, their reflections shimmering in the polished surface.
+bowl;  A rustic wooden bowl brimming with yellow corn kernels, sunlight streaming in through a nearby window.
+bowl;  A clear glass bowl containing a floating bouquet of blue and purple lilies, water rippling gently from a soft touch.
+bowl;  A sleek stainless steel bowl filled with steaming hot oatmeal, topped with brown sugar and a drizzle of honey.
+bowl;  An ornate silver bowl overflowing with emerald green grapes, each one plump and glistening, resting atop a velvet tablecloth.
+parking meter;  A sunny day: A parking meter standing alone on a concrete sidewalk, coins inserted, digital display showing time elapsed. A shopping bag and keys lying next to it.
+parking meter;  Rainy night: A parking meter in a dimly lit street, rainwater dripping from its surface. Umbrella opened nearby, reflecting the red glow of the meter's numbers counting down the minutes.
+parking meter;  Urban park: A parking meter in a green city park, surrounded by lush grass and trees. Children playing nearby, a dog sitting patiently at the foot of the meter, owner tying shoelaces a few meters away.
+parking meter;  Busy downtown: A parking meter amidst a bustling downtown scene, cars passing by, pedestrians hurrying along the sidewalk. Digital display counting up time, quarters and dollar coins inserted.
+parking meter;  Snowy winter: A parking meter covered in snow, surrounded by a quiet winter wonderland. Snowflakes gently falling around it, a car parked nearby with steam rising from its hood.
+teddy bear;  A cozy living room: A teddy bear sits in the corner of a warm, sunlit room, surrounded by plush furniture and floral patterns. It wears a red knit sweater, its eyes closed in contentment as it clutches a small book.
+teddy bear;  Serene forest clearing: A teddy bear stands atop a mossy log in a tranquil forest clearing, surrounded by tall trees adorned with autumn leaves. It gazes up at the sky, a picnic basket beside it filled with fruits and treats.
+teddy bear;  Bedtime story: A teddy bear snuggles up to a young child in a dimly lit bedroom, a soft lamp casting a gentle glow over their faces. The bear reads aloud from a large, illustrated book, its voice soothing and comforting.
+teddy bear;  Winter wonderland: A snow-covered teddy bear explores a winter landscape, bundled up against the cold with a scarf and hat. It skips through drifts of snow, leaving playful footprints behind.
+teddy bear;  Tea party: A teddy bear hosts an elegant tea party on a lace tablecloth, pouring tea into tiny cups for other teddy bears. Colorful cakes and pastries are displayed on a tiered stand, and flowers decorate the scene, adding a touch of whimsy.
+microwave;  A close-up image of a worn-out, retro microwave with a steamy bowl of ramen noodles inside, condensation dripping down the sides.
+microwave;  A sleek, modern microwave with a plate of freshly baked potatoes in it, their skins lightly golden, steam rising from the top.
+microwave;  An industrial microwave in a cafeteria setting, heating up a tray of uniformly sized frozen meals for multiple people, the microwave's digital display counting down the minutes.
+microwave;  A compact travel microwave on a camping trip, cooking a hot dog wrapped in foil with ketchup and mustard packets nearby, flames dancing around a small fire.
+microwave;  A miniature microwave inside a high-tech lab, heating up an experiment containing test tubes, beakers, and various chemicals, digital readouts displaying temperature and time data.
+mouse;  A small mouse sits in a cluttered kitchen, nibbling on a slice of cheese next to an overturned milk jug. The room is dimly lit and there are crumbs on the counter and floor.
+mouse;  A mouse explores a lush green garden, standing on a patch of soft grass, surrounded by colorful flowers and vegetable plants. Sunlight filters through the leaves of nearby trees.
+mouse;  In a lab setting, a white mouse runs along a maze, its tail leaving a trail behind it. The walls of the maze are made of clear plastic and there are food pellets at the end of each path.
+mouse;  A solitary mouse perches on a branch of a tree, looking down at a tranquil pond below. The water reflects the blue sky and clouds, and there are ripples from gentle breezes.
+mouse;  In a minimalist white room, a mouse investigates a red ball, rolling it back and forth across the smooth floor. There's a single light bulb hanging from the ceiling casting a warm glow.
+frisbee;  A sunny beach scene: A frisbee hovers in mid-air above a crystal-clear blue ocean. Golden sand stretches out behind it, dotted with sunbathers and palm trees.
+frisbee;  A tranquil park: A frisbee spins gently in the air amidst lush green grass and vibrant fall foliage. A red picnic blanket lies nearby, empty water bottles and snack bags scattered around.
+frisbee;  An urban setting: A frisbee soars through the air against a backdrop of towering concrete buildings and colorful graffiti. Pedestrians walk along the sidewalks below, some stopping to watch its flight.
+frisbee;  A serene forest glade: A frisbee floats gracefully between two ancient tree trunks, their bark covered in moss and vines. Sunlight filters through the leaves above, casting dappled patterns on the forest floor.
+frisbee;  A snowy winter landscape: A frisbee flies across an expansive white field, its bright color contrasting starkly with the surrounding snow. Evergreen trees stand tall in the background, their branches adorned with snowflakes.
+tie;  A red bowtie adorns a formal tuxedo hanging in a dimly lit, wooden closet. The tie lies flat against the creased fabric, waiting to be worn for an important event.
+tie;  A sunlit kitchen counter is cluttered with various ingredients for baking a chocolate cake. A red velvet tie, folded neatly, sits atop a stack of flour sacks, contrasting against the warm hues of the scene.
+tie;  Amidst a lush green garden, a majestic peacock perches on a wrought iron bench, displaying its vibrant, iridescent feathers. A crimson tie, symbolizing royalty, is casually tossed over the backrest of the bench.
+tie;  In a cozy living room, a roaring fireplace crackles, casting dancing shadows on the walls. A bookshelf showcases a collection of classic novels, while a red striped tie hangs from a decorative hook next to a vintage lantern.
+tie;  An open-air market bustles with activity as vendors sell their fresh produce. A red polka-dot tie is artfully draped across the edge of a table piled high with juicy tomatoes and ripe mangoes, adding a pop of color to the lively scene.
+sink;  A sink in a modern kitchen, stainless steel basin filled with clear water, faucet dripping gently, reflecting soft yellow light from overhead cabinets.
+sink;  A rustic bathroom sink, stone basin with aged copper pipes, waterfall tap flowing into cerulean blue water, steam rising, surrounded by mossy stones and greenery.
+sink;  A quaint garden sink, porcelain basin set atop a wooden table, filled with vibrant red roses, their petals drooping into the water, surrounded by bees and butterflies.
+sink;  A minimalist sink in an industrial loft apartment, concrete basin against exposed brick wall, cold running water filling the basin, single bulb overhead casting long shadows.
+sink;  A Victorian-era sink, ornate cast iron basin on marble countertop, crystal-clear water, gold tap handle, sunbeam illuminating the room through stained glass window behind.
+hair drier;  A close-up image of an old-fashioned hairdryer in rustic style, with its vintage metal body and chrome accents, steam rising from the nozzle as it's being used to dry freshly washed curls of red hair.
+hair drier;  Minimalist scene: A modern, sleek hairdryer in matte black, positioned on a white marble countertop against a plain background. The hairdryer's button illuminated, ready to be pressed for use.
+hair drier;  In a bathroom setting: A compact hairdryer hanging on a hook next to a bathtub filled with bubbles, towels and bathrobes nearby. The hairdryer is plugged into the wall outlet and a hand reaches out to grab it.
+hair drier;  An image of a professional hair salon: A high-end hairdryer with multiple speed settings and temperature controls sits atop a styling station. Hair extensions hang from hooks above, a mannequin head with long, straight blonde hair is in front, waiting to be styled.
+hair drier;  Outdoor scene: A portable hairdryer with a rechargeable battery sits on a picnic blanket near a sandy beach. A person in a swimsuit is seated in front of it, drying their wet hair while listening to music on earbuds and enjoying the sunshine.
+airplane;  "An Airbus A320 nears the runway, its wings glinting in the morning sun as it prepares to land, surrounded by lush green trees and a clear blue sky."
+airplane;  "A Boeing 747 taxis along the tarmac, its engines idling softly, against a backdrop of modern airport terminals and nearby jetways."
+airplane;  "A small Cessna plane sits on a grassy runway, its propellers still, next to an old red barn and open fields, with a few white puffy clouds drifting overhead."
+airplane;  "A helicopter hovers above a large oil rig, its rotor blades casting long shadows on the water below, as workers clad in orange jumpsuits scurry about the platform."
+airplane;  "A sleek private jet sits parked at a deserted island airstrip, its shiny surface reflecting the calm turquoise waters and white sand beach, palm trees swaying gently in the breeze."
+donut;  A freshly glazed donut sitting on a white porcelain plate. The donut is round with a hole in the middle. Rays of sunlight illuminate the scene from a window, casting a warm glow over the table and making the glaze shine.
+donut;  A red jelly-filled donut resting atop a wooden table. The donut's gooey filling oozes out slightly, creating a messy but enticing appearance. The background is a blurred kitchen scene with pots and pans visible.
+donut;  A classic blueberry donut suspended in mid-air against a black backdrop. The donut's surface is dotted with small, juicy blueberries that seem to pop off the image. The donut's edges are dusted with powdered sugar.
+donut;  A miniature pink-frosted donut on a silver platter, surrounded by colorful sprinkles. The scene is set on a luxurious table, adorned with gold accents and fine china. Soft, dim lighting creates an elegant atmosphere.
+donut;  A plain donut floating in a steaming hot cup of coffee. The donut has absorbed some of the coffee's liquid, leaving a trail in its wake. The scene is set in a cozy café, with warm beige walls and wooden tables. Steam rises gently from the coffee cup.
+stop sign;  A red octagonal stop sign is positioned at the four-way intersection of a quiet suburban street. The sign stands tall against a backdrop of well-manicured lawns and houses with white picket fences. The sun casts a warm glow over the scene.
+stop sign;  In the middle of an empty desert landscape, a lone, rusted metal stop sign leans slightly to one side. The harsh desert sun beats down on its faded red surface, casting long shadows across the sandy ground.
+stop sign;  Amidst a bustling city intersection, a bright red stop sign hangs above the traffic. Buses, cars, and bicycles all wait at the lights below. The neon signs of nearby buildings reflect off the wet pavement in the rain.
+stop sign;  A stop sign sits atop a hill overlooking a winding country road. The vibrant red sign stands alone against a backdrop of green trees and rolling hills. The autumn leaves are beginning to change color, painting the landscape in hues of orange, yellow, and red.
+stop sign;  At night, a dimly lit red stop sign stands guard at the entrance of a dark alley. The narrow passageway is lined with graffiti and the occasional street lamp flickers intermittently. The sign's reflection in the puddles on the ground is distorted and eerie.
+oven;  "A cozy kitchen oven preheated to 375 degrees Fahrenheit, filled with a baking dish of homemade apple pie, steam escaping from the vent."
+oven;  "An industrial-sized oven in a bakery, piles of freshly baked baguettes inside, steam rising and golden brown crust visible."
+oven;  "A wood-fired outdoor oven, pizza stones glowing hot, tomato sauce bubbling in a bowl nearby, smoke gently billowing out."
+oven;  "A modern convection oven, silver tray with roasted vegetables inside, steaming hot, digital display showing cooking time remaining."
+oven;  "An antique cast iron stove top oven, Dutch oven filled with chili simmering, red beans and peppers visible through clear lid, wooden spoon stirring gently.
+bench;  A rustic wooden bench under a blooming cherry blossom tree, with petals gently falling around it.
+bench;  A modern white concrete bench next to a serene glass pond, reflecting the surrounding greenery and clear blue sky.
+bench;  A red velvet bench in front of an elegant fireplace, surrounded by plush pillows and warm lighting.
+bench;  A metal bench in a lush forest, with ferns growing up its sides and sunlight filtering through the trees.
+bench;  A minimalist black bench in a zen garden, with carefully arranged rocks, sand, and a small bamboo plant nearby.
+horse;  A red barn stands in the background, its wooden boards weathered and worn. A large, chestnut horse with a white blaze down its face and four hooves on the ground, nuzzles a young girl's hand as she strokes its mane. The sun sets behind them, casting long shadows over the rolling green pasture.
+horse;  In the center of an open field, a majestic gray stallion rears up on its hind legs, its muscles taut, mane flowing in the wind. The setting is a desert landscape with golden sand dunes surrounding the horse. Its eyes are fixed on something in the distance.
+horse;  A white horse with a black star-shaped marking on its forehead stands calmly in a tranquil forest clearing. A crystal clear lake reflects the image of the horse, surrounded by tall trees and colorful autumn foliage.
+horse;  In a lush meadow, a palomino horse grazes peacefully. It wears a saddle and bridle, indicating it's ready for a ride. A gentle breeze rustles through the grass and flowers, and butterflies flit about.
+horse;  A black horse with a silver mane trots along the edge of a rocky cliff overlooking an ocean. Waves crash against the shore below, and seagulls fly overhead. The horse seems to be gazing out at the vast expanse of water, its ears perked up in curiosity.
+suitcase;  A worn-out brown leather suitcase sits at the edge of a sunlit cobblestone street in Europe, its lock slightly rusted.
+suitcase;  In a dimly lit airport terminal, a sleek black carry-on suitcase stands beside an empty seat, its handle glowing faintly from a nearby screen's blue light.
+suitcase;  A red suitcase adorned with cartoon characters is placed next to a sandy beach, surrounded by colorful towels, sunscreen bottles, and flip-flops.
+suitcase;  Inside a cluttered study, an antique wooden suitcase filled with old books and documents lies open on a dusty table, its brass latches gleaming in the dim light.
+suitcase;  At the base of a snow-capped mountain, a rugged green duffel bag lies next to a roaring campfire, melting snow dripping into a pot hung above it, steam rising gently into the crisp air.
+snowboard;  A serene winter landscape: A snowboarder glides down a pristine, untouched slope covered in freshly fallen snow. The sun is setting behind tall, frost-covered trees. The sky is painted orange and pink, casting long shadows over the terrain.
+snowboard;  Snowy mountain adventure: A snowboarder wearing goggles and a helmet speeds down a steep, icy mountain slope. The wind whips through their hair as they make sharp turns, leaving rooster tails of snow in their wake. In the background, towering mountains are capped with snow and clouds.
+snowboard;  Forested backcountry run: A snowboarder navigates a winding trail through a forest of tall, leafless trees. Their board cuts through the fresh snow, kicking up powder in the air as they weave around tree trunks and branches. The sun filters through the trees, illuminating the snowy ground in patches.
+snowboard;  Sunny pow day: A snowboarder catches some air off a natural jump in a sunlit open area, surrounded by powder snow. The bluebird sky is dotted with fluffy white clouds, and the snow sparkles in the sunlight. The snowboarder's expression is one of pure joy and excitement.
+snowboard;  Nighttime park session: A snowboarder practices tricks in a lit-up nighttime skatepark, wearing a neon jacket and helmet. The park features ramps, rails, and halfpipes made of snow. The only sound is the crunching of snow underfoot and the snowboarder's breath as they try new moves. The moon casts a soft glow over the scene, reflecting off the snowy surfaces.
+baseball glove;  A red leather baseball glove lying on freshly cut grass in the sunlight, blades of grass gently swaying around it.
+baseball glove;  A close-up of a worn-out baseball glove with cracks and stitches visible, sitting on a wooden bench in an empty baseball diamond at dusk, with a single baseball nearby.
+baseball glove;  A brand new white baseball glove with the team logo on the webbing, hanging from a hook on the wall of a locker room, surrounded by towels and other sports equipment.
+baseball glove;  An old, brown baseball glove with laces frayed and some pieces missing, resting on a rustic picnic table next to a hotdog and a bottle of water, in a setting sun background.
+baseball glove;  A black baseball glove with silver studs on the fingers, leaning against a brick wall, with a bat and a baseball cap lying beside it, in a dimly lit, abandoned baseball field with broken fence and overgrown weeds.
+motorcycle;  A red sports motorcycle is parked on a deserted beach, its shiny surface reflecting the sunset over the calm sea. The sand is golden and fine, the waves gently lap at the shore.
+motorcycle;  In a dimly lit garage, an old blue motorcycle with chrome accents is the only object in the frame. Tools are scattered around it, with a wrench and a grease-stained rag nearby.
+motorcycle;  A lone rider wearing a black leather jacket and helmet is cruising down an empty desert highway, the sun setting behind them. The motorcycle leaves a trail of dust in its wake as it moves towards the distant mountains.
+motorcycle;  At dusk, a sleek black motorcycle rests under the shade of a large tree in a forest clearing. Foliage covers the ground, and the tree's branches reach up to the sky, creating intricate patterns against the orange and purple hues of the twilight.
+motorcycle;  In a cityscape, a silver motorcycle sits on a rooftop terrace overlooking the bustling streets below. Skyscrapers tower above it, their windows reflecting the bright sunlight. The motorcycle's rider, clad in a black suit and tie, gazes out at the urban jungle.
+bird;  A solitary red cardinal bird perched on a vibrant orange and yellow autumn leaf, its beak slightly open as if singing.
+bird;  A majestic white egret standing in shallow water, neck stretched out, poised to strike at a fish with its long, slender beak.
+bird;  A colorful parrot sitting on a lush green branch, feathers a blend of reds, greens, and yellows, looking directly at the viewer.
+bird;  An eagle soaring above a mountainous landscape, its wings spread wide, golden eyes focused intently on the horizon.
+bird;  A sparrow taking off from an old rustic fence, its brown feathers ruffling in the breeze, tiny feet scrabbling on the weathered wood.
