@@ -1,5 +1,8 @@
 generative_images/
 im_generation.log
+cache.db
+__pycache__/
+
 *.tar
 *.tar.*
 *.jar
