@@ -1,4 +1,5 @@
 generative_images/
+im_generation.log
 *.tar
 *.tar.*
 *.jar
