@@ -2,7 +2,8 @@
 
 ## INTRODUCTION
 
-![self-rewarding](repoimages/self-rewardance_mechanism.gif)
+Self-rewarding mechanism
+![selfrewarding](repoimages/T2I_selfrewarding_mechanism.gif)
 
 ## USAGE INSTRUCTION
 
