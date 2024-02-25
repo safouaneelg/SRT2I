@@ -1,5 +1,5 @@
 # RUN THIS CODE USING THE FOLLOWING COMMANDE
-# python llm/prompts_generator.py --model "TheBloke/Mistral-7B-Instruct-v0.2-AWQ" --class_list "llm/class_list.json" --output_prompts "generated_prompts_.txt" --prompts_number 30 --class_ids 15,16,17,20,21
+# python llm/prompts_generator.py --model "TheBloke/Mistral-7B-Instruct-v0.2-AWQ" --class_list "llm/class_list.json" --output_prompts "generated_prompts.txt" --prompts_number 30 --class_ids 15,16,17,20,21
 
 from transformers import AutoModelForCausalLM, AutoTokenizer, TextStreamer
 import json
