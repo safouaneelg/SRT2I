@@ -1,5 +1,7 @@
 generative_images/
+generative_images_/
 im_generation.log
+generate
 cache.db
 __pycache__/
 
