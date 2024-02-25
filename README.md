@@ -1,9 +1,9 @@
-# SRT2M: Self-rewarding generative text-to-image models
+# SRT2I: Self-rewarding generative text-to-image models
 
 ## INTRODUCTION
 
 Self-rewarding mechanism
-![selfrewarding](repoimages/T2I_selfrewarding_mechanism.gif)
+![selfrewarding](_repoimages_/T2I_selfrewarding_mechanism.gif)
 
 ## USAGE INSTRUCTION
 
@@ -11,13 +11,13 @@ Self-rewarding mechanism
 1. Clone the repository and install dependencies using
 
 ```bash
-git clone https://github.com/safouane95/SRT2M.git
+git clone https://github.com/safouane95/SRT2I.git
 ```
 
 2. Create a conda  environment (optional but recommended) with Python version >= 3.10
 ```bash
-conda create --name srt2m python=3.10 -y
-conda activate srt2m
+conda create --name srt2i python=3.10 -y
+conda activate srt2i
 pip install -r requirements.txt
 ```
 
