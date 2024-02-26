@@ -14,11 +14,10 @@ Self-rewarding mechanism
 git clone https://github.com/safouaneelg/SRT2I.git
 ```
 
-2. Create a conda  environment (optional but recommended) with Python version >= 3.10
+2. Create a conda  environment (optional but recommended) from environment.yml
 ```bash
-conda create --name srt2i python=3.10 -y
+conda create env
 conda activate srt2i
-pip install -r requirements.txt
 ```
 
 ### USAGE
