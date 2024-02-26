@@ -16,7 +16,7 @@ git clone https://github.com/safouaneelg/SRT2I.git
 
 2. Create a conda  environment (optional but recommended) from environment.yml
 ```bash
-conda create env
+conda env create -f environment.yml
 conda activate srt2i
 ```
 
