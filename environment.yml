@@ -39,6 +39,7 @@ dependencies:
       - async-timeout==4.0.3
       - asyncio==3.4.3
       - attrs==23.1.0
+      - autoawq==0.2.2
       - babel==2.13.1
       - base==0.0.0
       - beautifulsoup4==4.12.2
