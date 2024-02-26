@@ -11,7 +11,7 @@ Self-rewarding mechanism
 1. Clone the repository and install dependencies using
 
 ```bash
-git clone https://github.com/safouane95/SRT2I.git
+git clone https://github.com/safouaneelg/SRT2I.git
 ```
 
 2. Create a conda  environment (optional but recommended) with Python version >= 3.10
