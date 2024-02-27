@@ -8,7 +8,7 @@ import time
 def load_diffusion_model(diffusion_model_name):
     # Initialize the StableDiffusionPipeline
     pipe = StableDiffusionPipeline.from_pretrained(diffusion_model_name, torch_dtype=torch.float16)
-    pipe = pipe.to('cuda')
+    pipe = pipe.to('cuda:2')
     print('Stable Diffusion Model successfully loaded')
     return pipe
 
@@ -71,7 +71,7 @@ if __name__ == "__main__":
     os.makedirs(args.output_folder, exist_ok=True)
 
     # Set seed for reproducibility
-    generator = torch.Generator(device="cuda")
+    generator = torch.Generator(device="cuda:2")
 
     # Generate images
     generate_images(args.prompts, args.output_folder, pipe, generator)
