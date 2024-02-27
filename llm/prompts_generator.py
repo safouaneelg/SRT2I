@@ -7,7 +7,9 @@ import random
 import re
 import argparse
 import time
+import torch
 
+torch.cuda.empty_cache()
 
 def load_model(model_name_or_path="TheBloke/Mistral-7B-Instruct-v0.2-AWQ"):
     """Load the tokenizer and the model
@@ -24,7 +26,7 @@ def load_model(model_name_or_path="TheBloke/Mistral-7B-Instruct-v0.2-AWQ"):
     model = AutoModelForCausalLM.from_pretrained(
         model_name_or_path,
         low_cpu_mem_usage=True,
-        device_map="cuda:0"
+        device_map="cuda"
     )
     return model, tokenizer
 
@@ -49,7 +51,7 @@ def generate_prompts(class_list_path, output_path, model, tokenizer, prompts_num
     streamer = TextStreamer(tokenizer, skip_prompt=True, skip_special_tokens=True)
 
     # SYSTEM_PROMPT to instruct the model
-    SYSTEM_PROMPT = "<s>[SYS] Generate very detailed scene description prompts for a text-to-image stable diffusion generative model. Focus on the specified class, give specific details of the scene with very comprehensive scene context description, describe the finest detail and avoid additional information, notes, suggestions and discussions. Start describing the scene directly in a paragraph without naming it. Per each description only write text no need for enumeration. ONLY USE consistent enumeration style: 1. 2. 3. ... etc. No other enumeration format like 1- 2- or 1) 2) 3) is allowed.[/SYS]"
+    SYSTEM_PROMPT = "<s>[SYS]in up to 77 tokens Generate very detailed scene description prompts for a text-to-image stable diffusion generative model. Focus on the specified class, give specific details of the scene with very comprehensive scene context description, describe as maximum as possible the finest detail and avoid additional information, notes, suggestions and discussions. Start describing the scene without naming it. Per each description only write text no need for enumeration. Use this example as template: 3 giraffes, in serene pond, middle of open air, two giraffes standing nearest to the water and one sitting outside, 3 trees behind them, 12 birds 7 flying and 5 on branches. ... etc. ONLY USE consistent enumeration style: 1. 2. 3. ... etc. No other enumeration format like 1- 2- or 1) 2) 3) is allowed.[/SYS]"
 
     # Shuffle the classes to pick them randomly
     # random.shuffle(class_keys)
@@ -59,7 +61,7 @@ def generate_prompts(class_list_path, output_path, model, tokenizer, prompts_num
             class_name = class_list[class_id]
 
             # Combine SYSTEM_PROMPT and class-specific prompt
-            prompt = f"{SYSTEM_PROMPT}<s>[INST] Give {prompts_number} distinct, long, very descriptive and very detailed prompts for a text-to-image diffusion model focusing mainly on: {class_name}. The {class_name} should be the main focus and element of the scene, very clear and easy to see and locate. The prompts should be exaustive in different cases, object numbers, scenarios, positions and orientations. Details of the background, the colors, the observed objects in the scene should also be given in a very exhaustive manner. The more given description details of every part of the image scene the better.[/INST]"
+            prompt = f"{SYSTEM_PROMPT}<s>[INST] Give {prompts_number} distinct, very descriptive and very detailed prompts for a text-to-image diffusion model focusing mainly on: {class_name}. The {class_name} should be the main focus and element of the scene, very clear and easy to see and locate and shoud be in different numbers colors each time. The prompts should be exaustive in different cases, {class_name} numbers, {class_name} scenarios, {class_name} positions and orientations. Details of the background, the colors, the observed {class_name} or multiple {class_name}s in the scene should also be given in a very exhaustive manner. The more given description details of every part of the image scene the better.[/INST]"
 
             tokens = tokenizer(
                 prompt,
