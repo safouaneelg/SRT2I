@@ -20,3 +20,6 @@ yolov8x.pt
 
 pkg/
 src/
+
+tutorial/sd_optim_pairs_test
+txt2im/diffusers/
