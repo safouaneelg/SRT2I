@@ -6,6 +6,8 @@ cache.db
 __pycache__/
 yolov8s-world.pt
 yolov8x.pt
+yolov8l-world.pt
+optimal_pairs2
 
 *.tar
 *.tar.*

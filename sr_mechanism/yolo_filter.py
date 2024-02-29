@@ -1,8 +1,7 @@
 from ultralytics import YOLO
 import sys
 
-sys.path.append('..')
-from sr_mechanism.llava_descriptor import extract_images_from_grid
+from llava_descriptor import extract_images_from_grid
 
 
 def yolo_filtering(image, class_name, model_or_path='yolov8l-world.pt'):
