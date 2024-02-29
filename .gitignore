@@ -4,8 +4,6 @@ im_generation.log
 generate
 cache.db
 __pycache__/
-generative_images_descriptions/
-generative_images_descriptions_/
 yolov8s-world.pt
 yolov8x.pt
 
