@@ -1,5 +1,5 @@
 generative_images/
-generative_images_/
+generative_images2/
 im_generation.log
 generate
 cache.db
@@ -7,6 +7,7 @@ __pycache__/
 yolov8s-world.pt
 yolov8x.pt
 yolov8l-world.pt
+yolov8x-worldv2.pt
 optimal_pairs2
 
 *.tar
