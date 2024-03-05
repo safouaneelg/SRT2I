@@ -51,7 +51,10 @@ def generate_prompts(class_list_path, output_path, model, tokenizer, prompts_num
     streamer = TextStreamer(tokenizer, skip_prompt=True, skip_special_tokens=True)
 
     # SYSTEM_PROMPT to instruct the model
-    SYSTEM_PROMPT = "<s>[SYS]in up to 77 tokens Generate very detailed scene description prompts for a text-to-image stable diffusion generative model. Focus on the specified class, give specific details of the scene with very comprehensive scene context description, describe as maximum as possible the finest detail and avoid additional information, notes, suggestions and discussions. Start describing the scene without naming it. Per each description only write text no need for enumeration. Use this example as template: 3 giraffes, in serene pond, middle of open air, two giraffes standing nearest to the water and one sitting outside, 3 trees behind them, 12 birds 7 flying and 5 on branches. ... etc. ONLY USE consistent enumeration style: 1. 2. 3. ... etc. No other enumeration format like 1- 2- or 1) 2) 3) is allowed.[/SYS]"
+    SYSTEM_PROMPT = """
+    <s>[SYS]Please generate short but very detailed scene description prompts for a text-to-image stable diffusion model. The scene should be realistic with natural lighting. Focus on the specified class, give specific details of the scene with very comprehensive context description. Describe as maximum as possible the finest details and avoid additional information, notes, suggestions and discussions. Start describing the scene without naming it. Per each description only write text no need for enumeration. ONLY USE consistent enumeration style: 1. 2. 3. ... etc. No other enumeration format like 1- 2- or 1) 2) 3) is allowed.    
+    The prompts should be in key worlds only, not text, and should the cameras brand usually used to capture high resolution photos as well as the description of the scene. Don't repeat scenes and propose new scenes and photo descriptions.[/SYS]
+    """
 
     # Shuffle the classes to pick them randomly
     # random.shuffle(class_keys)
@@ -61,7 +64,15 @@ def generate_prompts(class_list_path, output_path, model, tokenizer, prompts_num
             class_name = class_list[class_id]
 
             # Combine SYSTEM_PROMPT and class-specific prompt
-            prompt = f"{SYSTEM_PROMPT}<s>[INST] Give {prompts_number} distinct, very descriptive and very detailed prompts for a text-to-image diffusion model focusing mainly on: {class_name}. The {class_name} should be the main focus and element of the scene, very clear and easy to see and locate and shoud be in different numbers colors each time. The prompts should be exaustive in different cases, {class_name} numbers, {class_name} scenarios, {class_name} positions and orientations. Details of the background, the colors, the observed {class_name} or multiple {class_name}s in the scene should also be given in a very exhaustive manner. The more given description details of every part of the image scene the better.[/INST]"
+            prompt = f"""
+            {SYSTEM_PROMPT}<s>[INST] Give {prompts_number} distinct prompts for a text-to-image model focusing mainly on: {class_name}. The {class_name} should be the main focus and element of the scene, very clear and easy to see and locate. Additionally, {class_name} should be in different numbers, colors, positions (like sleeping, resting, eating, looking, walking) at each prompt. The prompts should be in very different cases and real scenarios. The prompts should be in key worlds only, not text, and should the cameras brand usually used to capture high resolution photos as well as the description of the scene. Different {class_name} numbers, {class_name} scenarios, {class_name} positions and orientations should be given.
+            Generate prompts detailed and similar to those templates:
+            - 'Wide shot of two walking majestic elephants, One elephant up the hill, Other small elephant following him. background: far mountains are visible. Photo, Photograph, Natural lighting, Canon EOS 5D Mark IV, RAW photo.\n'
+            - 'Photo of one tall giraffe, reaching for a tree branch, Giraffe in water with reflection, Background: tree with a few leaves, and the sky can be seen in the distance, sharp, photography, Nikon D850, 50mm, f/2.8, natural lighting\n'
+            - 'Nature photo capture of one tall giraffe, reaching for a tree branch, Giraffe in water with reflection, Background: tree with a few leaves, and the sky can be seen in the distance, sharp, photography, Nikon D850, 50mm, f/2.8, natural lighting\n'
+            - 'Three large brown bears walking across a fallen tree, with a small white dog sitting on the log in front. Background: walruses are visible and family of walruses lounges on the ice, sharp, photography, Nikon D850, 50mm, f/2.8, natural lighting\n'
+            start your prompt with 'Wide photo of' or 'Photo of' or 'HD picture of' or 'Nature capture of' etc. Then proceed by describing the position, orientation, action of the {class_name} like 'eating from' or 'playing with' or 'bathing in' or 'sleeping' or 'walking close to' or 'looking up' 'looking forward' or 'shout' or 'openning his mouth' or 'running toward' or 'fighting against' or 'drinking from' etc. Following this describe the image view (morning or afternoon or night or sunrise or sunset or cloudy or rainy or snowy or midst of clouds etc) and scene details such as 'close to tree' 'in desert' or 'in mud' or 'in forest' or 'in Savanna' or 'in water' or 'in river' or 'thick mist' etc. Then describe background such as 'mountain hills' or 'large trees' or 'sunset' or 'herd of wild animals' or 'sea' or 'lake' or 'blue sky' or 'cloudy sky' or 'large trees' or 'Rainforest' etc. Finish the prompt by 'sharp, photography, (camera model such as Canon EOS M6 or Leica SL2 or Hasselblad X1D II 50C or Fujifilm X-T2 or Nikon D850, 50mm, f/2.8 etc.), natural lighting, RAW photo.[/INST]
+            """
 
             tokens = tokenizer(
                 prompt,
@@ -73,8 +84,8 @@ def generate_prompts(class_list_path, output_path, model, tokenizer, prompts_num
                 "temperature": 0.7,
                 "top_p": 0.95,
                 "top_k": 40,
-                "max_new_tokens": 1024*8,
-                "repetition_penalty": 1.0
+                "max_new_tokens": 1024*12,
+                "repetition_penalty": 1.1
             }
 
             generation_output = model.generate(
