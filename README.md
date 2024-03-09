@@ -75,6 +75,12 @@ Parsers:
  - **llm_model**: LLM model for self-judging set by default to `'TheBloke/Mistral-7B-Instruct-v0.2-AWQ'` 
  - **output_folder**: `'path/to/output/storage/folder/'` where optimal images to specific prompts in the **prompt_file** in the will be saved
 
+4. Fine-tune stable diffusion on the images stored in the **output_folder**. To do so, run the following terminal command:
+
+```bash 
+python ...
+```
+
 ## Citation
 Please if you use our repository cite us as follows :
 
