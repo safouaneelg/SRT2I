@@ -43,9 +43,9 @@ The default parameters are:
  - `"TheBloke/Mistral-7B-Instruct-v0.2-AWQ"` Mistral 7B quantized
  - `llm/class_list.json` (containing 80 classes from COCO datasets)
  - `generated_prompts.txt` A total of 80*5=400 prompts are generated and stored in this file txt format
- - `prompts_number` The default number of prompts per class is 30
+ - `prompts_number` The default number of prompts per class is 30 (for the paper we used 100).
 
-Those are the class ids used in the paper: {15:cat}, {16:dog}, {17:horse}, {20:elephant}, {21:bear}
+Those are the class ids used in the paper: {20:Elephant} and {23:Giraffe}.
 In case you generate new prompts for other classes please change with the appropriate ids in [class_list](llm/class_list.json).
 
 2. The subsequent step is the generation of images from prompts, which can be done by using stable diffusion model.
