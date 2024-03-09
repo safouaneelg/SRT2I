@@ -61,7 +61,7 @@ The default parameters are:
  - `generated_prompts.txt` A total of 80*5=400 prompts are generated and stored in this file txt format
  - `prompts_number` The default number of prompts per class is 30
 
-3. the b
+3. To extract the optimal images based on the generated stable diffusion images. You can run the following command:
 
 ```bash 
 python sr_mechanism/self-reward_dataset_creation.py --image_folder 'path/to/images/folder/' --prompts_file 'path/to/prompts_file.txt' --llava_model 'LLAVA_MODEL' --yolo_model 'YOLO_WORLD_MODEL' 'yolov8x-worldv2.pt' --output_folder './optimal_pairs4/'
