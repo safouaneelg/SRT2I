@@ -3,7 +3,7 @@ torch # Optionally add ==2.2.1+cu121 if not working
 torchvision # Optionally add ==0.17 if not working
 
 #image visualization
-pillow==10.2
+pillow==10.3.0
 
 # Transformers huggingface lib
 transformers==4.38
