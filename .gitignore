@@ -8,14 +8,10 @@ yolov8s-world.pt
 yolov8x.pt
 yolov8l-world.pt
 yolov8x-worldv2.pt
-<<<<<<< HEAD
 optimal_pairs
 optimal_pairs[2-3]
 tutorial/fine_tune_sd/gifs
 generated_prompts2.txt
-=======
-optimal_pairs[2-3]
->>>>>>> b507eef8e115fd63c87e410c3bd345211f5a28eb
 
 *.tar
 *.tar.*
