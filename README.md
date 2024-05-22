@@ -76,7 +76,7 @@ Parsers:
  - **output_folder**: `'path/to/output/storage/folder/'` where optimal images to specific prompts in the **prompt_file** in the will be saved
 
 4. Fine-tune stable diffusion on the images stored in the **output_folder**. To do so, follow these steps:  
- - The images folder requires an accompanying *metada.json* file [https://huggingface.co/docs/datasets/v2.4.0/en/image_load#image-captioning]
+ - The images folder requires an accompanying *metada.json* file (see [hf docs](https://huggingface.co/docs/datasets/v2.4.0/en/image_load#image-captioning))
  - The steps and code demos (noteboks) are detailed in the [txt2im readme](txt2im/readme_txt2im.md)
 
 Once the dataset is ready and the training file customized, a single runs the script:
