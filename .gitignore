@@ -8,7 +8,7 @@ yolov8s-world.pt
 yolov8x.pt
 yolov8l-world.pt
 yolov8x-worldv2.pt
-optimal_pairs2
+optimal_pairs[2-3]
 
 *.tar
 *.tar.*
@@ -20,9 +20,20 @@ optimal_pairs2
 *.log
 *.log.*
 *.sig
+**/*.out
+**/*.csv
+**/*.pdf
 
 pkg/
 src/
 
 tutorial/sd_optim_pairs_test
 txt2im/diffusers/
+im2txt/
+tutorial/fine_tune_sd/*/
+tutorial/fine_tune_sd/create_gif.py
+tutorial/fine_tune_sd/*.ipynb
+tutorial/scoring
+tutorial/wandb
+tutorial/*.py
+tutorial/*.ipynb

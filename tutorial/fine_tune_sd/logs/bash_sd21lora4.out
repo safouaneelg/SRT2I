@@ -1,652 +1,0 @@
-03/11/2024 14:21:37 - INFO - __main__ - Distributed environment: MULTI_GPU  Backend: nccl
-Num processes: 2
-Process index: 1
-Local process index: 1
-Device: cuda:1
-
-Mixed precision type: fp16
-
-03/11/2024 14:21:37 - INFO - __main__ - Distributed environment: MULTI_GPU  Backend: nccl
-Num processes: 2
-Process index: 0
-Local process index: 0
-Device: cuda:0
-
-Mixed precision type: fp16
-
-{'dynamic_thresholding_ratio', 'clip_sample_range', 'sample_max_value', 'timestep_spacing', 'thresholding', 'rescale_betas_zero_snr', 'variance_type'} was not found in config. Values will be initialized to default values.
-{'latents_mean', 'latents_std', 'scaling_factor', 'force_upcast'} was not found in config. Values will be initialized to default values.
-{'time_cond_proj_dim', 'time_embedding_act_fn', 'resnet_time_scale_shift', 'transformer_layers_per_block', 'conv_in_kernel', 'resnet_skip_time_act', 'resnet_out_scale_factor', 'mid_block_only_cross_attention', 'mid_block_type', 'addition_embed_type', 'conv_out_kernel', 'addition_embed_type_num_heads', 'dropout', 'addition_time_embed_dim', 'encoder_hid_dim', 'num_attention_heads', 'attention_type', 'projection_class_embeddings_input_dim', 'reverse_transformer_layers_per_block', 'cross_attention_norm', 'class_embed_type', 'class_embeddings_concat', 'encoder_hid_dim_type', 'time_embedding_type', 'time_embedding_dim', 'timestep_post_act'} was not found in config. Values will be initialized to default values.
-Resolving data files:   0%|          | 0/201 [00:00<?, ?it/s]Resolving data files: 100%|██████████| 201/201 [00:00<00:00, 240118.23it/s]
-Resolving data files:   0%|          | 0/201 [00:00<?, ?it/s]Resolving data files: 100%|██████████| 201/201 [00:00<00:00, 197668.25it/s]
-wandb: Currently logged in as: arnaud-gucciardi (arn). Use `wandb login --relogin` to force relogin
-wandb: wandb version 0.16.4 is available!  To upgrade, please run:
-wandb:  $ pip install wandb --upgrade
-wandb: Tracking run with wandb version 0.16.0
-wandb: Run data is saved locally in /home/arnaud/projects/srt2i/tutorial/fine_tune_sd/wandb/run-20240311_142145-2qxfj6uv
-wandb: Run `wandb offline` to turn off syncing.
-wandb: Syncing run noble-plasma-12
-wandb: ⭐️ View project at https://wandb.ai/arn/text2image-fine-tune
-wandb: 🚀 View run at https://wandb.ai/arn/text2image-fine-tune/runs/2qxfj6uv
-03/11/2024 14:21:49 - INFO - __main__ - ***** Running training *****
-03/11/2024 14:21:49 - INFO - __main__ -   Num examples = 200
-03/11/2024 14:21:49 - INFO - __main__ -   Num Epochs = 200
-03/11/2024 14:21:49 - INFO - __main__ -   Instantaneous batch size per device = 18
-03/11/2024 14:21:49 - INFO - __main__ -   Total train batch size (w. parallel, distributed & accumulation) = 36
-03/11/2024 14:21:49 - INFO - __main__ -   Gradient Accumulation steps = 1
-03/11/2024 14:21:49 - INFO - __main__ -   Total optimization steps = 1200
-Steps:   0%|          | 0/1200 [00:00<?, ?it/s]Steps:   0%|          | 1/1200 [00:04<1:27:19,  4.37s/it]Steps:   0%|          | 1/1200 [00:04<1:27:19,  4.37s/it, lr=0.0001, step_loss=0.342]Steps:   0%|          | 2/1200 [00:07<1:15:49,  3.80s/it, lr=0.0001, step_loss=0.342]Steps:   0%|          | 2/1200 [00:07<1:15:49,  3.80s/it, lr=0.0001, step_loss=0.428]Steps:   0%|          | 3/1200 [00:11<1:11:44,  3.60s/it, lr=0.0001, step_loss=0.428]Steps:   0%|          | 3/1200 [00:11<1:11:44,  3.60s/it, lr=0.0001, step_loss=0.426]Steps:   0%|          | 4/1200 [00:14<1:09:33,  3.49s/it, lr=0.0001, step_loss=0.426]Steps:   0%|          | 4/1200 [00:14<1:09:33,  3.49s/it, lr=0.0001, step_loss=0.335]Steps:   0%|          | 5/1200 [00:17<1:08:23,  3.43s/it, lr=0.0001, step_loss=0.335]Steps:   0%|          | 5/1200 [00:17<1:08:23,  3.43s/it, lr=0.0001, step_loss=0.367]Steps:   0%|          | 6/1200 [00:20<1:04:56,  3.26s/it, lr=0.0001, step_loss=0.367]Steps:   0%|          | 6/1200 [00:20<1:04:56,  3.26s/it, lr=0.0001, step_loss=0.389]03/11/2024 14:22:10 - INFO - __main__ - Running validation... 
- Generating 4 images with prompt: A giraffe standing in a field of wildflowers, with a sense of vibrancy and life. Background: wildflower field, clear blue sky, and a warm, sunny day..
-{'image_encoder'} was not found in config. Values will be initialized to default values.
-
-Loading pipeline components...:   0%|          | 0/6 [00:00<?, ?it/s][A{'latents_mean', 'latents_std', 'scaling_factor', 'force_upcast'} was not found in config. Values will be initialized to default values.
-Loaded vae as AutoencoderKL from `vae` subfolder of stabilityai/stable-diffusion-2-1.
-
-Loading pipeline components...:  33%|███▎      | 2/6 [00:00<00:00,  7.10it/s][ALoaded text_encoder as CLIPTextModel from `text_encoder` subfolder of stabilityai/stable-diffusion-2-1.
-
-Loading pipeline components...:  50%|█████     | 3/6 [00:00<00:00,  3.25it/s][A{'dynamic_thresholding_ratio', 'clip_sample_range', 'sample_max_value', 'timestep_spacing', 'thresholding', 'rescale_betas_zero_snr'} was not found in config. Values will be initialized to default values.
-Loaded scheduler as DDIMScheduler from `scheduler` subfolder of stabilityai/stable-diffusion-2-1.
-Loaded feature_extractor as CLIPImageProcessor from `feature_extractor` subfolder of stabilityai/stable-diffusion-2-1.
-Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of stabilityai/stable-diffusion-2-1.
-Loading pipeline components...: 100%|██████████| 6/6 [00:00<00:00,  6.90it/s]
-Steps:   1%|          | 7/1200 [00:41<2:56:52,  8.90s/it, lr=0.0001, step_loss=0.389]Steps:   1%|          | 7/1200 [00:41<2:56:52,  8.90s/it, lr=0.0001, step_loss=0.363]Steps:   1%|          | 8/1200 [00:44<2:21:38,  7.13s/it, lr=0.0001, step_loss=0.363]Steps:   1%|          | 8/1200 [00:44<2:21:38,  7.13s/it, lr=0.0001, step_loss=0.471]Steps:   1%|          | 9/1200 [00:47<1:57:59,  5.94s/it, lr=0.0001, step_loss=0.471]Steps:   1%|          | 9/1200 [00:47<1:57:59,  5.94s/it, lr=0.0001, step_loss=0.434]Steps:   1%|          | 10/1200 [00:51<1:42:03,  5.15s/it, lr=0.0001, step_loss=0.434]Steps:   1%|          | 10/1200 [00:51<1:42:03,  5.15s/it, lr=0.0001, step_loss=0.383]Steps:   1%|          | 11/1200 [00:54<1:31:12,  4.60s/it, lr=0.0001, step_loss=0.383]Steps:   1%|          | 11/1200 [00:54<1:31:12,  4.60s/it, lr=0.0001, step_loss=0.399]Steps:   1%|          | 12/1200 [00:57<1:21:20,  4.11s/it, lr=0.0001, step_loss=0.399]Steps:   1%|          | 12/1200 [00:57<1:21:20,  4.11s/it, lr=0.0001, step_loss=0.39] 03/11/2024 14:22:47 - INFO - __main__ - Running validation... 
- Generating 4 images with prompt: A giraffe standing in a field of wildflowers, with a sense of vibrancy and life. Background: wildflower field, clear blue sky, and a warm, sunny day..
-{'image_encoder'} was not found in config. Values will be initialized to default values.
-
-Loading pipeline components...:   0%|          | 0/6 [00:00<?, ?it/s][A{'latents_mean', 'latents_std', 'scaling_factor', 'force_upcast'} was not found in config. Values will be initialized to default values.
-Loaded vae as AutoencoderKL from `vae` subfolder of stabilityai/stable-diffusion-2-1.
-
-Loading pipeline components...:  33%|███▎      | 2/6 [00:00<00:00,  7.71it/s][ALoaded text_encoder as CLIPTextModel from `text_encoder` subfolder of stabilityai/stable-diffusion-2-1.
-
-Loading pipeline components...:  50%|█████     | 3/6 [00:00<00:00,  3.49it/s][A{'dynamic_thresholding_ratio', 'clip_sample_range', 'sample_max_value', 'timestep_spacing', 'thresholding', 'rescale_betas_zero_snr'} was not found in config. Values will be initialized to default values.
-Loaded scheduler as DDIMScheduler from `scheduler` subfolder of stabilityai/stable-diffusion-2-1.
-Loaded feature_extractor as CLIPImageProcessor from `feature_extractor` subfolder of stabilityai/stable-diffusion-2-1.
-Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of stabilityai/stable-diffusion-2-1.
-Loading pipeline components...: 100%|██████████| 6/6 [00:00<00:00,  7.40it/s]
-Steps:   1%|          | 13/1200 [01:17<2:57:42,  8.98s/it, lr=0.0001, step_loss=0.39]Steps:   1%|          | 13/1200 [01:17<2:57:42,  8.98s/it, lr=0.0001, step_loss=0.309]Steps:   1%|          | 14/1200 [01:21<2:26:44,  7.42s/it, lr=0.0001, step_loss=0.309]Steps:   1%|          | 14/1200 [01:21<2:26:44,  7.42s/it, lr=0.0001, step_loss=0.378]Steps:   1%|▏         | 15/1200 [01:25<2:02:32,  6.20s/it, lr=0.0001, step_loss=0.378]Steps:   1%|▏         | 15/1200 [01:25<2:02:32,  6.20s/it, lr=0.0001, step_loss=0.402]Steps:   1%|▏         | 16/1200 [01:28<1:45:43,  5.36s/it, lr=0.0001, step_loss=0.402]Steps:   1%|▏         | 16/1200 [01:28<1:45:43,  5.36s/it, lr=0.0001, step_loss=0.37] Steps:   1%|▏         | 17/1200 [01:31<1:33:55,  4.76s/it, lr=0.0001, step_loss=0.37]Steps:   1%|▏         | 17/1200 [01:31<1:33:55,  4.76s/it, lr=0.0001, step_loss=0.371]Steps:   2%|▏         | 18/1200 [01:34<1:23:28,  4.24s/it, lr=0.0001, step_loss=0.371]Steps:   2%|▏         | 18/1200 [01:34<1:23:28,  4.24s/it, lr=0.0001, step_loss=0.354]03/11/2024 14:23:24 - INFO - __main__ - Running validation... 
- Generating 4 images with prompt: A giraffe standing in a field of wildflowers, with a sense of vibrancy and life. Background: wildflower field, clear blue sky, and a warm, sunny day..
-{'image_encoder'} was not found in config. Values will be initialized to default values.
-
-Loading pipeline components...:   0%|          | 0/6 [00:00<?, ?it/s][A{'latents_mean', 'latents_std', 'scaling_factor', 'force_upcast'} was not found in config. Values will be initialized to default values.
-Loaded vae as AutoencoderKL from `vae` subfolder of stabilityai/stable-diffusion-2-1.
-
-Loading pipeline components...:  33%|███▎      | 2/6 [00:00<00:00,  8.52it/s][ALoaded text_encoder as CLIPTextModel from `text_encoder` subfolder of stabilityai/stable-diffusion-2-1.
-
-Loading pipeline components...:  50%|█████     | 3/6 [00:00<00:00,  3.55it/s][A{'dynamic_thresholding_ratio', 'clip_sample_range', 'sample_max_value', 'timestep_spacing', 'thresholding', 'rescale_betas_zero_snr'} was not found in config. Values will be initialized to default values.
-Loaded scheduler as DDIMScheduler from `scheduler` subfolder of stabilityai/stable-diffusion-2-1.
-Loaded feature_extractor as CLIPImageProcessor from `feature_extractor` subfolder of stabilityai/stable-diffusion-2-1.
-Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of stabilityai/stable-diffusion-2-1.
-Loading pipeline components...: 100%|██████████| 6/6 [00:00<00:00,  7.58it/s]
-Steps:   2%|▏         | 19/1200 [01:55<2:58:59,  9.09s/it, lr=0.0001, step_loss=0.354]Steps:   2%|▏         | 19/1200 [01:55<2:58:59,  9.09s/it, lr=0.0001, step_loss=0.322]Steps:   2%|▏         | 20/1200 [01:58<2:25:16,  7.39s/it, lr=0.0001, step_loss=0.322]Steps:   2%|▏         | 20/1200 [01:58<2:25:16,  7.39s/it, lr=0.0001, step_loss=0.415]Steps:   2%|▏         | 21/1200 [02:02<2:01:38,  6.19s/it, lr=0.0001, step_loss=0.415]Steps:   2%|▏         | 21/1200 [02:02<2:01:38,  6.19s/it, lr=0.0001, step_loss=0.409]Steps:   2%|▏         | 22/1200 [02:05<1:45:14,  5.36s/it, lr=0.0001, step_loss=0.409]Steps:   2%|▏         | 22/1200 [02:05<1:45:14,  5.36s/it, lr=0.0001, step_loss=0.374]Steps:   2%|▏         | 23/1200 [02:08<1:33:42,  4.78s/it, lr=0.0001, step_loss=0.374]Steps:   2%|▏         | 23/1200 [02:08<1:33:42,  4.78s/it, lr=0.0001, step_loss=0.399]Steps:   2%|▏         | 24/1200 [02:11<1:23:22,  4.25s/it, lr=0.0001, step_loss=0.399]Steps:   2%|▏         | 24/1200 [02:11<1:23:22,  4.25s/it, lr=0.0001, step_loss=0.355]03/11/2024 14:24:01 - INFO - __main__ - Running validation... 
- Generating 4 images with prompt: A giraffe standing in a field of wildflowers, with a sense of vibrancy and life. Background: wildflower field, clear blue sky, and a warm, sunny day..
-{'image_encoder'} was not found in config. Values will be initialized to default values.
-
-Loading pipeline components...:   0%|          | 0/6 [00:00<?, ?it/s][A{'latents_mean', 'latents_std', 'scaling_factor', 'force_upcast'} was not found in config. Values will be initialized to default values.
-Loaded vae as AutoencoderKL from `vae` subfolder of stabilityai/stable-diffusion-2-1.
-
-Loading pipeline components...:  33%|███▎      | 2/6 [00:00<00:00,  7.57it/s][ALoaded text_encoder as CLIPTextModel from `text_encoder` subfolder of stabilityai/stable-diffusion-2-1.
-
-Loading pipeline components...:  50%|█████     | 3/6 [00:00<00:00,  3.48it/s][A{'dynamic_thresholding_ratio', 'clip_sample_range', 'sample_max_value', 'timestep_spacing', 'thresholding', 'rescale_betas_zero_snr'} was not found in config. Values will be initialized to default values.
-Loaded scheduler as DDIMScheduler from `scheduler` subfolder of stabilityai/stable-diffusion-2-1.
-Loaded feature_extractor as CLIPImageProcessor from `feature_extractor` subfolder of stabilityai/stable-diffusion-2-1.
-Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of stabilityai/stable-diffusion-2-1.
-Loading pipeline components...: 100%|██████████| 6/6 [00:00<00:00,  7.38it/s]
-Steps:   2%|▏         | 25/1200 [02:32<2:59:24,  9.16s/it, lr=0.0001, step_loss=0.355]Steps:   2%|▏         | 25/1200 [02:32<2:59:24,  9.16s/it, lr=0.0001, step_loss=0.371]Steps:   2%|▏         | 26/1200 [02:35<2:25:30,  7.44s/it, lr=0.0001, step_loss=0.371]Steps:   2%|▏         | 26/1200 [02:35<2:25:30,  7.44s/it, lr=0.0001, step_loss=0.35] Steps:   2%|▏         | 27/1200 [02:39<2:01:48,  6.23s/it, lr=0.0001, step_loss=0.35]Steps:   2%|▏         | 27/1200 [02:39<2:01:48,  6.23s/it, lr=0.0001, step_loss=0.387]Steps:   2%|▏         | 28/1200 [02:42<1:45:15,  5.39s/it, lr=0.0001, step_loss=0.387]Steps:   2%|▏         | 28/1200 [02:42<1:45:15,  5.39s/it, lr=0.0001, step_loss=0.334]Steps:   2%|▏         | 29/1200 [02:46<1:33:38,  4.80s/it, lr=0.0001, step_loss=0.334]Steps:   2%|▏         | 29/1200 [02:46<1:33:38,  4.80s/it, lr=0.0001, step_loss=0.454]Steps:   2%|▎         | 30/1200 [02:49<1:23:20,  4.27s/it, lr=0.0001, step_loss=0.454]Steps:   2%|▎         | 30/1200 [02:49<1:23:20,  4.27s/it, lr=0.0001, step_loss=0.379]03/11/2024 14:24:39 - INFO - __main__ - Running validation... 
- Generating 4 images with prompt: A giraffe standing in a field of wildflowers, with a sense of vibrancy and life. Background: wildflower field, clear blue sky, and a warm, sunny day..
-{'image_encoder'} was not found in config. Values will be initialized to default values.
-
-Loading pipeline components...:   0%|          | 0/6 [00:00<?, ?it/s][A{'latents_mean', 'latents_std', 'scaling_factor', 'force_upcast'} was not found in config. Values will be initialized to default values.
-Loaded vae as AutoencoderKL from `vae` subfolder of stabilityai/stable-diffusion-2-1.
-
-Loading pipeline components...:  33%|███▎      | 2/6 [00:00<00:00,  7.59it/s][ALoaded text_encoder as CLIPTextModel from `text_encoder` subfolder of stabilityai/stable-diffusion-2-1.
-
-Loading pipeline components...:  50%|█████     | 3/6 [00:00<00:00,  3.50it/s][A{'dynamic_thresholding_ratio', 'clip_sample_range', 'sample_max_value', 'timestep_spacing', 'thresholding', 'rescale_betas_zero_snr'} was not found in config. Values will be initialized to default values.
-Loaded scheduler as DDIMScheduler from `scheduler` subfolder of stabilityai/stable-diffusion-2-1.
-Loaded feature_extractor as CLIPImageProcessor from `feature_extractor` subfolder of stabilityai/stable-diffusion-2-1.
-Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of stabilityai/stable-diffusion-2-1.
-Loading pipeline components...: 100%|██████████| 6/6 [00:00<00:00,  7.43it/s]
-Steps:   3%|▎         | 31/1200 [03:09<2:59:34,  9.22s/it, lr=0.0001, step_loss=0.379]Steps:   3%|▎         | 31/1200 [03:09<2:59:34,  9.22s/it, lr=0.0001, step_loss=0.357]Steps:   3%|▎         | 32/1200 [03:13<2:25:35,  7.48s/it, lr=0.0001, step_loss=0.357]Steps:   3%|▎         | 32/1200 [03:13<2:25:35,  7.48s/it, lr=0.0001, step_loss=0.381]Steps:   3%|▎         | 33/1200 [03:16<2:01:46,  6.26s/it, lr=0.0001, step_loss=0.381]Steps:   3%|▎         | 33/1200 [03:16<2:01:46,  6.26s/it, lr=0.0001, step_loss=0.412]Steps:   3%|▎         | 34/1200 [03:20<1:45:09,  5.41s/it, lr=0.0001, step_loss=0.412]Steps:   3%|▎         | 34/1200 [03:20<1:45:09,  5.41s/it, lr=0.0001, step_loss=0.374]Steps:   3%|▎         | 35/1200 [03:23<1:33:30,  4.82s/it, lr=0.0001, step_loss=0.374]Steps:   3%|▎         | 35/1200 [03:23<1:33:30,  4.82s/it, lr=0.0001, step_loss=0.389]Steps:   3%|▎         | 36/1200 [03:26<1:23:10,  4.29s/it, lr=0.0001, step_loss=0.389]Steps:   3%|▎         | 36/1200 [03:26<1:23:10,  4.29s/it, lr=0.0001, step_loss=0.385]03/11/2024 14:25:16 - INFO - __main__ - Running validation... 
- Generating 4 images with prompt: A giraffe standing in a field of wildflowers, with a sense of vibrancy and life. Background: wildflower field, clear blue sky, and a warm, sunny day..
-{'image_encoder'} was not found in config. Values will be initialized to default values.
-
-Loading pipeline components...:   0%|          | 0/6 [00:00<?, ?it/s][A{'latents_mean', 'latents_std', 'scaling_factor', 'force_upcast'} was not found in config. Values will be initialized to default values.
-Loaded vae as AutoencoderKL from `vae` subfolder of stabilityai/stable-diffusion-2-1.
-
-Loading pipeline components...:  33%|███▎      | 2/6 [00:00<00:00,  7.57it/s][ALoaded text_encoder as CLIPTextModel from `text_encoder` subfolder of stabilityai/stable-diffusion-2-1.
-
-Loading pipeline components...:  50%|█████     | 3/6 [00:00<00:00,  3.50it/s][A{'dynamic_thresholding_ratio', 'clip_sample_range', 'sample_max_value', 'timestep_spacing', 'thresholding', 'rescale_betas_zero_snr'} was not found in config. Values will be initialized to default values.
-Loaded scheduler as DDIMScheduler from `scheduler` subfolder of stabilityai/stable-diffusion-2-1.
-Loaded feature_extractor as CLIPImageProcessor from `feature_extractor` subfolder of stabilityai/stable-diffusion-2-1.
-Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of stabilityai/stable-diffusion-2-1.
-Loading pipeline components...: 100%|██████████| 6/6 [00:00<00:00,  7.42it/s]
-Steps:   3%|▎         | 37/1200 [03:47<2:59:16,  9.25s/it, lr=0.0001, step_loss=0.385]Steps:   3%|▎         | 37/1200 [03:47<2:59:16,  9.25s/it, lr=0.0001, step_loss=0.361]Steps:   3%|▎         | 38/1200 [03:50<2:25:17,  7.50s/it, lr=0.0001, step_loss=0.361]Steps:   3%|▎         | 38/1200 [03:50<2:25:17,  7.50s/it, lr=0.0001, step_loss=0.377]Steps:   3%|▎         | 39/1200 [03:54<2:01:29,  6.28s/it, lr=0.0001, step_loss=0.377]Steps:   3%|▎         | 39/1200 [03:54<2:01:29,  6.28s/it, lr=0.0001, step_loss=0.415]Steps:   3%|▎         | 40/1200 [03:57<1:44:53,  5.43s/it, lr=0.0001, step_loss=0.415]Steps:   3%|▎         | 40/1200 [03:57<1:44:53,  5.43s/it, lr=0.0001, step_loss=0.335]Steps:   3%|▎         | 41/1200 [04:01<1:33:12,  4.83s/it, lr=0.0001, step_loss=0.335]Steps:   3%|▎         | 41/1200 [04:01<1:33:12,  4.83s/it, lr=0.0001, step_loss=0.375]Steps:   4%|▎         | 42/1200 [04:04<1:22:53,  4.30s/it, lr=0.0001, step_loss=0.375]Steps:   4%|▎         | 42/1200 [04:04<1:22:53,  4.30s/it, lr=0.0001, step_loss=0.411]03/11/2024 14:25:54 - INFO - __main__ - Running validation... 
- Generating 4 images with prompt: A giraffe standing in a field of wildflowers, with a sense of vibrancy and life. Background: wildflower field, clear blue sky, and a warm, sunny day..
-{'image_encoder'} was not found in config. Values will be initialized to default values.
-
-Loading pipeline components...:   0%|          | 0/6 [00:00<?, ?it/s][A{'latents_mean', 'latents_std', 'scaling_factor', 'force_upcast'} was not found in config. Values will be initialized to default values.
-Loaded vae as AutoencoderKL from `vae` subfolder of stabilityai/stable-diffusion-2-1.
-
-Loading pipeline components...:  33%|███▎      | 2/6 [00:00<00:00,  7.73it/s][ALoaded text_encoder as CLIPTextModel from `text_encoder` subfolder of stabilityai/stable-diffusion-2-1.
-
-Loading pipeline components...:  50%|█████     | 3/6 [00:00<00:00,  3.52it/s][A{'dynamic_thresholding_ratio', 'clip_sample_range', 'sample_max_value', 'timestep_spacing', 'thresholding', 'rescale_betas_zero_snr'} was not found in config. Values will be initialized to default values.
-Loaded scheduler as DDIMScheduler from `scheduler` subfolder of stabilityai/stable-diffusion-2-1.
-Loaded feature_extractor as CLIPImageProcessor from `feature_extractor` subfolder of stabilityai/stable-diffusion-2-1.
-Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of stabilityai/stable-diffusion-2-1.
-Loading pipeline components...: 100%|██████████| 6/6 [00:00<00:00,  7.47it/s]
-Steps:   4%|▎         | 43/1200 [04:25<2:58:49,  9.27s/it, lr=0.0001, step_loss=0.411]Steps:   4%|▎         | 43/1200 [04:25<2:58:49,  9.27s/it, lr=0.0001, step_loss=0.333]Steps:   4%|▎         | 44/1200 [04:28<2:24:51,  7.52s/it, lr=0.0001, step_loss=0.333]Steps:   4%|▎         | 44/1200 [04:28<2:24:51,  7.52s/it, lr=0.0001, step_loss=0.405]Steps:   4%|▍         | 45/1200 [04:32<2:01:01,  6.29s/it, lr=0.0001, step_loss=0.405]Steps:   4%|▍         | 45/1200 [04:32<2:01:01,  6.29s/it, lr=0.0001, step_loss=0.416]Steps:   4%|▍         | 46/1200 [04:35<1:44:37,  5.44s/it, lr=0.0001, step_loss=0.416]Steps:   4%|▍         | 46/1200 [04:35<1:44:37,  5.44s/it, lr=0.0001, step_loss=0.351]Steps:   4%|▍         | 47/1200 [04:38<1:32:55,  4.84s/it, lr=0.0001, step_loss=0.351]Steps:   4%|▍         | 47/1200 [04:38<1:32:55,  4.84s/it, lr=0.0001, step_loss=0.43] Steps:   4%|▍         | 48/1200 [04:41<1:22:35,  4.30s/it, lr=0.0001, step_loss=0.43]Steps:   4%|▍         | 48/1200 [04:41<1:22:35,  4.30s/it, lr=0.0001, step_loss=0.366]03/11/2024 14:26:31 - INFO - __main__ - Running validation... 
- Generating 4 images with prompt: A giraffe standing in a field of wildflowers, with a sense of vibrancy and life. Background: wildflower field, clear blue sky, and a warm, sunny day..
-{'image_encoder'} was not found in config. Values will be initialized to default values.
-
-Loading pipeline components...:   0%|          | 0/6 [00:00<?, ?it/s][A{'latents_mean', 'latents_std', 'scaling_factor', 'force_upcast'} was not found in config. Values will be initialized to default values.
-Loaded vae as AutoencoderKL from `vae` subfolder of stabilityai/stable-diffusion-2-1.
-
-Loading pipeline components...:  33%|███▎      | 2/6 [00:00<00:00,  7.63it/s][ALoaded text_encoder as CLIPTextModel from `text_encoder` subfolder of stabilityai/stable-diffusion-2-1.
-
-Loading pipeline components...:  50%|█████     | 3/6 [00:00<00:00,  3.50it/s][A{'dynamic_thresholding_ratio', 'clip_sample_range', 'sample_max_value', 'timestep_spacing', 'thresholding', 'rescale_betas_zero_snr'} was not found in config. Values will be initialized to default values.
-Loaded scheduler as DDIMScheduler from `scheduler` subfolder of stabilityai/stable-diffusion-2-1.
-Loaded feature_extractor as CLIPImageProcessor from `feature_extractor` subfolder of stabilityai/stable-diffusion-2-1.
-Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of stabilityai/stable-diffusion-2-1.
-Loading pipeline components...: 100%|██████████| 6/6 [00:00<00:00,  7.43it/s]
-Steps:   4%|▍         | 49/1200 [05:02<2:57:26,  9.25s/it, lr=0.0001, step_loss=0.366]Steps:   4%|▍         | 49/1200 [05:02<2:57:26,  9.25s/it, lr=0.0001, step_loss=0.358]Steps:   4%|▍         | 50/1200 [05:06<2:23:48,  7.50s/it, lr=0.0001, step_loss=0.358]Steps:   4%|▍         | 50/1200 [05:06<2:23:48,  7.50s/it, lr=0.0001, step_loss=0.399]Steps:   4%|▍         | 51/1200 [05:09<2:00:17,  6.28s/it, lr=0.0001, step_loss=0.399]Steps:   4%|▍         | 51/1200 [05:09<2:00:17,  6.28s/it, lr=0.0001, step_loss=0.44] Steps:   4%|▍         | 52/1200 [05:13<1:43:49,  5.43s/it, lr=0.0001, step_loss=0.44]Steps:   4%|▍         | 52/1200 [05:13<1:43:49,  5.43s/it, lr=0.0001, step_loss=0.349]Steps:   4%|▍         | 53/1200 [05:16<1:32:15,  4.83s/it, lr=0.0001, step_loss=0.349]Steps:   4%|▍         | 53/1200 [05:16<1:32:15,  4.83s/it, lr=0.0001, step_loss=0.395]Steps:   4%|▍         | 54/1200 [05:19<1:22:00,  4.29s/it, lr=0.0001, step_loss=0.395]Steps:   4%|▍         | 54/1200 [05:19<1:22:00,  4.29s/it, lr=0.0001, step_loss=0.379]03/11/2024 14:27:09 - INFO - __main__ - Running validation... 
- Generating 4 images with prompt: A giraffe standing in a field of wildflowers, with a sense of vibrancy and life. Background: wildflower field, clear blue sky, and a warm, sunny day..
-{'image_encoder'} was not found in config. Values will be initialized to default values.
-
-Loading pipeline components...:   0%|          | 0/6 [00:00<?, ?it/s][A{'latents_mean', 'latents_std', 'scaling_factor', 'force_upcast'} was not found in config. Values will be initialized to default values.
-Loaded vae as AutoencoderKL from `vae` subfolder of stabilityai/stable-diffusion-2-1.
-
-Loading pipeline components...:  33%|███▎      | 2/6 [00:00<00:00,  7.61it/s][ALoaded text_encoder as CLIPTextModel from `text_encoder` subfolder of stabilityai/stable-diffusion-2-1.
-
-Loading pipeline components...:  50%|█████     | 3/6 [00:00<00:00,  3.48it/s][A{'dynamic_thresholding_ratio', 'clip_sample_range', 'sample_max_value', 'timestep_spacing', 'thresholding', 'rescale_betas_zero_snr'} was not found in config. Values will be initialized to default values.
-Loaded scheduler as DDIMScheduler from `scheduler` subfolder of stabilityai/stable-diffusion-2-1.
-Loaded feature_extractor as CLIPImageProcessor from `feature_extractor` subfolder of stabilityai/stable-diffusion-2-1.
-Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of stabilityai/stable-diffusion-2-1.
-Loading pipeline components...: 100%|██████████| 6/6 [00:00<00:00,  7.39it/s]
-Steps:   5%|▍         | 55/1200 [05:40<2:56:05,  9.23s/it, lr=0.0001, step_loss=0.379]Steps:   5%|▍         | 55/1200 [05:40<2:56:05,  9.23s/it, lr=0.0001, step_loss=0.369]Steps:   5%|▍         | 56/1200 [05:43<2:22:51,  7.49s/it, lr=0.0001, step_loss=0.369]Steps:   5%|▍         | 56/1200 [05:43<2:22:51,  7.49s/it, lr=0.0001, step_loss=0.396]Steps:   5%|▍         | 57/1200 [05:47<1:59:24,  6.27s/it, lr=0.0001, step_loss=0.396]Steps:   5%|▍         | 57/1200 [05:47<1:59:24,  6.27s/it, lr=0.0001, step_loss=0.407]Steps:   5%|▍         | 58/1200 [05:50<1:43:05,  5.42s/it, lr=0.0001, step_loss=0.407]Steps:   5%|▍         | 58/1200 [05:50<1:43:05,  5.42s/it, lr=0.0001, step_loss=0.352]Steps:   5%|▍         | 59/1200 [05:53<1:31:37,  4.82s/it, lr=0.0001, step_loss=0.352]Steps:   5%|▍         | 59/1200 [05:53<1:31:37,  4.82s/it, lr=0.0001, step_loss=0.454]Steps:   5%|▌         | 60/1200 [05:57<1:21:27,  4.29s/it, lr=0.0001, step_loss=0.454]Steps:   5%|▌         | 60/1200 [05:57<1:21:27,  4.29s/it, lr=0.0001, step_loss=0.35] 03/11/2024 14:27:46 - INFO - __main__ - Running validation... 
- Generating 4 images with prompt: A giraffe standing in a field of wildflowers, with a sense of vibrancy and life. Background: wildflower field, clear blue sky, and a warm, sunny day..
-{'image_encoder'} was not found in config. Values will be initialized to default values.
-
-Loading pipeline components...:   0%|          | 0/6 [00:00<?, ?it/s][A{'latents_mean', 'latents_std', 'scaling_factor', 'force_upcast'} was not found in config. Values will be initialized to default values.
-Loaded vae as AutoencoderKL from `vae` subfolder of stabilityai/stable-diffusion-2-1.
-
-Loading pipeline components...:  33%|███▎      | 2/6 [00:00<00:00,  7.68it/s][ALoaded text_encoder as CLIPTextModel from `text_encoder` subfolder of stabilityai/stable-diffusion-2-1.
-
-Loading pipeline components...:  50%|█████     | 3/6 [00:00<00:00,  3.51it/s][A{'dynamic_thresholding_ratio', 'clip_sample_range', 'sample_max_value', 'timestep_spacing', 'thresholding', 'rescale_betas_zero_snr'} was not found in config. Values will be initialized to default values.
-Loaded scheduler as DDIMScheduler from `scheduler` subfolder of stabilityai/stable-diffusion-2-1.
-Loaded feature_extractor as CLIPImageProcessor from `feature_extractor` subfolder of stabilityai/stable-diffusion-2-1.
-Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of stabilityai/stable-diffusion-2-1.
-Loading pipeline components...: 100%|██████████| 6/6 [00:00<00:00,  7.46it/s]
-Steps:   5%|▌         | 61/1200 [06:18<2:56:25,  9.29s/it, lr=0.0001, step_loss=0.35]Steps:   5%|▌         | 61/1200 [06:18<2:56:25,  9.29s/it, lr=0.0001, step_loss=0.36]Steps:   5%|▌         | 62/1200 [06:21<2:22:52,  7.53s/it, lr=0.0001, step_loss=0.36]Steps:   5%|▌         | 62/1200 [06:21<2:22:52,  7.53s/it, lr=0.0001, step_loss=0.434]Steps:   5%|▌         | 63/1200 [06:24<1:59:19,  6.30s/it, lr=0.0001, step_loss=0.434]Steps:   5%|▌         | 63/1200 [06:24<1:59:19,  6.30s/it, lr=0.0001, step_loss=0.409]Steps:   5%|▌         | 64/1200 [06:28<1:42:56,  5.44s/it, lr=0.0001, step_loss=0.409]Steps:   5%|▌         | 64/1200 [06:28<1:42:56,  5.44s/it, lr=0.0001, step_loss=0.317]Steps:   5%|▌         | 65/1200 [06:31<1:31:24,  4.83s/it, lr=0.0001, step_loss=0.317]Steps:   5%|▌         | 65/1200 [06:31<1:31:24,  4.83s/it, lr=0.0001, step_loss=0.373]Steps:   6%|▌         | 66/1200 [06:34<1:21:13,  4.30s/it, lr=0.0001, step_loss=0.373]Steps:   6%|▌         | 66/1200 [06:34<1:21:13,  4.30s/it, lr=0.0001, step_loss=0.341]03/11/2024 14:28:24 - INFO - __main__ - Running validation... 
- Generating 4 images with prompt: A giraffe standing in a field of wildflowers, with a sense of vibrancy and life. Background: wildflower field, clear blue sky, and a warm, sunny day..
-{'image_encoder'} was not found in config. Values will be initialized to default values.
-
-Loading pipeline components...:   0%|          | 0/6 [00:00<?, ?it/s][A{'latents_mean', 'latents_std', 'scaling_factor', 'force_upcast'} was not found in config. Values will be initialized to default values.
-Loaded vae as AutoencoderKL from `vae` subfolder of stabilityai/stable-diffusion-2-1.
-
-Loading pipeline components...:  33%|███▎      | 2/6 [00:00<00:00,  7.62it/s][ALoaded text_encoder as CLIPTextModel from `text_encoder` subfolder of stabilityai/stable-diffusion-2-1.
-
-Loading pipeline components...:  50%|█████     | 3/6 [00:00<00:00,  3.49it/s][A{'dynamic_thresholding_ratio', 'clip_sample_range', 'sample_max_value', 'timestep_spacing', 'thresholding', 'rescale_betas_zero_snr'} was not found in config. Values will be initialized to default values.
-Loaded scheduler as DDIMScheduler from `scheduler` subfolder of stabilityai/stable-diffusion-2-1.
-Loaded feature_extractor as CLIPImageProcessor from `feature_extractor` subfolder of stabilityai/stable-diffusion-2-1.
-Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of stabilityai/stable-diffusion-2-1.
-Loading pipeline components...: 100%|██████████| 6/6 [00:00<00:00,  7.41it/s]
-Steps:   6%|▌         | 67/1200 [06:55<2:54:27,  9.24s/it, lr=0.0001, step_loss=0.341]Steps:   6%|▌         | 67/1200 [06:55<2:54:27,  9.24s/it, lr=0.0001, step_loss=0.343]Steps:   6%|▌         | 68/1200 [06:58<2:21:23,  7.49s/it, lr=0.0001, step_loss=0.343]Steps:   6%|▌         | 68/1200 [06:58<2:21:23,  7.49s/it, lr=0.0001, step_loss=0.401]Steps:   6%|▌         | 69/1200 [07:02<1:58:10,  6.27s/it, lr=0.0001, step_loss=0.401]Steps:   6%|▌         | 69/1200 [07:02<1:58:10,  6.27s/it, lr=0.0001, step_loss=0.423]Steps:   6%|▌         | 70/1200 [07:05<1:42:00,  5.42s/it, lr=0.0001, step_loss=0.423]Steps:   6%|▌         | 70/1200 [07:05<1:42:00,  5.42s/it, lr=0.0001, step_loss=0.349]Steps:   6%|▌         | 71/1200 [07:09<1:30:38,  4.82s/it, lr=0.0001, step_loss=0.349]Steps:   6%|▌         | 71/1200 [07:09<1:30:38,  4.82s/it, lr=0.0001, step_loss=0.379]Steps:   6%|▌         | 72/1200 [07:12<1:20:35,  4.29s/it, lr=0.0001, step_loss=0.379]Steps:   6%|▌         | 72/1200 [07:12<1:20:35,  4.29s/it, lr=0.0001, step_loss=0.348]03/11/2024 14:29:02 - INFO - __main__ - Running validation... 
- Generating 4 images with prompt: A giraffe standing in a field of wildflowers, with a sense of vibrancy and life. Background: wildflower field, clear blue sky, and a warm, sunny day..
-{'image_encoder'} was not found in config. Values will be initialized to default values.
-
-Loading pipeline components...:   0%|          | 0/6 [00:00<?, ?it/s][A{'latents_mean', 'latents_std', 'scaling_factor', 'force_upcast'} was not found in config. Values will be initialized to default values.
-Loaded vae as AutoencoderKL from `vae` subfolder of stabilityai/stable-diffusion-2-1.
-
-Loading pipeline components...:  33%|███▎      | 2/6 [00:00<00:00,  7.71it/s][ALoaded text_encoder as CLIPTextModel from `text_encoder` subfolder of stabilityai/stable-diffusion-2-1.
-
-Loading pipeline components...:  50%|█████     | 3/6 [00:00<00:00,  3.48it/s][A{'dynamic_thresholding_ratio', 'clip_sample_range', 'sample_max_value', 'timestep_spacing', 'thresholding', 'rescale_betas_zero_snr'} was not found in config. Values will be initialized to default values.
-Loaded scheduler as DDIMScheduler from `scheduler` subfolder of stabilityai/stable-diffusion-2-1.
-Loaded feature_extractor as CLIPImageProcessor from `feature_extractor` subfolder of stabilityai/stable-diffusion-2-1.
-Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of stabilityai/stable-diffusion-2-1.
-Loading pipeline components...: 100%|██████████| 6/6 [00:00<00:00,  7.40it/s]
-Steps:   6%|▌         | 73/1200 [07:32<2:53:04,  9.21s/it, lr=0.0001, step_loss=0.348]Steps:   6%|▌         | 73/1200 [07:32<2:53:04,  9.21s/it, lr=0.0001, step_loss=0.319]Steps:   6%|▌         | 74/1200 [07:36<2:20:24,  7.48s/it, lr=0.0001, step_loss=0.319]Steps:   6%|▌         | 74/1200 [07:36<2:20:24,  7.48s/it, lr=0.0001, step_loss=0.399]Steps:   6%|▋         | 75/1200 [07:39<1:57:23,  6.26s/it, lr=0.0001, step_loss=0.399]Steps:   6%|▋         | 75/1200 [07:39<1:57:23,  6.26s/it, lr=0.0001, step_loss=0.417]Steps:   6%|▋         | 76/1200 [07:43<1:41:21,  5.41s/it, lr=0.0001, step_loss=0.417]Steps:   6%|▋         | 76/1200 [07:43<1:41:21,  5.41s/it, lr=0.0001, step_loss=0.433]Steps:   6%|▋         | 77/1200 [07:46<1:30:03,  4.81s/it, lr=0.0001, step_loss=0.433]Steps:   6%|▋         | 77/1200 [07:46<1:30:03,  4.81s/it, lr=0.0001, step_loss=0.381]Steps:   6%|▋         | 78/1200 [07:49<1:20:05,  4.28s/it, lr=0.0001, step_loss=0.381]Steps:   6%|▋         | 78/1200 [07:49<1:20:05,  4.28s/it, lr=0.0001, step_loss=0.359]03/11/2024 14:29:39 - INFO - __main__ - Running validation... 
- Generating 4 images with prompt: A giraffe standing in a field of wildflowers, with a sense of vibrancy and life. Background: wildflower field, clear blue sky, and a warm, sunny day..
-{'image_encoder'} was not found in config. Values will be initialized to default values.
-
-Loading pipeline components...:   0%|          | 0/6 [00:00<?, ?it/s][A{'latents_mean', 'latents_std', 'scaling_factor', 'force_upcast'} was not found in config. Values will be initialized to default values.
-Loaded vae as AutoencoderKL from `vae` subfolder of stabilityai/stable-diffusion-2-1.
-
-Loading pipeline components...:  33%|███▎      | 2/6 [00:00<00:00,  7.67it/s][ALoaded text_encoder as CLIPTextModel from `text_encoder` subfolder of stabilityai/stable-diffusion-2-1.
-
-Loading pipeline components...:  50%|█████     | 3/6 [00:00<00:00,  3.52it/s][A{'dynamic_thresholding_ratio', 'clip_sample_range', 'sample_max_value', 'timestep_spacing', 'thresholding', 'rescale_betas_zero_snr'} was not found in config. Values will be initialized to default values.
-Loaded scheduler as DDIMScheduler from `scheduler` subfolder of stabilityai/stable-diffusion-2-1.
-Loaded feature_extractor as CLIPImageProcessor from `feature_extractor` subfolder of stabilityai/stable-diffusion-2-1.
-Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of stabilityai/stable-diffusion-2-1.
-Loading pipeline components...: 100%|██████████| 6/6 [00:00<00:00,  7.47it/s]
-Steps:   7%|▋         | 79/1200 [08:10<2:52:30,  9.23s/it, lr=0.0001, step_loss=0.359]Steps:   7%|▋         | 79/1200 [08:10<2:52:30,  9.23s/it, lr=0.0001, step_loss=0.361]Steps:   7%|▋         | 80/1200 [08:13<2:19:46,  7.49s/it, lr=0.0001, step_loss=0.361]Steps:   7%|▋         | 80/1200 [08:13<2:19:46,  7.49s/it, lr=0.0001, step_loss=0.378]Steps:   7%|▋         | 81/1200 [08:17<1:56:50,  6.26s/it, lr=0.0001, step_loss=0.378]Steps:   7%|▋         | 81/1200 [08:17<1:56:50,  6.26s/it, lr=0.0001, step_loss=0.45] Steps:   7%|▋         | 82/1200 [08:20<1:40:51,  5.41s/it, lr=0.0001, step_loss=0.45]Steps:   7%|▋         | 82/1200 [08:20<1:40:51,  5.41s/it, lr=0.0001, step_loss=0.332]Steps:   7%|▋         | 83/1200 [08:24<1:29:36,  4.81s/it, lr=0.0001, step_loss=0.332]Steps:   7%|▋         | 83/1200 [08:24<1:29:36,  4.81s/it, lr=0.0001, step_loss=0.369]Steps:   7%|▋         | 84/1200 [08:27<1:19:40,  4.28s/it, lr=0.0001, step_loss=0.369]Steps:   7%|▋         | 84/1200 [08:27<1:19:40,  4.28s/it, lr=0.0001, step_loss=0.351]03/11/2024 14:30:17 - INFO - __main__ - Running validation... 
- Generating 4 images with prompt: A giraffe standing in a field of wildflowers, with a sense of vibrancy and life. Background: wildflower field, clear blue sky, and a warm, sunny day..
-{'image_encoder'} was not found in config. Values will be initialized to default values.
-
-Loading pipeline components...:   0%|          | 0/6 [00:00<?, ?it/s][A{'latents_mean', 'latents_std', 'scaling_factor', 'force_upcast'} was not found in config. Values will be initialized to default values.
-Loaded vae as AutoencoderKL from `vae` subfolder of stabilityai/stable-diffusion-2-1.
-
-Loading pipeline components...:  33%|███▎      | 2/6 [00:00<00:00,  7.69it/s][ALoaded text_encoder as CLIPTextModel from `text_encoder` subfolder of stabilityai/stable-diffusion-2-1.
-
-Loading pipeline components...:  50%|█████     | 3/6 [00:00<00:00,  3.49it/s][A{'dynamic_thresholding_ratio', 'clip_sample_range', 'sample_max_value', 'timestep_spacing', 'thresholding', 'rescale_betas_zero_snr'} was not found in config. Values will be initialized to default values.
-Loaded scheduler as DDIMScheduler from `scheduler` subfolder of stabilityai/stable-diffusion-2-1.
-Loaded feature_extractor as CLIPImageProcessor from `feature_extractor` subfolder of stabilityai/stable-diffusion-2-1.
-Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of stabilityai/stable-diffusion-2-1.
-Loading pipeline components...: 100%|██████████| 6/6 [00:00<00:00,  7.42it/s]
-Steps:   7%|▋         | 85/1200 [08:48<2:52:30,  9.28s/it, lr=0.0001, step_loss=0.351]Steps:   7%|▋         | 85/1200 [08:48<2:52:30,  9.28s/it, lr=0.0001, step_loss=0.362]Steps:   7%|▋         | 86/1200 [08:51<2:19:42,  7.52s/it, lr=0.0001, step_loss=0.362]Steps:   7%|▋         | 86/1200 [08:51<2:19:42,  7.52s/it, lr=0.0001, step_loss=0.415]Steps:   7%|▋         | 87/1200 [08:54<1:56:42,  6.29s/it, lr=0.0001, step_loss=0.415]Steps:   7%|▋         | 87/1200 [08:54<1:56:42,  6.29s/it, lr=0.0001, step_loss=0.426]Steps:   7%|▋         | 88/1200 [08:58<1:40:38,  5.43s/it, lr=0.0001, step_loss=0.426]Steps:   7%|▋         | 88/1200 [08:58<1:40:38,  5.43s/it, lr=0.0001, step_loss=0.354]Steps:   7%|▋         | 89/1200 [09:01<1:29:21,  4.83s/it, lr=0.0001, step_loss=0.354]Steps:   7%|▋         | 89/1200 [09:01<1:29:21,  4.83s/it, lr=0.0001, step_loss=0.387]Steps:   8%|▊         | 90/1200 [09:04<1:19:24,  4.29s/it, lr=0.0001, step_loss=0.387]Steps:   8%|▊         | 90/1200 [09:04<1:19:24,  4.29s/it, lr=0.0001, step_loss=0.367]03/11/2024 14:30:54 - INFO - __main__ - Running validation... 
- Generating 4 images with prompt: A giraffe standing in a field of wildflowers, with a sense of vibrancy and life. Background: wildflower field, clear blue sky, and a warm, sunny day..
-{'image_encoder'} was not found in config. Values will be initialized to default values.
-
-Loading pipeline components...:   0%|          | 0/6 [00:00<?, ?it/s][A{'latents_mean', 'latents_std', 'scaling_factor', 'force_upcast'} was not found in config. Values will be initialized to default values.
-Loaded vae as AutoencoderKL from `vae` subfolder of stabilityai/stable-diffusion-2-1.
-
-Loading pipeline components...:  33%|███▎      | 2/6 [00:00<00:00,  7.68it/s][ALoaded text_encoder as CLIPTextModel from `text_encoder` subfolder of stabilityai/stable-diffusion-2-1.
-
-Loading pipeline components...:  50%|█████     | 3/6 [00:00<00:00,  3.49it/s][A{'dynamic_thresholding_ratio', 'clip_sample_range', 'sample_max_value', 'timestep_spacing', 'thresholding', 'rescale_betas_zero_snr'} was not found in config. Values will be initialized to default values.
-Loaded scheduler as DDIMScheduler from `scheduler` subfolder of stabilityai/stable-diffusion-2-1.
-Loaded feature_extractor as CLIPImageProcessor from `feature_extractor` subfolder of stabilityai/stable-diffusion-2-1.
-Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of stabilityai/stable-diffusion-2-1.
-Loading pipeline components...: 100%|██████████| 6/6 [00:00<00:00,  7.42it/s]
-Steps:   8%|▊         | 91/1200 [09:25<2:50:26,  9.22s/it, lr=0.0001, step_loss=0.367]Steps:   8%|▊         | 91/1200 [09:25<2:50:26,  9.22s/it, lr=0.0001, step_loss=0.369]Steps:   8%|▊         | 92/1200 [09:29<2:18:08,  7.48s/it, lr=0.0001, step_loss=0.369]Steps:   8%|▊         | 92/1200 [09:29<2:18:08,  7.48s/it, lr=0.0001, step_loss=0.399]Steps:   8%|▊         | 93/1200 [09:32<1:55:28,  6.26s/it, lr=0.0001, step_loss=0.399]Steps:   8%|▊         | 93/1200 [09:32<1:55:28,  6.26s/it, lr=0.0001, step_loss=0.419]Steps:   8%|▊         | 94/1200 [09:35<1:39:43,  5.41s/it, lr=0.0001, step_loss=0.419]Steps:   8%|▊         | 94/1200 [09:35<1:39:43,  5.41s/it, lr=0.0001, step_loss=0.353]Steps:   8%|▊         | 95/1200 [09:39<1:28:37,  4.81s/it, lr=0.0001, step_loss=0.353]Steps:   8%|▊         | 95/1200 [09:39<1:28:37,  4.81s/it, lr=0.0001, step_loss=0.411]Steps:   8%|▊         | 96/1200 [09:42<1:18:46,  4.28s/it, lr=0.0001, step_loss=0.411]Steps:   8%|▊         | 96/1200 [09:42<1:18:46,  4.28s/it, lr=0.0001, step_loss=0.346]03/11/2024 14:31:32 - INFO - __main__ - Running validation... 
- Generating 4 images with prompt: A giraffe standing in a field of wildflowers, with a sense of vibrancy and life. Background: wildflower field, clear blue sky, and a warm, sunny day..
-{'image_encoder'} was not found in config. Values will be initialized to default values.
-
-Loading pipeline components...:   0%|          | 0/6 [00:00<?, ?it/s][A{'latents_mean', 'latents_std', 'scaling_factor', 'force_upcast'} was not found in config. Values will be initialized to default values.
-Loaded vae as AutoencoderKL from `vae` subfolder of stabilityai/stable-diffusion-2-1.
-
-Loading pipeline components...:  33%|███▎      | 2/6 [00:00<00:00,  7.55it/s][ALoaded text_encoder as CLIPTextModel from `text_encoder` subfolder of stabilityai/stable-diffusion-2-1.
-
-Loading pipeline components...:  50%|█████     | 3/6 [00:00<00:00,  3.47it/s][A{'dynamic_thresholding_ratio', 'clip_sample_range', 'sample_max_value', 'timestep_spacing', 'thresholding', 'rescale_betas_zero_snr'} was not found in config. Values will be initialized to default values.
-Loaded scheduler as DDIMScheduler from `scheduler` subfolder of stabilityai/stable-diffusion-2-1.
-Loaded feature_extractor as CLIPImageProcessor from `feature_extractor` subfolder of stabilityai/stable-diffusion-2-1.
-Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of stabilityai/stable-diffusion-2-1.
-Loading pipeline components...: 100%|██████████| 6/6 [00:00<00:00,  7.37it/s]
-Steps:   8%|▊         | 97/1200 [10:03<2:49:29,  9.22s/it, lr=0.0001, step_loss=0.346]Steps:   8%|▊         | 97/1200 [10:03<2:49:29,  9.22s/it, lr=0.0001, step_loss=0.36] Steps:   8%|▊         | 98/1200 [10:06<2:17:23,  7.48s/it, lr=0.0001, step_loss=0.36]Steps:   8%|▊         | 98/1200 [10:06<2:17:23,  7.48s/it, lr=0.0001, step_loss=0.432]Steps:   8%|▊         | 99/1200 [10:09<1:54:51,  6.26s/it, lr=0.0001, step_loss=0.432]Steps:   8%|▊         | 99/1200 [10:09<1:54:51,  6.26s/it, lr=0.0001, step_loss=0.401]Steps:   8%|▊         | 100/1200 [10:13<1:39:09,  5.41s/it, lr=0.0001, step_loss=0.401]Steps:   8%|▊         | 100/1200 [10:13<1:39:09,  5.41s/it, lr=0.0001, step_loss=0.331]Steps:   8%|▊         | 101/1200 [10:16<1:28:07,  4.81s/it, lr=0.0001, step_loss=0.331]Steps:   8%|▊         | 101/1200 [10:16<1:28:07,  4.81s/it, lr=0.0001, step_loss=0.342]Steps:   8%|▊         | 102/1200 [10:19<1:18:20,  4.28s/it, lr=0.0001, step_loss=0.342]Steps:   8%|▊         | 102/1200 [10:19<1:18:20,  4.28s/it, lr=0.0001, step_loss=0.362]03/11/2024 14:32:09 - INFO - __main__ - Running validation... 
- Generating 4 images with prompt: A giraffe standing in a field of wildflowers, with a sense of vibrancy and life. Background: wildflower field, clear blue sky, and a warm, sunny day..
-{'image_encoder'} was not found in config. Values will be initialized to default values.
-
-Loading pipeline components...:   0%|          | 0/6 [00:00<?, ?it/s][A{'latents_mean', 'latents_std', 'scaling_factor', 'force_upcast'} was not found in config. Values will be initialized to default values.
-Loaded vae as AutoencoderKL from `vae` subfolder of stabilityai/stable-diffusion-2-1.
-
-Loading pipeline components...:  33%|███▎      | 2/6 [00:00<00:00,  7.60it/s][ALoaded text_encoder as CLIPTextModel from `text_encoder` subfolder of stabilityai/stable-diffusion-2-1.
-
-Loading pipeline components...:  50%|█████     | 3/6 [00:00<00:00,  3.47it/s][A{'dynamic_thresholding_ratio', 'clip_sample_range', 'sample_max_value', 'timestep_spacing', 'thresholding', 'rescale_betas_zero_snr'} was not found in config. Values will be initialized to default values.
-Loaded scheduler as DDIMScheduler from `scheduler` subfolder of stabilityai/stable-diffusion-2-1.
-Loaded feature_extractor as CLIPImageProcessor from `feature_extractor` subfolder of stabilityai/stable-diffusion-2-1.
-Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of stabilityai/stable-diffusion-2-1.
-Loading pipeline components...: 100%|██████████| 6/6 [00:00<00:00,  7.37it/s]
-Steps:   9%|▊         | 103/1200 [10:40<2:48:13,  9.20s/it, lr=0.0001, step_loss=0.362]Steps:   9%|▊         | 103/1200 [10:40<2:48:13,  9.20s/it, lr=0.0001, step_loss=0.356]Steps:   9%|▊         | 104/1200 [10:43<2:16:23,  7.47s/it, lr=0.0001, step_loss=0.356]Steps:   9%|▊         | 104/1200 [10:43<2:16:23,  7.47s/it, lr=0.0001, step_loss=0.408]Steps:   9%|▉         | 105/1200 [10:47<1:54:01,  6.25s/it, lr=0.0001, step_loss=0.408]Steps:   9%|▉         | 105/1200 [10:47<1:54:01,  6.25s/it, lr=0.0001, step_loss=0.41] Steps:   9%|▉         | 106/1200 [10:50<1:38:30,  5.40s/it, lr=0.0001, step_loss=0.41]Steps:   9%|▉         | 106/1200 [10:50<1:38:30,  5.40s/it, lr=0.0001, step_loss=0.423]Steps:   9%|▉         | 107/1200 [10:54<1:27:34,  4.81s/it, lr=0.0001, step_loss=0.423]Steps:   9%|▉         | 107/1200 [10:54<1:27:34,  4.81s/it, lr=0.0001, step_loss=0.37] Steps:   9%|▉         | 108/1200 [10:57<1:17:53,  4.28s/it, lr=0.0001, step_loss=0.37]Steps:   9%|▉         | 108/1200 [10:57<1:17:53,  4.28s/it, lr=0.0001, step_loss=0.353]03/11/2024 14:32:47 - INFO - __main__ - Running validation... 
- Generating 4 images with prompt: A giraffe standing in a field of wildflowers, with a sense of vibrancy and life. Background: wildflower field, clear blue sky, and a warm, sunny day..
-{'image_encoder'} was not found in config. Values will be initialized to default values.
-
-Loading pipeline components...:   0%|          | 0/6 [00:00<?, ?it/s][A{'latents_mean', 'latents_std', 'scaling_factor', 'force_upcast'} was not found in config. Values will be initialized to default values.
-Loaded vae as AutoencoderKL from `vae` subfolder of stabilityai/stable-diffusion-2-1.
-
-Loading pipeline components...:  33%|███▎      | 2/6 [00:00<00:00,  7.69it/s][ALoaded text_encoder as CLIPTextModel from `text_encoder` subfolder of stabilityai/stable-diffusion-2-1.
-
-Loading pipeline components...:  50%|█████     | 3/6 [00:00<00:00,  3.50it/s][A{'dynamic_thresholding_ratio', 'clip_sample_range', 'sample_max_value', 'timestep_spacing', 'thresholding', 'rescale_betas_zero_snr'} was not found in config. Values will be initialized to default values.
-Loaded scheduler as DDIMScheduler from `scheduler` subfolder of stabilityai/stable-diffusion-2-1.
-Loaded feature_extractor as CLIPImageProcessor from `feature_extractor` subfolder of stabilityai/stable-diffusion-2-1.
-Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of stabilityai/stable-diffusion-2-1.
-Loading pipeline components...: 100%|██████████| 6/6 [00:00<00:00,  7.44it/s]
-Steps:   9%|▉         | 109/1200 [11:18<2:49:04,  9.30s/it, lr=0.0001, step_loss=0.353]Steps:   9%|▉         | 109/1200 [11:18<2:49:04,  9.30s/it, lr=0.0001, step_loss=0.424]Steps:   9%|▉         | 110/1200 [11:21<2:16:51,  7.53s/it, lr=0.0001, step_loss=0.424]Steps:   9%|▉         | 110/1200 [11:21<2:16:51,  7.53s/it, lr=0.0001, step_loss=0.382]Steps:   9%|▉         | 111/1200 [11:24<1:54:14,  6.29s/it, lr=0.0001, step_loss=0.382]Steps:   9%|▉         | 111/1200 [11:25<1:54:14,  6.29s/it, lr=0.0001, step_loss=0.396]Steps:   9%|▉         | 112/1200 [11:28<1:38:32,  5.43s/it, lr=0.0001, step_loss=0.396]Steps:   9%|▉         | 112/1200 [11:28<1:38:32,  5.43s/it, lr=0.0001, step_loss=0.422]Steps:   9%|▉         | 113/1200 [11:31<1:27:29,  4.83s/it, lr=0.0001, step_loss=0.422]Steps:   9%|▉         | 113/1200 [11:31<1:27:29,  4.83s/it, lr=0.0001, step_loss=0.368]Steps:  10%|▉         | 114/1200 [11:34<1:17:43,  4.29s/it, lr=0.0001, step_loss=0.368]Steps:  10%|▉         | 114/1200 [11:34<1:17:43,  4.29s/it, lr=0.0001, step_loss=0.341]03/11/2024 14:33:24 - INFO - __main__ - Running validation... 
- Generating 4 images with prompt: A giraffe standing in a field of wildflowers, with a sense of vibrancy and life. Background: wildflower field, clear blue sky, and a warm, sunny day..
-{'image_encoder'} was not found in config. Values will be initialized to default values.
-
-Loading pipeline components...:   0%|          | 0/6 [00:00<?, ?it/s][A{'latents_mean', 'latents_std', 'scaling_factor', 'force_upcast'} was not found in config. Values will be initialized to default values.
-Loaded vae as AutoencoderKL from `vae` subfolder of stabilityai/stable-diffusion-2-1.
-
-Loading pipeline components...:  33%|███▎      | 2/6 [00:00<00:00,  7.56it/s][ALoaded text_encoder as CLIPTextModel from `text_encoder` subfolder of stabilityai/stable-diffusion-2-1.
-
-Loading pipeline components...:  50%|█████     | 3/6 [00:00<00:00,  3.47it/s][A{'dynamic_thresholding_ratio', 'clip_sample_range', 'sample_max_value', 'timestep_spacing', 'thresholding', 'rescale_betas_zero_snr'} was not found in config. Values will be initialized to default values.
-Loaded scheduler as DDIMScheduler from `scheduler` subfolder of stabilityai/stable-diffusion-2-1.
-Loaded feature_extractor as CLIPImageProcessor from `feature_extractor` subfolder of stabilityai/stable-diffusion-2-1.
-Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of stabilityai/stable-diffusion-2-1.
-Loading pipeline components...: 100%|██████████| 6/6 [00:00<00:00,  7.38it/s]
-Steps:  10%|▉         | 115/1200 [11:55<2:46:25,  9.20s/it, lr=0.0001, step_loss=0.341]Steps:  10%|▉         | 115/1200 [11:55<2:46:25,  9.20s/it, lr=0.0001, step_loss=0.371]Steps:  10%|▉         | 116/1200 [11:58<2:14:55,  7.47s/it, lr=0.0001, step_loss=0.371]Steps:  10%|▉         | 116/1200 [11:58<2:14:55,  7.47s/it, lr=0.0001, step_loss=0.398]Steps:  10%|▉         | 117/1200 [12:02<1:52:53,  6.25s/it, lr=0.0001, step_loss=0.398]Steps:  10%|▉         | 117/1200 [12:02<1:52:53,  6.25s/it, lr=0.0001, step_loss=0.42] Steps:  10%|▉         | 118/1200 [12:05<1:37:26,  5.40s/it, lr=0.0001, step_loss=0.42]Steps:  10%|▉         | 118/1200 [12:05<1:37:26,  5.40s/it, lr=0.0001, step_loss=0.343]Steps:  10%|▉         | 119/1200 [12:09<1:26:36,  4.81s/it, lr=0.0001, step_loss=0.343]Steps:  10%|▉         | 119/1200 [12:09<1:26:36,  4.81s/it, lr=0.0001, step_loss=0.396]Steps:  10%|█         | 120/1200 [12:12<1:17:02,  4.28s/it, lr=0.0001, step_loss=0.396]Steps:  10%|█         | 120/1200 [12:12<1:17:02,  4.28s/it, lr=0.0001, step_loss=0.358]03/11/2024 14:34:02 - INFO - __main__ - Running validation... 
- Generating 4 images with prompt: A giraffe standing in a field of wildflowers, with a sense of vibrancy and life. Background: wildflower field, clear blue sky, and a warm, sunny day..
-{'image_encoder'} was not found in config. Values will be initialized to default values.
-
-Loading pipeline components...:   0%|          | 0/6 [00:00<?, ?it/s][A{'latents_mean', 'latents_std', 'scaling_factor', 'force_upcast'} was not found in config. Values will be initialized to default values.
-Loaded vae as AutoencoderKL from `vae` subfolder of stabilityai/stable-diffusion-2-1.
-
-Loading pipeline components...:  33%|███▎      | 2/6 [00:00<00:00,  7.81it/s][ALoaded text_encoder as CLIPTextModel from `text_encoder` subfolder of stabilityai/stable-diffusion-2-1.
-
-Loading pipeline components...:  50%|█████     | 3/6 [00:00<00:00,  3.49it/s][A{'dynamic_thresholding_ratio', 'clip_sample_range', 'sample_max_value', 'timestep_spacing', 'thresholding', 'rescale_betas_zero_snr'} was not found in config. Values will be initialized to default values.
-Loaded scheduler as DDIMScheduler from `scheduler` subfolder of stabilityai/stable-diffusion-2-1.
-Loaded feature_extractor as CLIPImageProcessor from `feature_extractor` subfolder of stabilityai/stable-diffusion-2-1.
-Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of stabilityai/stable-diffusion-2-1.
-Loading pipeline components...: 100%|██████████| 6/6 [00:00<00:00,  7.42it/s]
-Steps:  10%|█         | 121/1200 [12:33<2:46:44,  9.27s/it, lr=0.0001, step_loss=0.358]Steps:  10%|█         | 121/1200 [12:33<2:46:44,  9.27s/it, lr=0.0001, step_loss=0.349]Steps:  10%|█         | 122/1200 [12:36<2:15:03,  7.52s/it, lr=0.0001, step_loss=0.349]Steps:  10%|█         | 122/1200 [12:36<2:15:03,  7.52s/it, lr=0.0001, step_loss=0.409]Steps:  10%|█         | 123/1200 [12:40<1:52:48,  6.28s/it, lr=0.0001, step_loss=0.409]Steps:  10%|█         | 123/1200 [12:40<1:52:48,  6.28s/it, lr=0.0001, step_loss=0.388]Steps:  10%|█         | 124/1200 [12:43<1:37:20,  5.43s/it, lr=0.0001, step_loss=0.388]Steps:  10%|█         | 124/1200 [12:43<1:37:20,  5.43s/it, lr=0.0001, step_loss=0.403]Steps:  10%|█         | 125/1200 [12:46<1:26:27,  4.83s/it, lr=0.0001, step_loss=0.403]Steps:  10%|█         | 125/1200 [12:46<1:26:27,  4.83s/it, lr=0.0001, step_loss=0.385]Steps:  10%|█         | 126/1200 [12:49<1:16:49,  4.29s/it, lr=0.0001, step_loss=0.385]Steps:  10%|█         | 126/1200 [12:49<1:16:49,  4.29s/it, lr=0.0001, step_loss=0.437]03/11/2024 14:34:39 - INFO - __main__ - Running validation... 
- Generating 4 images with prompt: A giraffe standing in a field of wildflowers, with a sense of vibrancy and life. Background: wildflower field, clear blue sky, and a warm, sunny day..
-{'image_encoder'} was not found in config. Values will be initialized to default values.
-
-Loading pipeline components...:   0%|          | 0/6 [00:00<?, ?it/s][A{'latents_mean', 'latents_std', 'scaling_factor', 'force_upcast'} was not found in config. Values will be initialized to default values.
-Loaded vae as AutoencoderKL from `vae` subfolder of stabilityai/stable-diffusion-2-1.
-
-Loading pipeline components...:  33%|███▎      | 2/6 [00:00<00:00,  7.58it/s][ALoaded text_encoder as CLIPTextModel from `text_encoder` subfolder of stabilityai/stable-diffusion-2-1.
-
-Loading pipeline components...:  50%|█████     | 3/6 [00:00<00:00,  3.49it/s][A{'dynamic_thresholding_ratio', 'clip_sample_range', 'sample_max_value', 'timestep_spacing', 'thresholding', 'rescale_betas_zero_snr'} was not found in config. Values will be initialized to default values.
-Loaded scheduler as DDIMScheduler from `scheduler` subfolder of stabilityai/stable-diffusion-2-1.
-Loaded feature_extractor as CLIPImageProcessor from `feature_extractor` subfolder of stabilityai/stable-diffusion-2-1.
-Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of stabilityai/stable-diffusion-2-1.
-Loading pipeline components...: 100%|██████████| 6/6 [00:00<00:00,  7.41it/s]
-Steps:  11%|█         | 127/1200 [13:10<2:44:54,  9.22s/it, lr=0.0001, step_loss=0.437]Steps:  11%|█         | 127/1200 [13:10<2:44:54,  9.22s/it, lr=0.0001, step_loss=0.347]Steps:  11%|█         | 128/1200 [13:14<2:13:39,  7.48s/it, lr=0.0001, step_loss=0.347]Steps:  11%|█         | 128/1200 [13:14<2:13:39,  7.48s/it, lr=0.0001, step_loss=0.375]Steps:  11%|█         | 129/1200 [13:17<1:51:44,  6.26s/it, lr=0.0001, step_loss=0.375]Steps:  11%|█         | 129/1200 [13:17<1:51:44,  6.26s/it, lr=0.0001, step_loss=0.451]Steps:  11%|█         | 130/1200 [13:20<1:36:27,  5.41s/it, lr=0.0001, step_loss=0.451]Steps:  11%|█         | 130/1200 [13:20<1:36:27,  5.41s/it, lr=0.0001, step_loss=0.401]Steps:  11%|█         | 131/1200 [13:24<1:25:44,  4.81s/it, lr=0.0001, step_loss=0.401]Steps:  11%|█         | 131/1200 [13:24<1:25:44,  4.81s/it, lr=0.0001, step_loss=0.407]Steps:  11%|█         | 132/1200 [13:27<1:16:15,  4.28s/it, lr=0.0001, step_loss=0.407]Steps:  11%|█         | 132/1200 [13:27<1:16:15,  4.28s/it, lr=0.0001, step_loss=0.4]  03/11/2024 14:35:17 - INFO - __main__ - Running validation... 
- Generating 4 images with prompt: A giraffe standing in a field of wildflowers, with a sense of vibrancy and life. Background: wildflower field, clear blue sky, and a warm, sunny day..
-{'image_encoder'} was not found in config. Values will be initialized to default values.
-
-Loading pipeline components...:   0%|          | 0/6 [00:00<?, ?it/s][A{'latents_mean', 'latents_std', 'scaling_factor', 'force_upcast'} was not found in config. Values will be initialized to default values.
-Loaded vae as AutoencoderKL from `vae` subfolder of stabilityai/stable-diffusion-2-1.
-
-Loading pipeline components...:  33%|███▎      | 2/6 [00:00<00:00,  7.72it/s][ALoaded text_encoder as CLIPTextModel from `text_encoder` subfolder of stabilityai/stable-diffusion-2-1.
-
-Loading pipeline components...:  50%|█████     | 3/6 [00:00<00:00,  3.50it/s][A{'dynamic_thresholding_ratio', 'clip_sample_range', 'sample_max_value', 'timestep_spacing', 'thresholding', 'rescale_betas_zero_snr'} was not found in config. Values will be initialized to default values.
-Loaded scheduler as DDIMScheduler from `scheduler` subfolder of stabilityai/stable-diffusion-2-1.
-Loaded feature_extractor as CLIPImageProcessor from `feature_extractor` subfolder of stabilityai/stable-diffusion-2-1.
-Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of stabilityai/stable-diffusion-2-1.
-Loading pipeline components...: 100%|██████████| 6/6 [00:00<00:00,  7.44it/s]
-Steps:  11%|█         | 133/1200 [13:48<2:44:37,  9.26s/it, lr=0.0001, step_loss=0.4]Steps:  11%|█         | 133/1200 [13:48<2:44:37,  9.26s/it, lr=0.0001, step_loss=0.327]Steps:  11%|█         | 134/1200 [13:51<2:13:23,  7.51s/it, lr=0.0001, step_loss=0.327]Steps:  11%|█         | 134/1200 [13:51<2:13:23,  7.51s/it, lr=0.0001, step_loss=0.373]Steps:  11%|█▏        | 135/1200 [13:55<1:51:28,  6.28s/it, lr=0.0001, step_loss=0.373]Steps:  11%|█▏        | 135/1200 [13:55<1:51:28,  6.28s/it, lr=0.0001, step_loss=0.422]Steps:  11%|█▏        | 136/1200 [13:58<1:36:11,  5.42s/it, lr=0.0001, step_loss=0.422]Steps:  11%|█▏        | 136/1200 [13:58<1:36:11,  5.42s/it, lr=0.0001, step_loss=0.342]Steps:  11%|█▏        | 137/1200 [14:01<1:25:28,  4.82s/it, lr=0.0001, step_loss=0.342]Steps:  11%|█▏        | 137/1200 [14:01<1:25:28,  4.82s/it, lr=0.0001, step_loss=0.39] Steps:  12%|█▏        | 138/1200 [14:04<1:15:58,  4.29s/it, lr=0.0001, step_loss=0.39]Steps:  12%|█▏        | 138/1200 [14:04<1:15:58,  4.29s/it, lr=0.0001, step_loss=0.345]03/11/2024 14:35:54 - INFO - __main__ - Running validation... 
- Generating 4 images with prompt: A giraffe standing in a field of wildflowers, with a sense of vibrancy and life. Background: wildflower field, clear blue sky, and a warm, sunny day..
-{'image_encoder'} was not found in config. Values will be initialized to default values.
-
-Loading pipeline components...:   0%|          | 0/6 [00:00<?, ?it/s][A{'latents_mean', 'latents_std', 'scaling_factor', 'force_upcast'} was not found in config. Values will be initialized to default values.
-Loaded vae as AutoencoderKL from `vae` subfolder of stabilityai/stable-diffusion-2-1.
-
-Loading pipeline components...:  33%|███▎      | 2/6 [00:00<00:00,  7.40it/s][ALoaded text_encoder as CLIPTextModel from `text_encoder` subfolder of stabilityai/stable-diffusion-2-1.
-
-Loading pipeline components...:  50%|█████     | 3/6 [00:00<00:00,  3.47it/s][A{'dynamic_thresholding_ratio', 'clip_sample_range', 'sample_max_value', 'timestep_spacing', 'thresholding', 'rescale_betas_zero_snr'} was not found in config. Values will be initialized to default values.
-Loaded scheduler as DDIMScheduler from `scheduler` subfolder of stabilityai/stable-diffusion-2-1.
-Loaded feature_extractor as CLIPImageProcessor from `feature_extractor` subfolder of stabilityai/stable-diffusion-2-1.
-Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of stabilityai/stable-diffusion-2-1.
-Loading pipeline components...: 100%|██████████| 6/6 [00:00<00:00,  7.35it/s]
-Steps:  12%|█▏        | 139/1200 [14:25<2:44:05,  9.28s/it, lr=0.0001, step_loss=0.345]Steps:  12%|█▏        | 139/1200 [14:25<2:44:05,  9.28s/it, lr=0.0001, step_loss=0.397]Steps:  12%|█▏        | 140/1200 [14:29<2:12:51,  7.52s/it, lr=0.0001, step_loss=0.397]Steps:  12%|█▏        | 140/1200 [14:29<2:12:51,  7.52s/it, lr=0.0001, step_loss=0.401]Steps:  12%|█▏        | 141/1200 [14:32<1:50:59,  6.29s/it, lr=0.0001, step_loss=0.401]Steps:  12%|█▏        | 141/1200 [14:32<1:50:59,  6.29s/it, lr=0.0001, step_loss=0.389]Steps:  12%|█▏        | 142/1200 [14:36<1:35:45,  5.43s/it, lr=0.0001, step_loss=0.389]Steps:  12%|█▏        | 142/1200 [14:36<1:35:45,  5.43s/it, lr=0.0001, step_loss=0.32] Steps:  12%|█▏        | 143/1200 [14:39<1:25:04,  4.83s/it, lr=0.0001, step_loss=0.32]Steps:  12%|█▏        | 143/1200 [14:39<1:25:04,  4.83s/it, lr=0.0001, step_loss=0.384]Steps:  12%|█▏        | 144/1200 [14:42<1:15:33,  4.29s/it, lr=0.0001, step_loss=0.384]Steps:  12%|█▏        | 144/1200 [14:42<1:15:33,  4.29s/it, lr=0.0001, step_loss=0.366]03/11/2024 14:36:32 - INFO - __main__ - Running validation... 
- Generating 4 images with prompt: A giraffe standing in a field of wildflowers, with a sense of vibrancy and life. Background: wildflower field, clear blue sky, and a warm, sunny day..
-{'image_encoder'} was not found in config. Values will be initialized to default values.
-
-Loading pipeline components...:   0%|          | 0/6 [00:00<?, ?it/s][A{'latents_mean', 'latents_std', 'scaling_factor', 'force_upcast'} was not found in config. Values will be initialized to default values.
-Loaded vae as AutoencoderKL from `vae` subfolder of stabilityai/stable-diffusion-2-1.
-
-Loading pipeline components...:  33%|███▎      | 2/6 [00:00<00:00,  7.68it/s][ALoaded text_encoder as CLIPTextModel from `text_encoder` subfolder of stabilityai/stable-diffusion-2-1.
-
-Loading pipeline components...:  50%|█████     | 3/6 [00:00<00:00,  3.49it/s][A{'dynamic_thresholding_ratio', 'clip_sample_range', 'sample_max_value', 'timestep_spacing', 'thresholding', 'rescale_betas_zero_snr'} was not found in config. Values will be initialized to default values.
-Loaded scheduler as DDIMScheduler from `scheduler` subfolder of stabilityai/stable-diffusion-2-1.
-Loaded feature_extractor as CLIPImageProcessor from `feature_extractor` subfolder of stabilityai/stable-diffusion-2-1.
-Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of stabilityai/stable-diffusion-2-1.
-Loading pipeline components...: 100%|██████████| 6/6 [00:00<00:00,  7.42it/s]
-Steps:  12%|█▏        | 145/1200 [15:03<2:42:03,  9.22s/it, lr=0.0001, step_loss=0.366]Steps:  12%|█▏        | 145/1200 [15:03<2:42:03,  9.22s/it, lr=0.0001, step_loss=0.388]Steps:  12%|█▏        | 146/1200 [15:06<2:11:28,  7.48s/it, lr=0.0001, step_loss=0.388]Steps:  12%|█▏        | 146/1200 [15:06<2:11:28,  7.48s/it, lr=0.0001, step_loss=0.368]Steps:  12%|█▏        | 147/1200 [15:10<1:49:55,  6.26s/it, lr=0.0001, step_loss=0.368]Steps:  12%|█▏        | 147/1200 [15:10<1:49:55,  6.26s/it, lr=0.0001, step_loss=0.405]Steps:  12%|█▏        | 148/1200 [15:13<1:34:51,  5.41s/it, lr=0.0001, step_loss=0.405]Steps:  12%|█▏        | 148/1200 [15:13<1:34:51,  5.41s/it, lr=0.0001, step_loss=0.347]Steps:  12%|█▏        | 149/1200 [15:17<1:24:18,  4.81s/it, lr=0.0001, step_loss=0.347]Steps:  12%|█▏        | 149/1200 [15:17<1:24:18,  4.81s/it, lr=0.0001, step_loss=0.367]Steps:  12%|█▎        | 150/1200 [15:20<1:14:58,  4.28s/it, lr=0.0001, step_loss=0.367]Steps:  12%|█▎        | 150/1200 [15:20<1:14:58,  4.28s/it, lr=0.0001, step_loss=0.418]03/11/2024 14:37:09 - INFO - __main__ - Running validation... 
- Generating 4 images with prompt: A giraffe standing in a field of wildflowers, with a sense of vibrancy and life. Background: wildflower field, clear blue sky, and a warm, sunny day..
-{'image_encoder'} was not found in config. Values will be initialized to default values.
-
-Loading pipeline components...:   0%|          | 0/6 [00:00<?, ?it/s][A{'latents_mean', 'latents_std', 'scaling_factor', 'force_upcast'} was not found in config. Values will be initialized to default values.
-Loaded vae as AutoencoderKL from `vae` subfolder of stabilityai/stable-diffusion-2-1.
-
-Loading pipeline components...:  33%|███▎      | 2/6 [00:00<00:00,  7.72it/s][ALoaded text_encoder as CLIPTextModel from `text_encoder` subfolder of stabilityai/stable-diffusion-2-1.
-
-Loading pipeline components...:  50%|█████     | 3/6 [00:00<00:00,  3.50it/s][A{'dynamic_thresholding_ratio', 'clip_sample_range', 'sample_max_value', 'timestep_spacing', 'thresholding', 'rescale_betas_zero_snr'} was not found in config. Values will be initialized to default values.
-Loaded scheduler as DDIMScheduler from `scheduler` subfolder of stabilityai/stable-diffusion-2-1.
-Loaded feature_extractor as CLIPImageProcessor from `feature_extractor` subfolder of stabilityai/stable-diffusion-2-1.
-Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of stabilityai/stable-diffusion-2-1.
-Loading pipeline components...: 100%|██████████| 6/6 [00:00<00:00,  7.44it/s]
-Steps:  13%|█▎        | 151/1200 [15:41<2:42:59,  9.32s/it, lr=0.0001, step_loss=0.418]Steps:  13%|█▎        | 151/1200 [15:41<2:42:59,  9.32s/it, lr=0.0001, step_loss=0.364]Steps:  13%|█▎        | 152/1200 [15:44<2:11:53,  7.55s/it, lr=0.0001, step_loss=0.364]Steps:  13%|█▎        | 152/1200 [15:44<2:11:53,  7.55s/it, lr=0.0001, step_loss=0.412]Steps:  13%|█▎        | 153/1200 [15:47<1:50:06,  6.31s/it, lr=0.0001, step_loss=0.412]Steps:  13%|█▎        | 153/1200 [15:47<1:50:06,  6.31s/it, lr=0.0001, step_loss=0.409]Steps:  13%|█▎        | 154/1200 [15:51<1:34:55,  5.44s/it, lr=0.0001, step_loss=0.409]Steps:  13%|█▎        | 154/1200 [15:51<1:34:55,  5.44s/it, lr=0.0001, step_loss=0.329]Steps:  13%|█▎        | 155/1200 [15:54<1:24:15,  4.84s/it, lr=0.0001, step_loss=0.329]Steps:  13%|█▎        | 155/1200 [15:54<1:24:15,  4.84s/it, lr=0.0001, step_loss=0.374]Steps:  13%|█▎        | 156/1200 [15:57<1:14:50,  4.30s/it, lr=0.0001, step_loss=0.374]Steps:  13%|█▎        | 156/1200 [15:57<1:14:50,  4.30s/it, lr=0.0001, step_loss=0.372]03/11/2024 14:37:47 - INFO - __main__ - Running validation... 
- Generating 4 images with prompt: A giraffe standing in a field of wildflowers, with a sense of vibrancy and life. Background: wildflower field, clear blue sky, and a warm, sunny day..
-{'image_encoder'} was not found in config. Values will be initialized to default values.
-
-Loading pipeline components...:   0%|          | 0/6 [00:00<?, ?it/s][A{'latents_mean', 'latents_std', 'scaling_factor', 'force_upcast'} was not found in config. Values will be initialized to default values.
-Loaded vae as AutoencoderKL from `vae` subfolder of stabilityai/stable-diffusion-2-1.
-
-Loading pipeline components...:  33%|███▎      | 2/6 [00:00<00:00,  7.69it/s][ALoaded text_encoder as CLIPTextModel from `text_encoder` subfolder of stabilityai/stable-diffusion-2-1.
-
-Loading pipeline components...:  50%|█████     | 3/6 [00:00<00:00,  3.52it/s][A{'dynamic_thresholding_ratio', 'clip_sample_range', 'sample_max_value', 'timestep_spacing', 'thresholding', 'rescale_betas_zero_snr'} was not found in config. Values will be initialized to default values.
-Loaded scheduler as DDIMScheduler from `scheduler` subfolder of stabilityai/stable-diffusion-2-1.
-Loaded feature_extractor as CLIPImageProcessor from `feature_extractor` subfolder of stabilityai/stable-diffusion-2-1.
-Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of stabilityai/stable-diffusion-2-1.
-Loading pipeline components...: 100%|██████████| 6/6 [00:00<00:00,  7.47it/s]
-Steps:  13%|█▎        | 157/1200 [16:18<2:40:50,  9.25s/it, lr=0.0001, step_loss=0.372]Steps:  13%|█▎        | 157/1200 [16:18<2:40:50,  9.25s/it, lr=0.0001, step_loss=0.315]Steps:  13%|█▎        | 158/1200 [16:22<2:10:16,  7.50s/it, lr=0.0001, step_loss=0.315]Steps:  13%|█▎        | 158/1200 [16:22<2:10:16,  7.50s/it, lr=0.0001, step_loss=0.362]Steps:  13%|█▎        | 159/1200 [16:25<1:48:51,  6.27s/it, lr=0.0001, step_loss=0.362]Steps:  13%|█▎        | 159/1200 [16:25<1:48:51,  6.27s/it, lr=0.0001, step_loss=0.404]Steps:  13%|█▎        | 160/1200 [16:28<1:33:58,  5.42s/it, lr=0.0001, step_loss=0.404]Steps:  13%|█▎        | 160/1200 [16:28<1:33:58,  5.42s/it, lr=0.0001, step_loss=0.341]Steps:  13%|█▎        | 161/1200 [16:32<1:23:29,  4.82s/it, lr=0.0001, step_loss=0.341]Steps:  13%|█▎        | 161/1200 [16:32<1:23:29,  4.82s/it, lr=0.0001, step_loss=0.419]Steps:  14%|█▎        | 162/1200 [16:35<1:14:13,  4.29s/it, lr=0.0001, step_loss=0.419]Steps:  14%|█▎        | 162/1200 [16:35<1:14:13,  4.29s/it, lr=0.0001, step_loss=0.435]03/11/2024 14:38:25 - INFO - __main__ - Running validation... 
- Generating 4 images with prompt: A giraffe standing in a field of wildflowers, with a sense of vibrancy and life. Background: wildflower field, clear blue sky, and a warm, sunny day..
-{'image_encoder'} was not found in config. Values will be initialized to default values.
-
-Loading pipeline components...:   0%|          | 0/6 [00:00<?, ?it/s][A{'latents_mean', 'latents_std', 'scaling_factor', 'force_upcast'} was not found in config. Values will be initialized to default values.
-Loaded vae as AutoencoderKL from `vae` subfolder of stabilityai/stable-diffusion-2-1.
-
-Loading pipeline components...:  33%|███▎      | 2/6 [00:00<00:00,  7.74it/s][ALoaded text_encoder as CLIPTextModel from `text_encoder` subfolder of stabilityai/stable-diffusion-2-1.
-
-Loading pipeline components...:  50%|█████     | 3/6 [00:00<00:00,  3.50it/s][A{'dynamic_thresholding_ratio', 'clip_sample_range', 'sample_max_value', 'timestep_spacing', 'thresholding', 'rescale_betas_zero_snr'} was not found in config. Values will be initialized to default values.
-Loaded scheduler as DDIMScheduler from `scheduler` subfolder of stabilityai/stable-diffusion-2-1.
-Loaded feature_extractor as CLIPImageProcessor from `feature_extractor` subfolder of stabilityai/stable-diffusion-2-1.
-Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of stabilityai/stable-diffusion-2-1.
-Loading pipeline components...: 100%|██████████| 6/6 [00:00<00:00,  7.44it/s]
-Steps:  14%|█▎        | 163/1200 [16:56<2:40:26,  9.28s/it, lr=0.0001, step_loss=0.435]Steps:  14%|█▎        | 163/1200 [16:56<2:40:26,  9.28s/it, lr=0.0001, step_loss=0.382]Steps:  14%|█▎        | 164/1200 [16:59<2:09:54,  7.52s/it, lr=0.0001, step_loss=0.382]Steps:  14%|█▎        | 164/1200 [16:59<2:09:54,  7.52s/it, lr=0.0001, step_loss=0.395]Steps:  14%|█▍        | 165/1200 [17:03<1:48:30,  6.29s/it, lr=0.0001, step_loss=0.395]Steps:  14%|█▍        | 165/1200 [17:03<1:48:30,  6.29s/it, lr=0.0001, step_loss=0.411]Steps:  14%|█▍        | 166/1200 [17:06<1:33:39,  5.44s/it, lr=0.0001, step_loss=0.411]Steps:  14%|█▍        | 166/1200 [17:06<1:33:39,  5.44s/it, lr=0.0001, step_loss=0.366]Steps:  14%|█▍        | 167/1200 [17:10<1:23:10,  4.83s/it, lr=0.0001, step_loss=0.366]Steps:  14%|█▍        | 167/1200 [17:10<1:23:10,  4.83s/it, lr=0.0001, step_loss=0.374]Steps:  14%|█▍        | 168/1200 [17:13<1:13:52,  4.30s/it, lr=0.0001, step_loss=0.374]Steps:  14%|█▍        | 168/1200 [17:13<1:13:52,  4.30s/it, lr=0.0001, step_loss=0.402]03/11/2024 14:39:02 - INFO - __main__ - Running validation... 
- Generating 4 images with prompt: A giraffe standing in a field of wildflowers, with a sense of vibrancy and life. Background: wildflower field, clear blue sky, and a warm, sunny day..
-{'image_encoder'} was not found in config. Values will be initialized to default values.
-
-Loading pipeline components...:   0%|          | 0/6 [00:00<?, ?it/s][A{'latents_mean', 'latents_std', 'scaling_factor', 'force_upcast'} was not found in config. Values will be initialized to default values.
-Loaded vae as AutoencoderKL from `vae` subfolder of stabilityai/stable-diffusion-2-1.
-
-Loading pipeline components...:  33%|███▎      | 2/6 [00:00<00:00,  7.60it/s][ALoaded text_encoder as CLIPTextModel from `text_encoder` subfolder of stabilityai/stable-diffusion-2-1.
-
-Loading pipeline components...:  50%|█████     | 3/6 [00:00<00:00,  3.50it/s][A{'dynamic_thresholding_ratio', 'clip_sample_range', 'sample_max_value', 'timestep_spacing', 'thresholding', 'rescale_betas_zero_snr'} was not found in config. Values will be initialized to default values.
-Loaded scheduler as DDIMScheduler from `scheduler` subfolder of stabilityai/stable-diffusion-2-1.
-Loaded feature_extractor as CLIPImageProcessor from `feature_extractor` subfolder of stabilityai/stable-diffusion-2-1.
-Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of stabilityai/stable-diffusion-2-1.
-Loading pipeline components...: 100%|██████████| 6/6 [00:00<00:00,  7.44it/s]
-Steps:  14%|█▍        | 169/1200 [17:34<2:39:55,  9.31s/it, lr=0.0001, step_loss=0.402]Steps:  14%|█▍        | 169/1200 [17:34<2:39:55,  9.31s/it, lr=0.0001, step_loss=0.338]Steps:  14%|█▍        | 170/1200 [17:37<2:09:27,  7.54s/it, lr=0.0001, step_loss=0.338]Steps:  14%|█▍        | 170/1200 [17:37<2:09:27,  7.54s/it, lr=0.0001, step_loss=0.394]Steps:  14%|█▍        | 171/1200 [17:40<1:48:04,  6.30s/it, lr=0.0001, step_loss=0.394]Steps:  14%|█▍        | 171/1200 [17:40<1:48:04,  6.30s/it, lr=0.0001, step_loss=0.46] Steps:  14%|█▍        | 172/1200 [17:44<1:33:11,  5.44s/it, lr=0.0001, step_loss=0.46]Steps:  14%|█▍        | 172/1200 [17:44<1:33:11,  5.44s/it, lr=0.0001, step_loss=0.354]Steps:  14%|█▍        | 173/1200 [17:47<1:22:44,  4.83s/it, lr=0.0001, step_loss=0.354]Steps:  14%|█▍        | 173/1200 [17:47<1:22:44,  4.83s/it, lr=0.0001, step_loss=0.429]Steps:  14%|█▍        | 174/1200 [17:50<1:13:29,  4.30s/it, lr=0.0001, step_loss=0.429]Steps:  14%|█▍        | 174/1200 [17:50<1:13:29,  4.30s/it, lr=0.0001, step_loss=0.421]03/11/2024 14:39:40 - INFO - __main__ - Running validation... 
- Generating 4 images with prompt: A giraffe standing in a field of wildflowers, with a sense of vibrancy and life. Background: wildflower field, clear blue sky, and a warm, sunny day..
-{'image_encoder'} was not found in config. Values will be initialized to default values.
-
-Loading pipeline components...:   0%|          | 0/6 [00:00<?, ?it/s][A{'latents_mean', 'latents_std', 'scaling_factor', 'force_upcast'} was not found in config. Values will be initialized to default values.
-Loaded vae as AutoencoderKL from `vae` subfolder of stabilityai/stable-diffusion-2-1.
-
-Loading pipeline components...:  33%|███▎      | 2/6 [00:00<00:00,  7.57it/s][ALoaded text_encoder as CLIPTextModel from `text_encoder` subfolder of stabilityai/stable-diffusion-2-1.
-
-Loading pipeline components...:  50%|█████     | 3/6 [00:00<00:00,  3.49it/s][A{'dynamic_thresholding_ratio', 'clip_sample_range', 'sample_max_value', 'timestep_spacing', 'thresholding', 'rescale_betas_zero_snr'} was not found in config. Values will be initialized to default values.
-Loaded scheduler as DDIMScheduler from `scheduler` subfolder of stabilityai/stable-diffusion-2-1.
-Loaded feature_extractor as CLIPImageProcessor from `feature_extractor` subfolder of stabilityai/stable-diffusion-2-1.
-Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of stabilityai/stable-diffusion-2-1.
-Loading pipeline components...: 100%|██████████| 6/6 [00:00<00:00,  7.42it/s]
-Steps:  15%|█▍        | 175/1200 [18:11<2:37:36,  9.23s/it, lr=0.0001, step_loss=0.421]Steps:  15%|█▍        | 175/1200 [18:11<2:37:36,  9.23s/it, lr=0.0001, step_loss=0.348]Steps:  15%|█▍        | 176/1200 [18:14<2:07:45,  7.49s/it, lr=0.0001, step_loss=0.348]Steps:  15%|█▍        | 176/1200 [18:14<2:07:45,  7.49s/it, lr=0.0001, step_loss=0.38] Steps:  15%|█▍        | 177/1200 [18:18<1:46:49,  6.27s/it, lr=0.0001, step_loss=0.38]Steps:  15%|█▍        | 177/1200 [18:18<1:46:49,  6.27s/it, lr=0.0001, step_loss=0.415]Steps:  15%|█▍        | 178/1200 [18:21<1:32:14,  5.42s/it, lr=0.0001, step_loss=0.415]Steps:  15%|█▍        | 178/1200 [18:21<1:32:14,  5.42s/it, lr=0.0001, step_loss=0.365]Steps:  15%|█▍        | 179/1200 [18:25<1:21:56,  4.82s/it, lr=0.0001, step_loss=0.365]Steps:  15%|█▍        | 179/1200 [18:25<1:21:56,  4.82s/it, lr=0.0001, step_loss=0.356]Steps:  15%|█▌        | 180/1200 [18:28<1:12:51,  4.29s/it, lr=0.0001, step_loss=0.356]Steps:  15%|█▌        | 180/1200 [18:28<1:12:51,  4.29s/it, lr=0.0001, step_loss=0.396]03/11/2024 14:40:18 - INFO - __main__ - Running validation... 
- Generating 4 images with prompt: A giraffe standing in a field of wildflowers, with a sense of vibrancy and life. Background: wildflower field, clear blue sky, and a warm, sunny day..
-{'image_encoder'} was not found in config. Values will be initialized to default values.
-
-Loading pipeline components...:   0%|          | 0/6 [00:00<?, ?it/s][A{'latents_mean', 'latents_std', 'scaling_factor', 'force_upcast'} was not found in config. Values will be initialized to default values.
-Loaded vae as AutoencoderKL from `vae` subfolder of stabilityai/stable-diffusion-2-1.
-
-Loading pipeline components...:  33%|███▎      | 2/6 [00:00<00:00,  7.64it/s][ALoaded text_encoder as CLIPTextModel from `text_encoder` subfolder of stabilityai/stable-diffusion-2-1.
-
-Loading pipeline components...:  50%|█████     | 3/6 [00:00<00:00,  3.50it/s][A{'dynamic_thresholding_ratio', 'clip_sample_range', 'sample_max_value', 'timestep_spacing', 'thresholding', 'rescale_betas_zero_snr'} was not found in config. Values will be initialized to default values.
-Loaded scheduler as DDIMScheduler from `scheduler` subfolder of stabilityai/stable-diffusion-2-1.
-Loaded feature_extractor as CLIPImageProcessor from `feature_extractor` subfolder of stabilityai/stable-diffusion-2-1.
-Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of stabilityai/stable-diffusion-2-1.
-Loading pipeline components...: 100%|██████████| 6/6 [00:00<00:00,  7.43it/s]
-Steps:  15%|█▌        | 181/1200 [18:48<2:36:23,  9.21s/it, lr=0.0001, step_loss=0.396]Steps:  15%|█▌        | 181/1200 [18:48<2:36:23,  9.21s/it, lr=0.0001, step_loss=0.367]Steps:  15%|█▌        | 182/1200 [18:52<2:06:45,  7.47s/it, lr=0.0001, step_loss=0.367]Steps:  15%|█▌        | 182/1200 [18:52<2:06:45,  7.47s/it, lr=0.0001, step_loss=0.397]Steps:  15%|█▌        | 183/1200 [18:55<1:46:00,  6.25s/it, lr=0.0001, step_loss=0.397]Steps:  15%|█▌        | 183/1200 [18:55<1:46:00,  6.25s/it, lr=0.0001, step_loss=0.373]Steps:  15%|█▌        | 184/1200 [18:59<1:31:31,  5.40s/it, lr=0.0001, step_loss=0.373]Steps:  15%|█▌        | 184/1200 [18:59<1:31:31,  5.40s/it, lr=0.0001, step_loss=0.33] Steps:  15%|█▌        | 185/1200 [19:02<1:21:22,  4.81s/it, lr=0.0001, step_loss=0.33]Steps:  15%|█▌        | 185/1200 [19:02<1:21:22,  4.81s/it, lr=0.0001, step_loss=0.394]Steps:  16%|█▌        | 186/1200 [19:05<1:12:20,  4.28s/it, lr=0.0001, step_loss=0.394]Steps:  16%|█▌        | 186/1200 [19:05<1:12:20,  4.28s/it, lr=0.0001, step_loss=0.369]03/11/2024 14:40:55 - INFO - __main__ - Running validation... 
- Generating 4 images with prompt: A giraffe standing in a field of wildflowers, with a sense of vibrancy and life. Background: wildflower field, clear blue sky, and a warm, sunny day..
-{'image_encoder'} was not found in config. Values will be initialized to default values.
-
-Loading pipeline components...:   0%|          | 0/6 [00:00<?, ?it/s][A{'latents_mean', 'latents_std', 'scaling_factor', 'force_upcast'} was not found in config. Values will be initialized to default values.
-Loaded vae as AutoencoderKL from `vae` subfolder of stabilityai/stable-diffusion-2-1.
-
-Loading pipeline components...:  33%|███▎      | 2/6 [00:00<00:00,  7.72it/s][ALoaded text_encoder as CLIPTextModel from `text_encoder` subfolder of stabilityai/stable-diffusion-2-1.
-
-Loading pipeline components...:  50%|█████     | 3/6 [00:00<00:00,  3.50it/s][A{'dynamic_thresholding_ratio', 'clip_sample_range', 'sample_max_value', 'timestep_spacing', 'thresholding', 'rescale_betas_zero_snr'} was not found in config. Values will be initialized to default values.
-Loaded scheduler as DDIMScheduler from `scheduler` subfolder of stabilityai/stable-diffusion-2-1.
-Loaded feature_extractor as CLIPImageProcessor from `feature_extractor` subfolder of stabilityai/stable-diffusion-2-1.
-Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of stabilityai/stable-diffusion-2-1.
-Loading pipeline components...: 100%|██████████| 6/6 [00:00<00:00,  7.44it/s]
-Steps:  16%|█▌        | 187/1200 [19:26<2:38:28,  9.39s/it, lr=0.0001, step_loss=0.369]Steps:  16%|█▌        | 187/1200 [19:26<2:38:28,  9.39s/it, lr=0.0001, step_loss=0.333]Steps:  16%|█▌        | 188/1200 [19:30<2:08:07,  7.60s/it, lr=0.0001, step_loss=0.333]Steps:  16%|█▌        | 188/1200 [19:30<2:08:07,  7.60s/it, lr=0.0001, step_loss=0.383]Steps:  16%|█▌        | 189/1200 [19:33<1:46:50,  6.34s/it, lr=0.0001, step_loss=0.383]Steps:  16%|█▌        | 189/1200 [19:33<1:46:50,  6.34s/it, lr=0.0001, step_loss=0.427]Steps:  16%|█▌        | 190/1200 [19:37<1:32:11,  5.48s/it, lr=0.0001, step_loss=0.427]Steps:  16%|█▌        | 190/1200 [19:37<1:32:11,  5.48s/it, lr=0.0001, step_loss=0.328]Steps:  16%|█▌        | 191/1200 [19:40<1:21:45,  4.86s/it, lr=0.0001, step_loss=0.328]Steps:  16%|█▌        | 191/1200 [19:40<1:21:45,  4.86s/it, lr=0.0001, step_loss=0.337]Steps:  16%|█▌        | 192/1200 [19:43<1:12:32,  4.32s/it, lr=0.0001, step_loss=0.337]Steps:  16%|█▌        | 192/1200 [19:43<1:12:32,  4.32s/it, lr=0.0001, step_loss=0.32] 03/11/2024 14:41:33 - INFO - __main__ - Running validation... 
- Generating 4 images with prompt: A giraffe standing in a field of wildflowers, with a sense of vibrancy and life. Background: wildflower field, clear blue sky, and a warm, sunny day..
-{'image_encoder'} was not found in config. Values will be initialized to default values.
-
-Loading pipeline components...:   0%|          | 0/6 [00:00<?, ?it/s][A{'latents_mean', 'latents_std', 'scaling_factor', 'force_upcast'} was not found in config. Values will be initialized to default values.
-Loaded vae as AutoencoderKL from `vae` subfolder of stabilityai/stable-diffusion-2-1.
-
-Loading pipeline components...:  33%|███▎      | 2/6 [00:00<00:00,  7.35it/s][ALoaded text_encoder as CLIPTextModel from `text_encoder` subfolder of stabilityai/stable-diffusion-2-1.
-
-Loading pipeline components...:  50%|█████     | 3/6 [00:00<00:00,  3.38it/s][A{'dynamic_thresholding_ratio', 'clip_sample_range', 'sample_max_value', 'timestep_spacing', 'thresholding', 'rescale_betas_zero_snr'} was not found in config. Values will be initialized to default values.
-Loaded scheduler as DDIMScheduler from `scheduler` subfolder of stabilityai/stable-diffusion-2-1.
-Loaded feature_extractor as CLIPImageProcessor from `feature_extractor` subfolder of stabilityai/stable-diffusion-2-1.
-Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of stabilityai/stable-diffusion-2-1.
-Loading pipeline components...: 100%|██████████| 6/6 [00:00<00:00,  7.19it/s]
-Steps:  16%|█▌        | 193/1200 [20:04<2:36:16,  9.31s/it, lr=0.0001, step_loss=0.32]Steps:  16%|█▌        | 193/1200 [20:04<2:36:16,  9.31s/it, lr=0.0001, step_loss=0.362]Steps:  16%|█▌        | 194/1200 [20:08<2:06:30,  7.54s/it, lr=0.0001, step_loss=0.362]Steps:  16%|█▌        | 194/1200 [20:08<2:06:30,  7.54s/it, lr=0.0001, step_loss=0.392]Steps:  16%|█▋        | 195/1200 [20:11<1:45:37,  6.31s/it, lr=0.0001, step_loss=0.392]Steps:  16%|█▋        | 195/1200 [20:11<1:45:37,  6.31s/it, lr=0.0001, step_loss=0.434]Steps:  16%|█▋        | 196/1200 [20:14<1:31:04,  5.44s/it, lr=0.0001, step_loss=0.434]Steps:  16%|█▋        | 196/1200 [20:14<1:31:04,  5.44s/it, lr=0.0001, step_loss=0.304]Steps:  16%|█▋        | 197/1200 [20:18<1:20:52,  4.84s/it, lr=0.0001, step_loss=0.304]Steps:  16%|█▋        | 197/1200 [20:18<1:20:52,  4.84s/it, lr=0.0001, step_loss=0.357]Steps:  16%|█▋        | 198/1200 [20:21<1:11:50,  4.30s/it, lr=0.0001, step_loss=0.357]Steps:  16%|█▋        | 198/1200 [20:21<1:11:50,  4.30s/it, lr=0.0001, step_loss=0.346]03/11/2024 14:42:11 - INFO - __main__ - Running validation... 
- Generating 4 images with prompt: A giraffe standing in a field of wildflowers, with a sense of vibrancy and life. Background: wildflower field, clear blue sky, and a warm, sunny day..
-{'image_encoder'} was not found in config. Values will be initialized to default values.
-
-Loading pipeline components...:   0%|          | 0/6 [00:00<?, ?it/s][A{'latents_mean', 'latents_std', 'scaling_factor', 'force_upcast'} was not found in config. Values will be initialized to default values.
-Loaded vae as AutoencoderKL from `vae` subfolder of stabilityai/stable-diffusion-2-1.
-
-Loading pipeline components...:  33%|███▎      | 2/6 [00:00<00:00,  7.29it/s][ALoaded text_encoder as CLIPTextModel from `text_encoder` subfolder of stabilityai/stable-diffusion-2-1.
-
-Loading pipeline components...:  50%|█████     | 3/6 [00:00<00:00,  3.45it/s][A{'dynamic_thresholding_ratio', 'clip_sample_range', 'sample_max_value', 'timestep_spacing', 'thresholding', 'rescale_betas_zero_snr'} was not found in config. Values will be initialized to default values.
-Loaded scheduler as DDIMScheduler from `scheduler` subfolder of stabilityai/stable-diffusion-2-1.
-Loaded feature_extractor as CLIPImageProcessor from `feature_extractor` subfolder of stabilityai/stable-diffusion-2-1.
-Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of stabilityai/stable-diffusion-2-1.
-Loading pipeline components...: 100%|██████████| 6/6 [00:00<00:00,  7.31it/s]
-Steps:  17%|█▋        | 199/1200 [20:42<2:34:37,  9.27s/it, lr=0.0001, step_loss=0.346]Steps:  17%|█▋        | 199/1200 [20:42<2:34:37,  9.27s/it, lr=0.0001, step_loss=0.379]Steps:  17%|█▋        | 200/1200 [20:45<2:05:13,  7.51s/it, lr=0.0001, step_loss=0.379]Steps:  17%|█▋        | 200/1200 [20:45<2:05:13,  7.51s/it, lr=0.0001, step_loss=0.386]Steps:  17%|█▋        | 201/1200 [20:49<1:44:38,  6.28s/it, lr=0.0001, step_loss=0.386]Steps:  17%|█▋        | 201/1200 [20:49<1:44:38,  6.28s/it, lr=0.0001, step_loss=0.39] Steps:  17%|█▋        | 202/1200 [20:52<1:30:16,  5.43s/it, lr=0.0001, step_loss=0.39]Steps:  17%|█▋        | 202/1200 [20:52<1:30:16,  5.43s/it, lr=0.0001, step_loss=0.378]Steps:  17%|█▋        | 203/1200 [20:56<1:20:11,  4.83s/it, lr=0.0001, step_loss=0.378]Steps:  17%|█▋        | 203/1200 [20:56<1:20:11,  4.83s/it, lr=0.0001, step_loss=0.398]Steps:  17%|█▋        | 204/1200 [20:59<1:11:14,  4.29s/it, lr=0.0001, step_loss=0.398]Steps:  17%|█▋        | 204/1200 [20:59<1:11:14,  4.29s/it, lr=0.0001, step_loss=0.402]03/11/2024 14:42:48 - INFO - __main__ - Running validation... 
- Generating 4 images with prompt: A giraffe standing in a field of wildflowers, with a sense of vibrancy and life. Background: wildflower field, clear blue sky, and a warm, sunny day..
-{'image_encoder'} was not found in config. Values will be initialized to default values.
-
-Loading pipeline components...:   0%|          | 0/6 [00:00<?, ?it/s][A{'latents_mean', 'latents_std', 'scaling_factor', 'force_upcast'} was not found in config. Values will be initialized to default values.
-Loaded vae as AutoencoderKL from `vae` subfolder of stabilityai/stable-diffusion-2-1.
-
-Loading pipeline components...:  33%|███▎      | 2/6 [00:00<00:00,  7.68it/s][ALoaded text_encoder as CLIPTextModel from `text_encoder` subfolder of stabilityai/stable-diffusion-2-1.
-
-Loading pipeline components...:  50%|█████     | 3/6 [00:00<00:00,  3.50it/s][A{'dynamic_thresholding_ratio', 'clip_sample_range', 'sample_max_value', 'timestep_spacing', 'thresholding', 'rescale_betas_zero_snr'} was not found in config. Values will be initialized to default values.
-Loaded scheduler as DDIMScheduler from `scheduler` subfolder of stabilityai/stable-diffusion-2-1.
-Loaded feature_extractor as CLIPImageProcessor from `feature_extractor` subfolder of stabilityai/stable-diffusion-2-1.
-Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of stabilityai/stable-diffusion-2-1.
-Loading pipeline components...: 100%|██████████| 6/6 [00:00<00:00,  7.42it/s]
-Steps:  17%|█▋        | 205/1200 [21:20<2:36:22,  9.43s/it, lr=0.0001, step_loss=0.402]Steps:  17%|█▋        | 205/1200 [21:20<2:36:22,  9.43s/it, lr=0.0001, step_loss=0.355]Steps:  17%|█▋        | 206/1200 [21:23<2:06:23,  7.63s/it, lr=0.0001, step_loss=0.355]Steps:  17%|█▋        | 206/1200 [21:23<2:06:23,  7.63s/it, lr=0.0001, step_loss=0.396]Steps:  17%|█▋        | 207/1200 [21:27<1:45:20,  6.36s/it, lr=0.0001, step_loss=0.396]Steps:  17%|█▋        | 207/1200 [21:27<1:45:20,  6.36s/it, lr=0.0001, step_loss=0.437]Steps:  17%|█▋        | 208/1200 [21:30<1:30:40,  5.48s/it, lr=0.0001, step_loss=0.437]Steps:  17%|█▋        | 208/1200 [21:30<1:30:40,  5.48s/it, lr=0.0001, step_loss=0.356]Steps:  17%|█▋        | 209/1200 [21:34<1:20:24,  4.87s/it, lr=0.0001, step_loss=0.356]Steps:  17%|█▋        | 209/1200 [21:34<1:20:24,  4.87s/it, lr=0.0001, step_loss=0.42] Steps:  18%|█▊        | 210/1200 [21:37<1:11:18,  4.32s/it, lr=0.0001, step_loss=0.42]Steps:  18%|█▊        | 210/1200 [21:37<1:11:18,  4.32s/it, lr=0.0001, step_loss=0.331]03/11/2024 14:43:27 - INFO - __main__ - Running validation... 
- Generating 4 images with prompt: A giraffe standing in a field of wildflowers, with a sense of vibrancy and life. Background: wildflower field, clear blue sky, and a warm, sunny day..
-{'image_encoder'} was not found in config. Values will be initialized to default values.
-
-Loading pipeline components...:   0%|          | 0/6 [00:00<?, ?it/s][A{'latents_mean', 'latents_std', 'scaling_factor', 'force_upcast'} was not found in config. Values will be initialized to default values.
-Loaded vae as AutoencoderKL from `vae` subfolder of stabilityai/stable-diffusion-2-1.
-
-Loading pipeline components...:  33%|███▎      | 2/6 [00:00<00:00,  7.67it/s][ALoaded text_encoder as CLIPTextModel from `text_encoder` subfolder of stabilityai/stable-diffusion-2-1.
-
-Loading pipeline components...:  50%|█████     | 3/6 [00:00<00:00,  3.51it/s][A{'dynamic_thresholding_ratio', 'clip_sample_range', 'sample_max_value', 'timestep_spacing', 'thresholding', 'rescale_betas_zero_snr'} was not found in config. Values will be initialized to default values.
-Loaded scheduler as DDIMScheduler from `scheduler` subfolder of stabilityai/stable-diffusion-2-1.
-Loaded feature_extractor as CLIPImageProcessor from `feature_extractor` subfolder of stabilityai/stable-diffusion-2-1.
-Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of stabilityai/stable-diffusion-2-1.
-Loading pipeline components...: 100%|██████████| 6/6 [00:00<00:00,  7.44it/s]
-Steps:  18%|█▊        | 211/1200 [21:57<2:32:28,  9.25s/it, lr=0.0001, step_loss=0.331]Steps:  18%|█▊        | 211/1200 [21:57<2:32:28,  9.25s/it, lr=0.0001, step_loss=0.337]Steps:  18%|█▊        | 212/1200 [22:01<2:03:31,  7.50s/it, lr=0.0001, step_loss=0.337]Steps:  18%|█▊        | 212/1200 [22:01<2:03:31,  7.50s/it, lr=0.0001, step_loss=0.369]Steps:  18%|█▊        | 213/1200 [22:04<1:43:12,  6.27s/it, lr=0.0001, step_loss=0.369]Steps:  18%|█▊        | 213/1200 [22:04<1:43:12,  6.27s/it, lr=0.0001, step_loss=0.393]Steps:  18%|█▊        | 214/1200 [22:08<1:29:05,  5.42s/it, lr=0.0001, step_loss=0.393]Steps:  18%|█▊        | 214/1200 [22:08<1:29:05,  5.42s/it, lr=0.0001, step_loss=0.353]Steps:  18%|█▊        | 215/1200 [22:11<1:19:09,  4.82s/it, lr=0.0001, step_loss=0.353]Steps:  18%|█▊        | 215/1200 [22:11<1:19:09,  4.82s/it, lr=0.0001, step_loss=0.376]Steps:  18%|█▊        | 216/1200 [22:14<1:10:21,  4.29s/it, lr=0.0001, step_loss=0.376]Steps:  18%|█▊        | 216/1200 [22:14<1:10:21,  4.29s/it, lr=0.0001, step_loss=0.372]03/11/2024 14:44:04 - INFO - __main__ - Running validation... 
- Generating 4 images with prompt: A giraffe standing in a field of wildflowers, with a sense of vibrancy and life. Background: wildflower field, clear blue sky, and a warm, sunny day..
-{'image_encoder'} was not found in config. Values will be initialized to default values.
-
-Loading pipeline components...:   0%|          | 0/6 [00:00<?, ?it/s][A{'latents_mean', 'latents_std', 'scaling_factor', 'force_upcast'} was not found in config. Values will be initialized to default values.
-Loaded vae as AutoencoderKL from `vae` subfolder of stabilityai/stable-diffusion-2-1.
-
-Loading pipeline components...:  33%|███▎      | 2/6 [00:00<00:00,  7.61it/s][ALoaded text_encoder as CLIPTextModel from `text_encoder` subfolder of stabilityai/stable-diffusion-2-1.
-
-Loading pipeline components...:  50%|█████     | 3/6 [00:00<00:00,  3.51it/s][A{'dynamic_thresholding_ratio', 'clip_sample_range', 'sample_max_value', 'timestep_spacing', 'thresholding', 'rescale_betas_zero_snr'} was not found in config. Values will be initialized to default values.
-Loaded scheduler as DDIMScheduler from `scheduler` subfolder of stabilityai/stable-diffusion-2-1.
-Loaded feature_extractor as CLIPImageProcessor from `feature_extractor` subfolder of stabilityai/stable-diffusion-2-1.
-Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of stabilityai/stable-diffusion-2-1.
-Loading pipeline components...: 100%|██████████| 6/6 [00:00<00:00,  7.44it/s]
-Steps:  18%|█▊        | 217/1200 [22:35<2:31:39,  9.26s/it, lr=0.0001, step_loss=0.372]Steps:  18%|█▊        | 217/1200 [22:35<2:31:39,  9.26s/it, lr=0.0001, step_loss=0.412]Steps:  18%|█▊        | 218/1200 [22:38<2:02:52,  7.51s/it, lr=0.0001, step_loss=0.412]Steps:  18%|█▊        | 218/1200 [22:38<2:02:52,  7.51s/it, lr=0.0001, step_loss=0.382]Steps:  18%|█▊        | 219/1200 [22:42<1:42:40,  6.28s/it, lr=0.0001, step_loss=0.382]Steps:  18%|█▊        | 219/1200 [22:42<1:42:40,  6.28s/it, lr=0.0001, step_loss=0.423]Steps:  18%|█▊        | 220/1200 [22:45<1:28:34,  5.42s/it, lr=0.0001, step_loss=0.423]Steps:  18%|█▊        | 220/1200 [22:45<1:28:34,  5.42s/it, lr=0.0001, step_loss=0.39] Steps:  18%|█▊        | 221/1200 [22:49<1:18:42,  4.82s/it, lr=0.0001, step_loss=0.39]Steps:  18%|█▊        | 221/1200 [22:49<1:18:42,  4.82s/it, lr=0.0001, step_loss=0.407]Steps:  18%|█▊        | 222/1200 [22:52<1:09:55,  4.29s/it, lr=0.0001, step_loss=0.407]Steps:  18%|█▊        | 222/1200 [22:52<1:09:55,  4.29s/it, lr=0.0001, step_loss=0.401]03/11/2024 14:44:42 - INFO - __main__ - Running validation... 
- Generating 4 images with prompt: A giraffe standing in a field of wildflowers, with a sense of vibrancy and life. Background: wildflower field, clear blue sky, and a warm, sunny day..
-{'image_encoder'} was not found in config. Values will be initialized to default values.
-
-Loading pipeline components...:   0%|          | 0/6 [00:00<?, ?it/s][A{'latents_mean', 'latents_std', 'scaling_factor', 'force_upcast'} was not found in config. Values will be initialized to default values.
-Loaded vae as AutoencoderKL from `vae` subfolder of stabilityai/stable-diffusion-2-1.
-
-Loading pipeline components...:  33%|███▎      | 2/6 [00:00<00:00,  7.62it/s][ALoaded text_encoder as CLIPTextModel from `text_encoder` subfolder of stabilityai/stable-diffusion-2-1.
-
-Loading pipeline components...:  50%|█████     | 3/6 [00:00<00:00,  3.49it/s][A{'dynamic_thresholding_ratio', 'clip_sample_range', 'sample_max_value', 'timestep_spacing', 'thresholding', 'rescale_betas_zero_snr'} was not found in config. Values will be initialized to default values.
-Loaded scheduler as DDIMScheduler from `scheduler` subfolder of stabilityai/stable-diffusion-2-1.
-Loaded feature_extractor as CLIPImageProcessor from `feature_extractor` subfolder of stabilityai/stable-diffusion-2-1.
-Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of stabilityai/stable-diffusion-2-1.
-Loading pipeline components...: 100%|██████████| 6/6 [00:00<00:00,  7.41it/s]
-Steps:  19%|█▊        | 223/1200 [23:13<2:30:12,  9.22s/it, lr=0.0001, step_loss=0.401]Steps:  19%|█▊        | 223/1200 [23:13<2:30:12,  9.22s/it, lr=0.0001, step_loss=0.367]Steps:  19%|█▊        | 224/1200 [23:16<2:01:43,  7.48s/it, lr=0.0001, step_loss=0.367]Steps:  19%|█▊        | 224/1200 [23:16<2:01:43,  7.48s/it, lr=0.0001, step_loss=0.356]Steps:  19%|█▉        | 225/1200 [23:19<1:41:45,  6.26s/it, lr=0.0001, step_loss=0.356]Steps:  19%|█▉        | 225/1200 [23:19<1:41:45,  6.26s/it, lr=0.0001, step_loss=0.402]Steps:  19%|█▉        | 226/1200 [23:23<1:27:48,  5.41s/it, lr=0.0001, step_loss=0.402]Steps:  19%|█▉        | 226/1200 [23:23<1:27:48,  5.41s/it, lr=0.0001, step_loss=0.356]Steps:  19%|█▉        | 227/1200 [23:26<1:18:04,  4.81s/it, lr=0.0001, step_loss=0.356]Steps:  19%|█▉        | 227/1200 [23:26<1:18:04,  4.81s/it, lr=0.0001, step_loss=0.383]Steps:  19%|█▉        | 228/1200 [23:29<1:09:24,  4.28s/it, lr=0.0001, step_loss=0.383]Steps:  19%|█▉        | 228/1200 [23:29<1:09:24,  4.28s/it, lr=0.0001, step_loss=0.375]03/11/2024 14:45:19 - INFO - __main__ - Running validation... 
- Generating 4 images with prompt: A giraffe standing in a field of wildflowers, with a sense of vibrancy and life. Background: wildflower field, clear blue sky, and a warm, sunny day..
-{'image_encoder'} was not found in config. Values will be initialized to default values.
-
-Loading pipeline components...:   0%|          | 0/6 [00:00<?, ?it/s][A{'latents_mean', 'latents_std', 'scaling_factor', 'force_upcast'} was not found in config. Values will be initialized to default values.
-Loaded vae as AutoencoderKL from `vae` subfolder of stabilityai/stable-diffusion-2-1.
-
-Loading pipeline components...:  33%|███▎      | 2/6 [00:00<00:00,  7.69it/s][ALoaded text_encoder as CLIPTextModel from `text_encoder` subfolder of stabilityai/stable-diffusion-2-1.
-
-Loading pipeline components...:  50%|█████     | 3/6 [00:00<00:00,  3.51it/s][A{'dynamic_thresholding_ratio', 'clip_sample_range', 'sample_max_value', 'timestep_spacing', 'thresholding', 'rescale_betas_zero_snr'} was not found in config. Values will be initialized to default values.
-Loaded scheduler as DDIMScheduler from `scheduler` subfolder of stabilityai/stable-diffusion-2-1.
-Loaded feature_extractor as CLIPImageProcessor from `feature_extractor` subfolder of stabilityai/stable-diffusion-2-1.
-Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of stabilityai/stable-diffusion-2-1.
-Loading pipeline components...: 100%|██████████| 6/6 [00:00<00:00,  7.44it/s]
-Steps:  19%|█▉        | 229/1200 [23:50<2:30:11,  9.28s/it, lr=0.0001, step_loss=0.375]Steps:  19%|█▉        | 229/1200 [23:50<2:30:11,  9.28s/it, lr=0.0001, step_loss=0.402]Steps:  19%|█▉        | 230/1200 [23:54<2:01:36,  7.52s/it, lr=0.0001, step_loss=0.402]Steps:  19%|█▉        | 230/1200 [23:54<2:01:36,  7.52s/it, lr=0.0001, step_loss=0.402]Steps:  19%|█▉        | 231/1200 [23:57<1:41:34,  6.29s/it, lr=0.0001, step_loss=0.402]Steps:  19%|█▉        | 231/1200 [23:57<1:41:34,  6.29s/it, lr=0.0001, step_loss=0.403]Steps:  19%|█▉        | 232/1200 [24:00<1:27:38,  5.43s/it, lr=0.0001, step_loss=0.403]Steps:  19%|█▉        | 232/1200 [24:00<1:27:38,  5.43s/it, lr=0.0001, step_loss=0.398]Steps:  19%|█▉        | 233/1200 [24:04<1:17:50,  4.83s/it, lr=0.0001, step_loss=0.398]Steps:  19%|█▉        | 233/1200 [24:04<1:17:50,  4.83s/it, lr=0.0001, step_loss=0.427]Steps:  20%|█▉        | 234/1200 [24:07<1:09:08,  4.29s/it, lr=0.0001, step_loss=0.427]Steps:  20%|█▉        | 234/1200 [24:07<1:09:08,  4.29s/it, lr=0.0001, step_loss=0.327]03/11/2024 14:45:57 - INFO - __main__ - Running validation... 
- Generating 4 images with prompt: A giraffe standing in a field of wildflowers, with a sense of vibrancy and life. Background: wildflower field, clear blue sky, and a warm, sunny day..
-{'image_encoder'} was not found in config. Values will be initialized to default values.
-
-Loading pipeline components...:   0%|          | 0/6 [00:00<?, ?it/s][A{'latents_mean', 'latents_std', 'scaling_factor', 'force_upcast'} was not found in config. Values will be initialized to default values.
-Loaded vae as AutoencoderKL from `vae` subfolder of stabilityai/stable-diffusion-2-1.
-
-Loading pipeline components...:  33%|███▎      | 2/6 [00:00<00:00,  7.58it/s][ALoaded text_encoder as CLIPTextModel from `text_encoder` subfolder of stabilityai/stable-diffusion-2-1.
-
-Loading pipeline components...:  50%|█████     | 3/6 [00:00<00:00,  3.50it/s][A{'dynamic_thresholding_ratio', 'clip_sample_range', 'sample_max_value', 'timestep_spacing', 'thresholding', 'rescale_betas_zero_snr'} was not found in config. Values will be initialized to default values.
-Loaded scheduler as DDIMScheduler from `scheduler` subfolder of stabilityai/stable-diffusion-2-1.
-Loaded feature_extractor as CLIPImageProcessor from `feature_extractor` subfolder of stabilityai/stable-diffusion-2-1.
-Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of stabilityai/stable-diffusion-2-1.
-Loading pipeline components...: 100%|██████████| 6/6 [00:00<00:00,  7.43it/s]
-Steps:  20%|█▉        | 235/1200 [24:28<2:28:47,  9.25s/it, lr=0.0001, step_loss=0.327]Steps:  20%|█▉        | 235/1200 [24:28<2:28:47,  9.25s/it, lr=0.0001, step_loss=0.356]Steps:  20%|█▉        | 236/1200 [24:31<2:00:31,  7.50s/it, lr=0.0001, step_loss=0.356]Steps:  20%|█▉        | 236/1200 [24:31<2:00:31,  7.50s/it, lr=0.0001, step_loss=0.431]Steps:  20%|█▉        | 237/1200 [24:35<1:40:42,  6.28s/it, lr=0.0001, step_loss=0.431]Steps:  20%|█▉        | 237/1200 [24:35<1:40:42,  6.28s/it, lr=0.0001, step_loss=0.385]Steps:  20%|█▉        | 238/1200 [24:38<1:26:54,  5.42s/it, lr=0.0001, step_loss=0.385]Steps:  20%|█▉        | 238/1200 [24:38<1:26:54,  5.42s/it, lr=0.0001, step_loss=0.325]Steps:  20%|█▉        | 239/1200 [24:41<1:17:20,  4.83s/it, lr=0.0001, step_loss=0.325]Steps:  20%|█▉        | 239/1200 [24:41<1:17:20,  4.83s/it, lr=0.0001, step_loss=0.403]Steps:  20%|██        | 240/1200 [24:45<1:08:42,  4.29s/it, lr=0.0001, step_loss=0.403]Steps:  20%|██        | 240/1200 [24:45<1:08:42,  4.29s/it, lr=0.0001, step_loss=0.359]03/11/2024 14:46:34 - INFO - __main__ - Running validation... 
- Generating 4 images with prompt: A giraffe standing in a field of wildflowers, with a sense of vibrancy and life. Background: wildflower field, clear blue sky, and a warm, sunny day..
-{'image_encoder'} was not found in config. Values will be initialized to default values.
-
-Loading pipeline components...:   0%|          | 0/6 [00:00<?, ?it/s][A{'latents_mean', 'latents_std', 'scaling_factor', 'force_upcast'} was not found in config. Values will be initialized to default values.
-Loaded vae as AutoencoderKL from `vae` subfolder of stabilityai/stable-diffusion-2-1.
-
-Loading pipeline components...:  33%|███▎      | 2/6 [00:00<00:00,  7.74it/s][ALoaded text_encoder as CLIPTextModel from `text_encoder` subfolder of stabilityai/stable-diffusion-2-1.
-
-Loading pipeline components...:  50%|█████     | 3/6 [00:00<00:00,  3.51it/s][A{'dynamic_thresholding_ratio', 'clip_sample_range', 'sample_max_value', 'timestep_spacing', 'thresholding', 'rescale_betas_zero_snr'} was not found in config. Values will be initialized to default values.
-Loaded scheduler as DDIMScheduler from `scheduler` subfolder of stabilityai/stable-diffusion-2-1.
-Loaded feature_extractor as CLIPImageProcessor from `feature_extractor` subfolder of stabilityai/stable-diffusion-2-1.
-Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of stabilityai/stable-diffusion-2-1.
-Loading pipeline components...: 100%|██████████| 6/6 [00:00<00:00,  7.46it/s]
-Steps:  20%|██        | 241/1200 [25:05<2:28:39,  9.30s/it, lr=0.0001, step_loss=0.359]Steps:  20%|██        | 241/1200 [25:05<2:28:39,  9.30s/it, lr=0.0001, step_loss=0.36] Steps:  20%|██        | 242/1200 [25:09<2:00:20,  7.54s/it, lr=0.0001, step_loss=0.36]Steps:  20%|██        | 242/1200 [25:09<2:00:20,  7.54s/it, lr=0.0001, step_loss=0.414]Steps:  20%|██        | 243/1200 [25:12<1:40:29,  6.30s/it, lr=0.0001, step_loss=0.414]Steps:  20%|██        | 243/1200 [25:12<1:40:29,  6.30s/it, lr=0.0001, step_loss=0.411]Steps:  20%|██        | 244/1200 [25:16<1:26:39,  5.44s/it, lr=0.0001, step_loss=0.411]Steps:  20%|██        | 244/1200 [25:16<1:26:39,  5.44s/it, lr=0.0001, step_loss=0.372]Steps:  20%|██        | 245/1200 [25:19<1:16:56,  4.83s/it, lr=0.0001, step_loss=0.372]Steps:  20%|██        | 245/1200 [25:19<1:16:56,  4.83s/it, lr=0.0001, step_loss=0.371]Steps:  20%|██        | 246/1200 [25:22<1:08:20,  4.30s/it, lr=0.0001, step_loss=0.371]Steps:  20%|██        | 246/1200 [25:22<1:08:20,  4.30s/it, lr=0.0001, step_loss=0.361]03/11/2024 14:47:12 - INFO - __main__ - Running validation... 
- Generating 4 images with prompt: A giraffe standing in a field of wildflowers, with a sense of vibrancy and life. Background: wildflower field, clear blue sky, and a warm, sunny day..
-{'image_encoder'} was not found in config. Values will be initialized to default values.
-
-Loading pipeline components...:   0%|          | 0/6 [00:00<?, ?it/s][A{'latents_mean', 'latents_std', 'scaling_factor', 'force_upcast'} was not found in config. Values will be initialized to default values.
-Loaded vae as AutoencoderKL from `vae` subfolder of stabilityai/stable-diffusion-2-1.
-
-Loading pipeline components...:  33%|███▎      | 2/6 [00:00<00:00,  7.30it/s][ALoaded text_encoder as CLIPTextModel from `text_encoder` subfolder of stabilityai/stable-diffusion-2-1.
-
-Loading pipeline components...:  50%|█████     | 3/6 [00:00<00:00,  3.45it/s][A{'dynamic_thresholding_ratio', 'clip_sample_range', 'sample_max_value', 'timestep_spacing', 'thresholding', 'rescale_betas_zero_snr'} was not found in config. Values will be initialized to default values.
-Loaded scheduler as DDIMScheduler from `scheduler` subfolder of stabilityai/stable-diffusion-2-1.
-Loaded feature_extractor as CLIPImageProcessor from `feature_extractor` subfolder of stabilityai/stable-diffusion-2-1.
-Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of stabilityai/stable-diffusion-2-1.
-Loading pipeline components...: 100%|██████████| 6/6 [00:00<00:00,  7.31it/s]
-Steps:  21%|██        | 247/1200 [25:43<2:28:02,  9.32s/it, lr=0.0001, step_loss=0.361]Steps:  21%|██        | 247/1200 [25:43<2:28:02,  9.32s/it, lr=0.0001, step_loss=0.33] Steps:  21%|██        | 248/1200 [25:47<1:59:49,  7.55s/it, lr=0.0001, step_loss=0.33]Steps:  21%|██        | 248/1200 [25:47<1:59:49,  7.55s/it, lr=0.0001, step_loss=0.375]Steps:  21%|██        | 249/1200 [25:50<1:40:00,  6.31s/it, lr=0.0001, step_loss=0.375]Steps:  21%|██        | 249/1200 [25:50<1:40:00,  6.31s/it, lr=0.0001, step_loss=0.441]Steps:  21%|██        | 250/1200 [25:54<1:26:13,  5.45s/it, lr=0.0001, step_loss=0.441]Steps:  21%|██        | 250/1200 [25:54<1:26:13,  5.45s/it, lr=0.0001, step_loss=0.33] Steps:  21%|██        | 251/1200 [25:57<1:16:32,  4.84s/it, lr=0.0001, step_loss=0.33]Steps:  21%|██        | 251/1200 [25:57<1:16:32,  4.84s/it, lr=0.0001, step_loss=0.393]Steps:  21%|██        | 252/1200 [26:00<1:07:57,  4.30s/it, lr=0.0001, step_loss=0.393]Steps:  21%|██        | 252/1200 [26:00<1:07:57,  4.30s/it, lr=0.0001, step_loss=0.377]03/11/2024 14:47:50 - INFO - __main__ - Running validation... 
- Generating 4 images with prompt: A giraffe standing in a field of wildflowers, with a sense of vibrancy and life. Background: wildflower field, clear blue sky, and a warm, sunny day..
-{'image_encoder'} was not found in config. Values will be initialized to default values.
-
-Loading pipeline components...:   0%|          | 0/6 [00:00<?, ?it/s][A{'latents_mean', 'latents_std', 'scaling_factor', 'force_upcast'} was not found in config. Values will be initialized to default values.
-Loaded vae as AutoencoderKL from `vae` subfolder of stabilityai/stable-diffusion-2-1.
-
-Loading pipeline components...:  33%|███▎      | 2/6 [00:00<00:00,  7.57it/s][ALoaded text_encoder as CLIPTextModel from `text_encoder` subfolder of stabilityai/stable-diffusion-2-1.
-
-Loading pipeline components...:  50%|█████     | 3/6 [00:00<00:00,  3.49it/s][A{'dynamic_thresholding_ratio', 'clip_sample_range', 'sample_max_value', 'timestep_spacing', 'thresholding', 'rescale_betas_zero_snr'} was not found in config. Values will be initialized to default values.
-Loaded scheduler as DDIMScheduler from `scheduler` subfolder of stabilityai/stable-diffusion-2-1.
-Loaded feature_extractor as CLIPImageProcessor from `feature_extractor` subfolder of stabilityai/stable-diffusion-2-1.
-Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of stabilityai/stable-diffusion-2-1.
-Loading pipeline components...: 100%|██████████| 6/6 [00:00<00:00,  7.41it/s]
-Steps:  21%|██        | 253/1200 [26:21<2:25:57,  9.25s/it, lr=0.0001, step_loss=0.377]Steps:  21%|██        | 253/1200 [26:21<2:25:57,  9.25s/it, lr=0.0001, step_loss=0.406]Steps:  21%|██        | 254/1200 [26:24<1:58:17,  7.50s/it, lr=0.0001, step_loss=0.406]Steps:  21%|██        | 254/1200 [26:24<1:58:17,  7.50s/it, lr=0.0001, step_loss=0.405]Steps:  21%|██▏       | 255/1200 [26:28<1:38:50,  6.28s/it, lr=0.0001, step_loss=0.405]Steps:  21%|██▏       | 255/1200 [26:28<1:38:50,  6.28s/it, lr=0.0001, step_loss=0.441]Steps:  21%|██▏       | 256/1200 [26:31<1:25:17,  5.42s/it, lr=0.0001, step_loss=0.441]Steps:  21%|██▏       | 256/1200 [26:31<1:25:17,  5.42s/it, lr=0.0001, step_loss=0.337]Steps:  21%|██▏       | 257/1200 [26:34<1:15:46,  4.82s/it, lr=0.0001, step_loss=0.337]Steps:  21%|██▏       | 257/1200 [26:34<1:15:46,  4.82s/it, lr=0.0001, step_loss=0.396][2024-03-11 14:48:26,911] torch.distributed.elastic.agent.server.api: [WARNING] Received Signals.SIGHUP death signal, shutting down workers
-[2024-03-11 14:48:26,912] torch.distributed.elastic.multiprocessing.api: [WARNING] Sending process 75143 closing signal SIGHUP
-[2024-03-11 14:48:26,912] torch.distributed.elastic.multiprocessing.api: [WARNING] Sending process 75144 closing signal SIGHUP
-Traceback (most recent call last):
-  File "/home/arnaud/miniconda3/envs/srt2i/bin/accelerate", line 8, in <module>
-    sys.exit(main())
-  File "/home/arnaud/miniconda3/envs/srt2i/lib/python3.9/site-packages/accelerate/commands/accelerate_cli.py", line 47, in main
-    args.func(args)
-  File "/home/arnaud/miniconda3/envs/srt2i/lib/python3.9/site-packages/accelerate/commands/launch.py", line 985, in launch_command
-    multi_gpu_launcher(args)
-  File "/home/arnaud/miniconda3/envs/srt2i/lib/python3.9/site-packages/accelerate/commands/launch.py", line 654, in multi_gpu_launcher
-    distrib_run.run(args)
-  File "/home/arnaud/miniconda3/envs/srt2i/lib/python3.9/site-packages/torch/distributed/run.py", line 797, in run
-    elastic_launch(
-  File "/home/arnaud/miniconda3/envs/srt2i/lib/python3.9/site-packages/torch/distributed/launcher/api.py", line 134, in __call__
-    return launch_agent(self._config, self._entrypoint, list(args))
-  File "/home/arnaud/miniconda3/envs/srt2i/lib/python3.9/site-packages/torch/distributed/launcher/api.py", line 255, in launch_agent
-    result = agent.run()
-  File "/home/arnaud/miniconda3/envs/srt2i/lib/python3.9/site-packages/torch/distributed/elastic/metrics/api.py", line 124, in wrapper
-    result = f(*args, **kwargs)
-  File "/home/arnaud/miniconda3/envs/srt2i/lib/python3.9/site-packages/torch/distributed/elastic/agent/server/api.py", line 736, in run
-    result = self._invoke_run(role)
-  File "/home/arnaud/miniconda3/envs/srt2i/lib/python3.9/site-packages/torch/distributed/elastic/agent/server/api.py", line 877, in _invoke_run
-    time.sleep(monitor_interval)
-  File "/home/arnaud/miniconda3/envs/srt2i/lib/python3.9/site-packages/torch/distributed/elastic/multiprocessing/api.py", line 62, in _terminate_process_handler
-    raise SignalException(f"Process {os.getpid()} got signal: {sigval}", sigval=sigval)
-torch.distributed.elastic.multiprocessing.api.SignalException: Process 75067 got signal: 1
