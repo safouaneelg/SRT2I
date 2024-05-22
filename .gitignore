@@ -36,6 +36,7 @@ im2txt/
 tutorial/fine_tune_sd/*/
 tutorial/fine_tune_sd/create_gif.py
 tutorial/fine_tune_sd/*.ipynb
+!tutorial/fine_tune_sd/lora_inference.ipynb
 tutorial/scoring
 tutorial/wandb
 tutorial/*.py
