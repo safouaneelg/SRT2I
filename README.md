@@ -1,4 +1,4 @@
-# SREPTTI: Self-Rewarding Pretrained Text-to-Image Models
+# CCSR: Class-Conditional self-reward mechanism for improved Text-to-Image models
 
 This repository contain the official implement of the paper **SREPTTI: Self-Rewarding Pretrained Text-to-Image Models**.
 You can access the pre-print on [ArXiv](https://arxiv.org/)
@@ -89,8 +89,8 @@ In this example script, a single GPU is used to train for 100 epochs, using wand
 Please if you use our repository cite us as follows :
 
 ```
-@misc{ghazouali2024sreptti,
-      title={SREPTTI: Self-Rewarding Pretrained Text-to-Image Models}, 
+@misc{elghazouali2024ccsr,
+      title={Class-Conditional self-reward mechanism for improved Text-to-Image models}, 
       author={Safouane El Ghazouali and Arnaud Gucciardi and Umberto Michelucci},
       year={2024},
       eprint={...},
