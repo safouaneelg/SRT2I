@@ -75,11 +75,15 @@ Parsers:
  - **llm_model**: LLM model for self-judging set by default to `'TheBloke/Mistral-7B-Instruct-v0.2-AWQ'` 
  - **output_folder**: `'path/to/output/storage/folder/'` where optimal images to specific prompts in the **prompt_file** in the will be saved
 
-4. Fine-tune stable diffusion on the images stored in the **output_folder**. To do so, run the following terminal command:
+4. Fine-tune stable diffusion on the images stored in the **output_folder**. To do so, follow these steps:  
+ - The images folder requires an accompanying *metada.json* file (see [hf docs](https://huggingface.co/docs/datasets/v2.4.0/en/image_load#image-captioning))
+ - The steps and code demos (noteboks) are detailed in the [txt2im readme](txt2im/readme_txt2im.md)
 
+Once the dataset is ready and the training file customized, a single runs the script:
 ```bash 
-python ...
+python tutorial/fine_tune_sd/fine_tune_lora4.sh
 ```
+In this example script, a single GPU is used to train for 100 epochs, using wandb for logging combined with validation prompts.  
 
 ## Citation
 Please if you use our repository cite us as follows :

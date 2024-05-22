@@ -53,4 +53,4 @@ Dataset requirement:
 See [inference nb](./inference_tests.ipynb) for a translation from a Kaggle dataset.  
 **Implementation from generated dataset after the llava captioning step** : in [retrain notebook tutorial](../tutorial/retrain_sd_demo.ipynb)  
 
-The script to retrain is slightly different this time [./1_custom_ds.sh](./1_custom_ds.sh).  
+The script to retrain is slightly different this time : [./1_custom_ds.sh](./1_custom_ds.sh) due to experimental changes in training parameters.  
