@@ -3,7 +3,7 @@
 This repository contain the official implement of the paper **CCSR: Self-Rewarding Pretrained Text-to-Image Models**.
 Pre-print: [![arXiv](https://img.shields.io/badge/arXiv-2405.13473-<COLOR>.svg)](https://arxiv.org/abs/2405.13473)
 
-*NB: This project is still under development and improvement. The codebase might be subject to regular updates.*
+<!--*NB: This project is still under development and improvement. The codebase might be subject to regular updates.*-->
 
 ## INTRODUCTION
 
@@ -94,7 +94,8 @@ In this example script, a single GPU is used to train for 100 epochs, using wand
       year={2024},
       eprint={2405.13473},
       archivePrefix={arXiv},
-      primaryClass={cs.CV}
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2405.13473}
 }
 ```
 
