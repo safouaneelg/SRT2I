@@ -1,13 +1,13 @@
 # CCSR: Class-Conditional self-reward mechanism for improved Text-to-Image models
 
-This repository contain the official implement of the paper **SREPTTI: Self-Rewarding Pretrained Text-to-Image Models**.
+This repository contain the official implement of the paper **CCSR: Self-Rewarding Pretrained Text-to-Image Models**.
 Pre-print: [![arXiv](https://img.shields.io/badge/arXiv-2405.13473-<COLOR>.svg)](https://arxiv.org/abs/2405.13473)
 
 *NB: This project is still under development and improvement. The codebase might be subject to regular updates.*
 
 ## INTRODUCTION
 
-SREPPTI is a mechanism that allows diffusion models (T2I) to learn from their own generated images and continuously self-improve.
+CCSR is a mechanism that allows diffusion models (T2I) to learn from their own generated images and continuously self-improve.
 This technique is inspire from this paper: [Self-Rewarding Language Models](https://arxiv.org/abs/2401.10020).
 
 The idea is similar but the method is different. An overall flowchart of the Self-rewarding mechanism is presented in the Gif bellow.
