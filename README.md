@@ -86,7 +86,6 @@ python tutorial/fine_tune_sd/fine_tune_lora4.sh
 In this example script, a single GPU is used to train for 100 epochs, using wandb for logging combined with validation prompts.  
 
 ## Citation
-Please if you use our repository cite us as follows :
 
 ```
 @misc{ghazouali2024classconditional,
